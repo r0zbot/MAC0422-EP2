@@ -1,0 +1,6 @@
+bzip2, bunzip2 (1) - a block-sorting file compressor, v1.0.3
+bzcmp, bzdiff (1) - compare bzip2 compressed files
+bzcat (1) - decompresses files to stdout
+bzmore, bzless (1) - file perusal filter for crt viewing of bzip2 compressed text
+bzip2recover (1) - recovers data from damaged bzip2 files
+bzgrep, bzfgrep, bzegrep (1) - search possibly bzip2 compressed files for a regular expression

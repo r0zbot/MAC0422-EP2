@@ -1,0 +1,5 @@
+# Poor man's File System Table.
+
+root=/dev/c0d0p0s0
+usr=/dev/c0d0p0s2
+home=/dev/c0d0p0s1
