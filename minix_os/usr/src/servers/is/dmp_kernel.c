@@ -348,6 +348,10 @@ PRIVATE char *s_traps_str(int flags)
 /*===========================================================================*
  *				privileges_dmp 				     *
  *===========================================================================*/
+PUBLIC void bagulho(){
+  printf("Ola mundo, sua vadia");
+}
+
 PUBLIC void privileges_dmp()
 {
   register struct proc *rp;
