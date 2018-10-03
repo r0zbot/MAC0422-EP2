@@ -60,3 +60,31 @@ Oct  2 21:40:00 10 kernel: Replacing root
 Oct  2 21:40:01 10 kernel: Ola mundo, sua vadia
 Oct  2 21:40:07 10 last message repeated 54 times
 Oct  2 21:40:27 10 syslogd: exiting on signal 15
+Oct  3 00:05:30 10 syslogd: restart
+Oct  3 00:05:30 10 kernel: 
+Oct  3 00:05:30 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 00:05:30 10 kernel: Executing in 32-bit protected mode.
+Oct  3 00:05:30 10 kernel: 
+Oct  3 00:05:30 10 kernel:                                                                                                                                              
+Oct  3 00:05:30 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 00:05:30 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 00:05:30 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 00:05:30 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 00:05:30 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 00:05:30 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 00:05:30 10 kernel: Replacing root
+Oct  3 00:07:03 10 syslogd: exiting on signal 15
+Oct  3 00:07:59 10 syslogd: restart
+Oct  3 00:07:59 10 kernel: 
+Oct  3 00:07:59 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 00:07:59 10 kernel: Executing in 32-bit protected mode.
+Oct  3 00:07:59 10 kernel: 
+Oct  3 00:07:59 10 kernel:                                                                                                                                              
+Oct  3 00:07:59 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 00:07:59 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 00:07:59 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 00:07:59 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 00:07:59 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 00:07:59 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 00:07:59 10 kernel: Replacing root
+Oct  3 00:10:55 10 syslogd: exiting on signal 15

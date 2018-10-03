@@ -354,7 +354,8 @@ PUBLIC void priority_dmp()
 
   register struct proc *rp;
   static struct proc *oldrp = BEG_PROC_ADDR;
-  int r, n = 0;
+  int r, n, i, j = 0;
+  struct proc *processes[23];
   phys_clicks text, data, size;
 
   /* First obtain a fresh copy of the current process table. */
@@ -365,19 +366,20 @@ PUBLIC void priority_dmp()
 
   printf("\n-nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-\n");
 
-  struct proc *processes[END_PROC_ADDR - BEG_PROC_ADDR];
-  for (int i = 0; i < END_PROC_ADDR - BEG_PROC_ADDR; ++i){
+  for (i = 0; i < END_PROC_ADDR - BEG_PROC_ADDR; ++i){
     proc[i] = NULL;
   }
 
-  for (int i=0, rp = oldrp; rp < END_PROC_ADDR; rp++, i++) {
-    processes[i] = rp;
-    for(int j=i-1; j>0; j++){
-      if(isemptyp(processes[j]) || !isemptyp(process[j+1]) || processes[j+1]->p_priority < processes[j]->p_priority){
-        processes[j+1] = processes[j];
-        processes[j] = rp;
+  for (i=0, rp = oldrp; rp < END_PROC_ADDR; rp++, ++i) {
+    if(!isemptyp(rp) && (rp->p_priority > processes[i]->p_priority || i < 23)){
+      processes[i] = rp;
+      for(j=i-1; j>0 ; j++){
+        if(processes[j+1]->p_priority < processes[j]->p_priority){
+          processes[j+1] = processes[j];
+          processes[j] = rp;
+        }
+        else break;
       }
-      else break;
     }
   }
 
