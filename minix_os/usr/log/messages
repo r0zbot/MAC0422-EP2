@@ -3372,3 +3372,163 @@ Oct  3 14:42:34 10 kernel: Name: sh  Prioridade: 7
 Oct  3 14:42:34 10 last message repeated 9 times
 Oct  3 14:42:34 10 kernel: Name: getty  Prioridade: 7 
 Oct  3 14:43:55 10 syslogd: exiting on signal 15
+Oct  3 14:45:44 10 syslogd: restart
+Oct  3 14:45:44 10 kernel: 
+Oct  3 14:45:44 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:45:44 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:45:44 10 kernel: 
+Oct  3 14:45:44 10 kernel:                                                                                                                                              
+Oct  3 14:45:44 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:45:44 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:45:44 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:45:44 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:45:44 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:45:44 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:45:44 10 kernel: Replacing root
+Oct  3 14:45:54 10 syslogd: exiting on signal 15
+Oct  3 14:45:58 10 syslogd: restart
+Oct  3 14:45:58 10 kernel: 
+Oct  3 14:45:58 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:45:58 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:45:58 10 kernel: 
+Oct  3 14:45:58 10 kernel:                                                                                                                                              
+Oct  3 14:45:58 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:45:58 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:45:58 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:45:58 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:45:58 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:45:58 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:45:58 10 kernel: Replacing root
+Oct  3 14:46:04 10 kernel: Name: update  Prioridade: 10   -  Name: clock  Prioridade: 0  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: system  Prioridade: 0  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: kernel  Prioridade: 0  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: pm  Prioridade: 3  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: fs  Prioridade: 4  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: rs  Prioridade: 3  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: mem  Prioridade: 2  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: log  Prioridade: 2  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: tty  Prioridade: 1  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: ds  Prioridade: 3  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: init  Prioridade: 7  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: sh  Prioridade: 9  
+Oct  3 14:46:05 10 kernel: Name: update  Prioridade: 10   -  Name: service  Prioridade: 7  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: pci  Prioridade: 3  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: service  Prioridade: 7  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: floppy  Prioridade: 3  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: sysenv  Prioridade: 7  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: service  Prioridade: 8  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: at_wini  Prioridade: 3  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: sysenv  Prioridade: 8  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: dev2nam  Prioridade: 8  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: sysenv  Prioridade: 8  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: newroot  Prioridade: 9  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: loadkey  Prioridade: 9  
+Oct  3 14:46:06 10 kernel: Name: update  Prioridade: 10   -  Name: service  Prioridade: 9  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: is  Prioridade: 3  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: service  Prioridade: 9  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: cmos  Prioridade: 3  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: readclo  Prioridade: 11  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: printro  Prioridade: 10  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: sysenv  Prioridade: 10  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: mount  Prioridade: 10  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: rm  Prioridade: 11  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: shutdow  Prioridade: 11  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: mount  Prioridade: 11  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: touch  Prioridade: 11  
+Oct  3 14:46:07 10 kernel: Name: update  Prioridade: 10   -  Name: printro  Prioridade: 12  
+Oct  3 14:46:08 10 kernel: Name: update  Prioridade: 10   -  Name: sh  Prioridade: 11  
+Oct  3 14:46:08 10 kernel: Name: update  Prioridade: 10   -  Name: rm  Prioridade: 12  
+Oct  3 14:46:08 10 kernel: Name: update  Prioridade: 10   -  Name: sysenv  Prioridade: 12  
+Oct  3 14:46:08 10 kernel: Name: update  Prioridade: 10   -  Name: service  Prioridade: 13  
+Oct  3 14:46:08 10 kernel: Name: update  Prioridade: 10   -  Name: random  Prioridade: 3  
+Oct  3 14:46:08 10 kernel: Name: update  Prioridade: 10   -  Name: cat  Prioridade: 13  
+Oct  3 14:46:08 10 kernel: Name: update  Prioridade: 10   -  Name: dd  Prioridade: 13  
+Oct  3 14:46:08 10 kernel: Name: update  Prioridade: 10   -  Name: grep  Prioridade: 13  
+Oct  3 14:46:08 10 kernel: Name: update  Prioridade: 10   -  Name: grep  Prioridade: 14  
+Oct  3 14:46:08 10 last message repeated 3 times
+Oct  3 14:46:09 10 kernel: Name: update  Prioridade: 10   -  Name: sysenv  Prioridade: 14  
+Oct  3 14:46:09 10 kernel: Name: update  Prioridade: 10   -  Name: service  Prioridade: 14  
+Oct  3 14:46:09 10 kernel: Name: update  Prioridade: 10   -  Name: inet  Prioridade: 3  
+Oct  3 14:46:09 10 kernel: Name: update  Prioridade: 10   -  Name: sysenv  Prioridade: 14  
+Oct  3 14:46:09 10 kernel: Name: update  Prioridade: 10   -  Name: service  Prioridade: 14  
+Oct  3 14:46:09 10 kernel: Name: update  Prioridade: 10   -  Name: printer  Prioridade: 3  
+Oct  3 14:46:09 10 kernel: Name: update  Prioridade: 10   -  Name: sh  Prioridade: 14  
+Oct  3 14:46:09 10 kernel: Name: update  Prioridade: 10   -  Name: sysenv  Prioridade: 14  
+Oct  3 14:46:09 10 kernel: Name: update  Prioridade: 10   -  Name: update  Prioridade: 10  
+Oct  3 14:46:09 10 kernel: Name: cron  Prioridade: 10   -  Name: cron  Prioridade: 10  
+Oct  3 14:46:09 10 kernel: Name: nonamed  Prioridade: 10   -  Name: sysenv  Prioridade: 14  
+Oct  3 14:46:09 10 kernel: Name: nonamed  Prioridade: 10   -  Name: syslogd  Prioridade: 14  
+Oct  3 14:46:10 10 kernel: Name: nonamed  Prioridade: 10   -  Name: grep  Prioridade: 14  
+Oct  3 14:46:10 10 kernel: Name: nonamed  Prioridade: 10   -  Name: ifconfi  Prioridade: 14  
+Oct  3 14:46:10 10 kernel: Name: nonamed  Prioridade: 10   -  Name: sysenv  Prioridade: 14  
+Oct  3 14:46:10 10 kernel: Name: nonamed  Prioridade: 10   -  Name: nonamed  Prioridade: 10  
+Oct  3 14:46:10 10 kernel: Name: syslogd  Prioridade: 10   -  Name: syslogd  Prioridade: 10  
+Oct  3 14:46:10 10 kernel: Name: sh  Prioridade: 7   -  Name: sh  Prioridade: 13  
+Oct  3 14:46:10 10 kernel: Name: sh  Prioridade: 7   -  Name: ls  Prioridade: 11  
+Oct  3 14:46:10 10 kernel: Name: sh  Prioridade: 7   -  Name: sh  Prioridade: 11  
+Oct  3 14:46:10 10 kernel: Name: sh  Prioridade: 7   -  Name: service  Prioridade: 9  
+Oct  3 14:46:10 10 kernel: Name: sh  Prioridade: 7   -  Name: rescue  Prioridade: 3  
+Oct  3 14:46:10 10 kernel: Name: sh  Prioridade: 7   -  Name: mkfs  Prioridade: 10  
+Oct  3 14:46:10 10 kernel: Name: sh  Prioridade: 7   -  Name: mount  Prioridade: 10  
+Oct  3 14:46:11 10 kernel: Name: sh  Prioridade: 7   -  Name: cp  Prioridade: 10  
+Oct  3 14:46:11 10 kernel: Name: sh  Prioridade: 7   -  Name: service  Prioridade: 10  
+Oct  3 14:46:11 10 kernel: Name: sh  Prioridade: 7   -  Name: sh  Prioridade: 7  
+Oct  3 14:46:11 10 kernel: Name: getty  Prioridade: 7   -  Name: getty  Prioridade: 7  
+Oct  3 14:47:19 10 syslogd: exiting on signal 15
+Oct  3 14:49:52 10 syslogd: restart
+Oct  3 14:49:52 10 kernel: 
+Oct  3 14:49:52 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:49:52 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:49:52 10 kernel: 
+Oct  3 14:49:52 10 kernel:                                                                                                                                              
+Oct  3 14:49:52 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:49:52 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:49:52 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:49:52 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:49:52 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:49:52 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:49:52 10 kernel: Replacing root
+Oct  3 14:50:12 10 syslogd: exiting on signal 15
+Oct  3 14:50:17 10 syslogd: restart
+Oct  3 14:50:17 10 kernel: 
+Oct  3 14:50:17 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:50:17 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:50:17 10 kernel: 
+Oct  3 14:50:17 10 kernel:                                                                                                                                              
+Oct  3 14:50:17 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:50:17 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:50:17 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:50:17 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:50:17 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:50:17 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:50:17 10 kernel: Replacing root
+Oct  3 14:50:19 10 kernel: Name: idle  Prioridade: 15   -  Name: idle  Prioridade: 15  
+Oct  3 14:50:19 10 kernel: Name: update  Prioridade: 13   -  Name: clock  Prioridade: 0  
+Oct  3 14:50:19 10 kernel: Name: cron  Prioridade: 13   -  Name: system  Prioridade: 0  
+Oct  3 14:50:19 10 kernel: Name: syslogd  Prioridade: 13   -  Name: kernel  Prioridade: 0  
+Oct  3 14:50:19 10 kernel: Name: nonamed  Prioridade: 13   -  Name: pm  Prioridade: 3  
+Oct  3 14:50:19 10 kernel: Name: init  Prioridade: 7   -  Name: fs  Prioridade: 4  
+Oct  3 14:50:19 10 kernel: Name: sh  Prioridade: 7   -  Name: rs  Prioridade: 5  
+Oct  3 14:50:19 10 kernel: Name: getty  Prioridade: 7   -  Name: mem  Prioridade: 2  
+Oct  3 14:50:19 10 kernel: Name: getty  Prioridade: 7   -  Name: log  Prioridade: 2  
+Oct  3 14:50:19 10 kernel: Name: getty  Prioridade: 7   -  Name: tty  Prioridade: 1  
+Oct  3 14:50:19 10 kernel: Name: rs  Prioridade: 5   -  Name: ds  Prioridade: 3  
+Oct  3 14:50:20 10 kernel: Name: fs  Prioridade: 4   -  Name: init  Prioridade: 7  
+Oct  3 14:50:20 10 kernel: Name: inet  Prioridade: 4   -  Name: sh  Prioridade: 12  
+Oct  3 14:50:20 10 kernel: Name: printer  Prioridade: 4   -  Name: service  Prioridade: 7  
+Oct  3 14:50:20 10 kernel: Name: rescue  Prioridade: 4   -  Name: pci  Prioridade: 3  
+Oct  3 14:50:20 10 kernel: Name: pm  Prioridade: 3   -  Name: service  Prioridade: 7  
+Oct  3 14:50:20 10 kernel: Name: ds  Prioridade: 3   -  Name: floppy  Prioridade: 3  
+Oct  3 14:50:20 10 kernel: Name: pci  Prioridade: 3   -  Name: sysenv  Prioridade: 7  
+Oct  3 14:50:20 10 kernel: Name: floppy  Prioridade: 3   -  Name: service  Prioridade: 8  
+Oct  3 14:50:20 10 kernel: Name: at_wini  Prioridade: 3   -  Name: at_wini  Prioridade: 3  
+Oct  3 14:50:20 10 kernel: Name: is  Prioridade: 3   -  Name: sysenv  Prioridade: 8  
+Oct  3 14:50:20 10 kernel: Name: cmos  Prioridade: 3   -  Name: dev2nam  Prioridade: 8  
+Oct  3 14:50:20 10 kernel: Name: random  Prioridade: 3   -  Name: sysenv  Prioridade: 8  
+Oct  3 14:50:21 10 kernel: Name: mem  Prioridade: 2   -  Name: newroot  Prioridade: 9  
+Oct  3 14:50:21 10 kernel: Name: log  Prioridade: 2   -  Name: loadkey  Prioridade: 9  
+Oct  3 14:50:21 10 kernel: Name: tty  Prioridade: 1   -  Name: service  Prioridade: 9  
+Oct  3 14:50:21 10 kernel: Name: clock  Prioridade: 0   -  Name: is  Prioridade: 3  
+Oct  3 14:50:21 10 kernel: Name: system  Prioridade: 0   -  Name: service  Prioridade: 9  
+Oct  3 14:50:21 10 kernel: Name: kernel  Prioridade: 0   -  Name: cmos  Prioridade: 3  
+Oct  3 14:50:41 10 syslogd: exiting on signal 15
