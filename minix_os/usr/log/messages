@@ -3133,3 +3133,242 @@ Oct  3 14:02:00 10 kernel: Name: sh  Prioridade: 7
 Oct  3 14:02:00 10 kernel: Name: getty  Prioridade: 7 
 Oct  3 14:02:01 10 last message repeated 2 times
 Oct  3 14:02:41 10 syslogd: exiting on signal 15
+Oct  3 14:22:13 10 syslogd: restart
+Oct  3 14:22:13 10 kernel: 
+Oct  3 14:22:13 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:22:13 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:22:13 10 kernel: 
+Oct  3 14:22:13 10 kernel:                                                                                                                                              
+Oct  3 14:22:13 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:22:13 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:22:13 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:22:13 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:22:13 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:22:13 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:22:13 10 kernel: Replacing root
+Oct  3 14:23:02 10 syslogd: exiting on signal 15
+Oct  3 14:23:07 10 syslogd: restart
+Oct  3 14:23:07 10 kernel: 
+Oct  3 14:23:07 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:23:07 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:23:07 10 kernel: 
+Oct  3 14:23:07 10 kernel:                                                                                                                                              
+Oct  3 14:23:07 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:23:07 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:23:07 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:23:07 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:23:07 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:23:07 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:23:07 10 kernel: Replacing root
+Oct  3 14:23:09 10 kernel: Name: idle  Prioridade: 15 
+Oct  3 14:23:09 10 kernel: Name: clock  Prioridade: 0 
+Oct  3 14:23:09 10 kernel: Name: system  Prioridade: 0 
+Oct  3 14:23:09 10 kernel: Name: kernel  Prioridade: 0 
+Oct  3 14:23:09 10 kernel: Name: pm  Prioridade: 3 
+Oct  3 14:23:09 10 kernel: Name: fs  Prioridade: 4 
+Oct  3 14:23:09 10 kernel: Name: rs  Prioridade: 4 
+Oct  3 14:23:09 10 kernel: Name: mem  Prioridade: 2 
+Oct  3 14:23:09 10 kernel: Name: log  Prioridade: 2 
+Oct  3 14:23:09 10 kernel: Name: tty  Prioridade: 1 
+Oct  3 14:23:09 10 kernel: Name: ds  Prioridade: 3 
+Oct  3 14:23:09 10 kernel: Name: init  Prioridade: 7 
+Oct  3 14:23:10 10 kernel: Name: sh  Prioridade: 11 
+Oct  3 14:23:10 10 kernel: Name: pci  Prioridade: 3 
+Oct  3 14:23:10 10 kernel: Name: floppy  Prioridade: 3 
+Oct  3 14:23:10 10 kernel: Name: at_wini  Prioridade: 3 
+Oct  3 14:23:10 10 kernel: Name: is  Prioridade: 3 
+Oct  3 14:23:10 10 kernel: Name: cmos  Prioridade: 3 
+Oct  3 14:23:10 10 kernel: Name: sh  Prioridade: 13 
+Oct  3 14:23:10 10 kernel: Name: random  Prioridade: 3 
+Oct  3 14:23:10 10 kernel: Name: inet  Prioridade: 4 
+Oct  3 14:23:10 10 kernel: Name: printer  Prioridade: 4 
+Oct  3 14:23:10 10 kernel: Name: update  Prioridade: 13 
+Oct  3 14:23:10 10 kernel: Name: cron  Prioridade: 13 
+Oct  3 14:23:11 10 kernel: Name: nonamed  Prioridade: 13 
+Oct  3 14:23:11 10 kernel: Name: hostadd  Prioridade: 13 
+Oct  3 14:23:11 10 kernel: Name: syslogd  Prioridade: 13 
+Oct  3 14:23:14 10 kernel: ordenando....
+Oct  3 14:23:14 10 kernel: Name: warning, unfkey_map failed:  Prioridade: 109 
+Oct  3 14:23:14 10 kernel: Name: sh  Prioridade: 11 
+Oct  3 14:23:14 10 kernel: Name: init  Prioridade: 7 
+Oct  3 14:23:14 10 kernel: Name: fs  Prioridade: 4 
+Oct  3 14:23:14 10 kernel: Name: rs  Prioridade: 4 
+Oct  3 14:23:14 10 kernel: Name: pm  Prioridade: 3 
+Oct  3 14:23:14 10 kernel: Name: ds  Prioridade: 3 
+Oct  3 14:23:14 10 kernel: Name: mem  Prioridade: 2 
+Oct  3 14:23:14 10 kernel: Name: log  Prioridade: 2 
+Oct  3 14:23:15 10 kernel: Name: tty  Prioridade: 1 
+Oct  3 14:23:15 10 kernel: Name: clock  Prioridade: 0 
+Oct  3 14:23:15 10 kernel: Name: system  Prioridade: 0 
+Oct  3 14:23:15 10 kernel: Name: kernel  Prioridade: 0 
+Oct  3 14:23:15 10 kernel: Name: warning, unfkey_map failed:  Prioridade: 109 
+Oct  3 14:23:15 10 kernel: Name: pci  Prioridade: 3 
+Oct  3 14:23:15 10 kernel: Name: warning, unfkey_map failed:  Prioridade: 109 
+Oct  3 14:23:15 10 kernel: Name: floppy  Prioridade: 3 
+Oct  3 14:23:15 10 kernel: Name: warning, unfkey_map failed:  Prioridade: 109 
+Oct  3 14:23:15 10 kernel: Name: warning, unfkey_map failed:  Prioridade: 109 
+Oct  3 14:23:15 10 kernel: Name: at_wini  Prioridade: 3 
+Oct  3 14:23:15 10 kernel: Name: warning, unfkey_map failed:  Prioridade: 109 
+Oct  3 14:23:16 10 last message repeated 5 times
+Oct  3 14:23:16 10 kernel: Name: is  Prioridade: 3 
+Oct  3 14:23:16 10 kernel: Name: warning, unfkey_map failed:  Prioridade: 109 
+Oct  3 14:23:16 10 kernel: Name: cmos  Prioridade: 3 
+Oct  3 14:23:16 10 kernel: Name: warning, unfkey_map failed:  Prioridade: 109 
+Oct  3 14:29:51 10 syslogd: restart
+Oct  3 14:29:51 10 kernel: 
+Oct  3 14:29:51 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:29:51 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:29:51 10 kernel: 
+Oct  3 14:29:51 10 kernel:                                                                                                                                              
+Oct  3 14:29:51 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:29:51 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:29:51 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:29:51 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:29:51 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:29:51 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:29:51 10 kernel: Replacing root
+Oct  3 14:30:29 10 syslogd: exiting on signal 15
+Oct  3 14:30:33 10 syslogd: restart
+Oct  3 14:30:33 10 kernel: 
+Oct  3 14:30:33 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:30:33 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:30:33 10 kernel: 
+Oct  3 14:30:33 10 kernel:                                                                                                                                              
+Oct  3 14:30:33 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:30:33 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:30:33 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:30:33 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:30:33 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:30:33 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:30:33 10 kernel: Replacing root
+Oct  3 14:30:36 10 kernel: Name: idle  Prioridade: 15 
+Oct  3 14:30:36 10 kernel: Name: clock  Prioridade: 0 
+Oct  3 14:30:36 10 kernel: Name: system  Prioridade: 0 
+Oct  3 14:30:36 10 kernel: Name: kernel  Prioridade: 0 
+Oct  3 14:30:36 10 kernel: Name: pm  Prioridade: 3 
+Oct  3 14:30:36 10 kernel: Name: fs  Prioridade: 4 
+Oct  3 14:30:36 10 kernel: Name: rs  Prioridade: 4 
+Oct  3 14:30:36 10 kernel: Name: mem  Prioridade: 2 
+Oct  3 14:30:36 10 kernel: Name: log  Prioridade: 2 
+Oct  3 14:30:36 10 kernel: Name: tty  Prioridade: 1 
+Oct  3 14:30:36 10 kernel: Name: ds  Prioridade: 3 
+Oct  3 14:30:36 10 kernel: Name: init  Prioridade: 7 
+Oct  3 14:30:37 10 kernel: Name: pci  Prioridade: 3 
+Oct  3 14:30:37 10 kernel: Name: floppy  Prioridade: 3 
+Oct  3 14:30:37 10 kernel: Name: at_wini  Prioridade: 3 
+Oct  3 14:30:37 10 kernel: Name: is  Prioridade: 3 
+Oct  3 14:30:37 10 kernel: Name: cmos  Prioridade: 3 
+Oct  3 14:30:37 10 kernel: Name: random  Prioridade: 3 
+Oct  3 14:30:37 10 kernel: Name: inet  Prioridade: 3 
+Oct  3 14:30:37 10 kernel: Name: printer  Prioridade: 3 
+Oct  3 14:30:37 10 kernel: Name: update  Prioridade: 12 
+Oct  3 14:30:37 10 kernel: Name: cron  Prioridade: 12 
+Oct  3 14:30:37 10 kernel: Name: nonamed  Prioridade: 12 
+Oct  3 14:30:37 10 kernel: Name: syslogd  Prioridade: 12 
+Oct  3 14:30:38 10 kernel: Name: rescue  Prioridade: 3 
+Oct  3 14:30:38 10 kernel: Name: sh  Prioridade: 7 
+Oct  3 14:30:38 10 kernel: Name: getty  Prioridade: 7 
+Oct  3 14:30:38 10 last message repeated 2 times
+Oct  3 14:30:41 10 kernel: ordenando....
+Oct  3 14:30:41 10 kernel: Name: warning, unfkey_map failed:  Prioridade: 109 
+Oct  3 14:30:42 10 last message repeated 18 times
+Oct  3 14:31:35 10 syslogd: exiting on signal 15
+Oct  3 14:36:15 10 syslogd: restart
+Oct  3 14:36:15 10 kernel: 
+Oct  3 14:36:15 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:36:15 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:36:15 10 kernel: 
+Oct  3 14:36:15 10 kernel:                                                                                                                                              
+Oct  3 14:36:15 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:36:15 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:36:15 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:36:15 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:36:15 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:36:15 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:36:15 10 kernel: Replacing root
+Oct  3 14:36:30 10 syslogd: exiting on signal 15
+Oct  3 14:36:34 10 syslogd: restart
+Oct  3 14:36:34 10 kernel: 
+Oct  3 14:36:34 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:36:34 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:36:34 10 kernel: 
+Oct  3 14:36:34 10 kernel:                                                                                                                                              
+Oct  3 14:36:34 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:36:34 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:36:34 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:36:34 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:36:34 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:36:34 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:36:34 10 kernel: Replacing root
+Oct  3 14:36:43 10 kernel: Name: update  Prioridade: 9 
+Oct  3 14:36:47 10 last message repeated 57 times
+Oct  3 14:36:47 10 kernel: Name: cron  Prioridade: 9 
+Oct  3 14:36:48 10 kernel: Name: nonamed  Prioridade: 9 
+Oct  3 14:36:48 10 last message repeated 5 times
+Oct  3 14:36:48 10 kernel: Name: syslogd  Prioridade: 9 
+Oct  3 14:36:48 10 kernel: Name: sh  Prioridade: 7 
+Oct  3 14:36:48 10 last message repeated 4 times
+Oct  3 14:37:26 10 kernel: Name: init  Prioridade: 7 
+Oct  3 14:37:27 10 last message repeated 10 times
+Oct  3 14:37:27 10 kernel: Name: update  Prioridade: 7 
+Oct  3 14:37:30 10 last message repeated 45 times
+Oct  3 14:37:31 10 kernel: Name: cron  Prioridade: 7 
+Oct  3 14:37:31 10 kernel: Name: nonamed  Prioridade: 7 
+Oct  3 14:37:31 10 last message repeated 5 times
+Oct  3 14:37:31 10 kernel: Name: syslogd  Prioridade: 7 
+Oct  3 14:37:31 10 kernel: Name: sh  Prioridade: 7 
+Oct  3 14:37:32 10 last message repeated 11 times
+Oct  3 14:37:32 10 kernel: Name: getty  Prioridade: 7 
+Oct  3 14:37:32 10 kernel: Name: is  Prioridade: 3 
+Oct  3 14:37:33 10 last message repeated 5 times
+Oct  3 14:37:38 10 kernel: Name: init  Prioridade: 7 
+Oct  3 14:37:38 10 last message repeated 10 times
+Oct  3 14:37:39 10 kernel: Name: update  Prioridade: 7 
+Oct  3 14:37:42 10 last message repeated 45 times
+Oct  3 14:37:42 10 kernel: Name: cron  Prioridade: 7 
+Oct  3 14:37:42 10 kernel: Name: nonamed  Prioridade: 7 
+Oct  3 14:37:43 10 last message repeated 5 times
+Oct  3 14:37:43 10 kernel: Name: syslogd  Prioridade: 7 
+Oct  3 14:37:43 10 kernel: Name: sh  Prioridade: 7 
+Oct  3 14:37:44 10 last message repeated 11 times
+Oct  3 14:37:44 10 kernel: Name: getty  Prioridade: 7 
+Oct  3 14:37:44 10 kernel: Name: is  Prioridade: 3 
+Oct  3 14:37:45 10 last message repeated 5 times
+Oct  3 14:38:17 10 syslogd: exiting on signal 15
+Oct  3 14:42:05 10 syslogd: restart
+Oct  3 14:42:05 10 kernel: 
+Oct  3 14:42:05 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:42:05 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:42:05 10 kernel: 
+Oct  3 14:42:05 10 kernel:                                                                                                                                              
+Oct  3 14:42:05 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:42:05 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:42:05 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:42:05 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:42:05 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:42:05 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:42:05 10 kernel: Replacing root
+Oct  3 14:42:17 10 syslogd: exiting on signal 15
+Oct  3 14:42:21 10 syslogd: restart
+Oct  3 14:42:21 10 kernel: 
+Oct  3 14:42:21 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 14:42:21 10 kernel: Executing in 32-bit protected mode.
+Oct  3 14:42:21 10 kernel: 
+Oct  3 14:42:21 10 kernel:                                                                                                                                              
+Oct  3 14:42:21 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 14:42:21 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 14:42:21 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 14:42:21 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 14:42:21 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 14:42:21 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 14:42:21 10 kernel: Replacing root
+Oct  3 14:42:28 10 kernel: Name: update  Prioridade: 9 
+Oct  3 14:42:33 10 last message repeated 57 times
+Oct  3 14:42:33 10 kernel: Name: cron  Prioridade: 9 
+Oct  3 14:42:33 10 kernel: Name: nonamed  Prioridade: 9 
+Oct  3 14:42:33 10 last message repeated 5 times
+Oct  3 14:42:33 10 kernel: Name: syslogd  Prioridade: 9 
+Oct  3 14:42:34 10 kernel: Name: sh  Prioridade: 7 
+Oct  3 14:42:34 10 last message repeated 9 times
+Oct  3 14:42:34 10 kernel: Name: getty  Prioridade: 7 
+Oct  3 14:43:55 10 syslogd: exiting on signal 15

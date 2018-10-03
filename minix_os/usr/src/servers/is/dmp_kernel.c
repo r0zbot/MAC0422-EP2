@@ -364,38 +364,30 @@ PUBLIC void priority_dmp()
       return;
   }
 
-  for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
-    if(!isemptyp(&proc[i])){
-      printf("Name: %s  Prioridade: %d \n", (&proc[i])->p_name, (&proc[i])->p_priority);
-      usleep(80000);
-    }
-  }
 
   for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
     procs[i] = NULL;
   }
 
 
-  usleep(3000000);
-  printf("ordenando....\n");
-
   for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
     temp = &proc[i];
     if(!isemptyp(temp)){
       for(j = i-1; j >= 0; j--){
-        if(procs[j]->p_priority < temp->p_priority){
+        if(procs[j] == NULL || procs[j]->p_priority < temp->p_priority){
             procs[j+1] = procs[j];
+            procs[j] = NULL;
         }
         else{
-          procs[j+1] = temp;
           break;
         }
+        procs[j+1] = temp;
       }
     }
   }
 
   for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
-    if(!isemptyp(procs[i])){
+    if(procs[i] != NULL && !isemptyp(procs[i])){
       printf("Name: %s  Prioridade: %d \n", (procs[i])->p_name, (procs[i])->p_priority);
       usleep(80000);
     }
