@@ -4,6 +4,7 @@
 #include <timers.h>
 #include <ibm/interrupt.h>
 #include <minix/endpoint.h>
+#include <unistd.h>
 #include "../../kernel/const.h"
 #include "../../kernel/config.h"
 #include "../../kernel/debug.h"
@@ -352,9 +353,10 @@ PUBLIC void priority_dmp()
 {
 /* Proc table dump */
 
-  struct proc;
   int r, n, i, j = 0;
   phys_clicks text, data, size;
+  struct proc *procs[NR_TASKS+NR_PROCS];
+  struct proc *temp;
 
   /* First obtain a fresh copy of the current process table. */
   if ((r = sys_getproctab(proc)) != OK) {
@@ -363,25 +365,39 @@ PUBLIC void priority_dmp()
   }
 
   for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
-    proc[104] = proc[i];
-    if(!isemptyp(&proc[104])){
-      for(j = i-1; j >= 0; j--){
-        if((&proc[j])->p_priority > (&proc[104])->p_priority){
-            proc[j+1] = proc[j];
-        }
-        else{
-          proc[j+1] = proc[104];
-          break;
-        }
-
-      }
-
+    if(!isemptyp(&proc[i])){
+      printf("Name: %s  Prioridade: %d \n", (&proc[i])->p_name, (&proc[i])->p_priority);
+      usleep(80000);
     }
   }
 
   for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
-    if(!isemptyp(&proc[i])){
-      printf("Name: %s  Prioridade: %d \n", (&proc[i])->p_name, (&proc[i])->p_priority);
+    procs[i] = NULL;
+  }
+
+
+  usleep(3000000);
+  printf("ordenando....\n");
+
+  for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
+    temp = &proc[i];
+    if(!isemptyp(temp)){
+      for(j = i-1; j >= 0; j--){
+        if(procs[j]->p_priority < temp->p_priority){
+            procs[j+1] = procs[j];
+        }
+        else{
+          procs[j+1] = temp;
+          break;
+        }
+      }
+    }
+  }
+
+  for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
+    if(!isemptyp(procs[i])){
+      printf("Name: %s  Prioridade: %d \n", (procs[i])->p_name, (procs[i])->p_priority);
+      usleep(80000);
     }
   }
 
