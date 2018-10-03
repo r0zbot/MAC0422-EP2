@@ -346,11 +346,83 @@ PRIVATE char *s_traps_str(int flags)
 }
 
 /*===========================================================================*
- *				privileges_dmp 				     *
+ *				priority_dmp 				     *
  *===========================================================================*/
-PUBLIC void bagulho(){
-  printf("Ola mundo, sua vadia");
+PUBLIC void priority_dmp()
+{
+/* Proc table dump */
+
+  register struct proc *rp;
+  static struct proc *oldrp = BEG_PROC_ADDR;
+  int r, n = 0;
+  phys_clicks text, data, size;
+
+  /* First obtain a fresh copy of the current process table. */
+  if ((r = sys_getproctab(proc)) != OK) {
+      report("IS","warning: couldn't get copy of process table", r);
+      return;
+  }
+
+  printf("\n-nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-\n");
+
+  struct proc *processes[END_PROC_ADDR - BEG_PROC_ADDR];
+  for (int i = 0; i < END_PROC_ADDR - BEG_PROC_ADDR; ++i){
+    proc[i] = NULL;
+  }
+
+  for (int i=0, rp = oldrp; rp < END_PROC_ADDR; rp++, i++) {
+    processes[i] = rp;
+    for(int j=i-1; j>0; j++){
+      if(isemptyp(processes[j]) || !isemptyp(process[j+1]) || processes[j+1]->p_priority < processes[j]->p_priority){
+        processes[j+1] = processes[j];
+        processes[j] = rp;
+      }
+      else break;
+    }
+  }
+
+  for (rp = oldrp; rp < END_PROC_ADDR; rp++) {
+    if (isemptyp(rp)) continue;
+    if (++n > 23) break;
+    printf("Name: %s  Prioridade: %d ", rp->p_name, rp->p_priority);
+    
+  }
+
+  for (rp = oldrp; rp < END_PROC_ADDR; rp++) {
+    if (isemptyp(rp)) continue;
+    if (++n > 23) break;
+    text = rp->p_memmap[T].mem_phys;
+    data = rp->p_memmap[D].mem_phys;
+    size = rp->p_memmap[T].mem_len + ((rp->p_memmap[S].mem_phys + rp->p_memmap[S].mem_len) - data);
+    if (proc_nr(rp) == IDLE){
+      printf("(%2d) ", proc_nr(rp));  
+    }
+    else if (proc_nr(rp) < 0){
+      printf("[%2d] ", proc_nr(rp));
+    }
+    else{
+      printf(" %2d  ", proc_nr(rp));
+    }
+    printf(" %5d %10d ", _ENDPOINT_G(rp->p_endpoint), rp->p_endpoint);
+    printf(" %-8.8s %02u/%02u %02d/%02u %6lu%6lu %6uK %s",
+           rp->p_name,
+           rp->p_priority, rp->p_max_priority,
+           rp->p_ticks_left, rp->p_quantum_size, 
+           rp->p_user_time, rp->p_sys_time,
+           click_to_round_k(size),
+           p_rts_flags_str(rp->p_rts_flags));
+    if (rp->p_rts_flags & (SENDING|RECEIVING)) {
+      printf(" %-7.7s", proc_name(_ENDPOINT_P(rp->p_getfrom_e)));
+    } 
+    printf("\n");
+  }
+  if (rp == END_PROC_ADDR) rp = BEG_PROC_ADDR; else printf("--more--\r");
+  oldrp = rp;
 }
+
+/*===========================================================================*
+ *        privileges_dmp             *
+ *===========================================================================*/
 
 PUBLIC void privileges_dmp()
 {
