@@ -88,3 +88,1347 @@ Oct  3 00:07:59 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
 Oct  3 00:07:59 10 kernel: AT-D0: Ultra DMA mode selected: 2
 Oct  3 00:07:59 10 kernel: Replacing root
 Oct  3 00:10:55 10 syslogd: exiting on signal 15
+Oct  3 00:25:18 10 syslogd: restart
+Oct  3 00:25:18 10 kernel: 
+Oct  3 00:25:18 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 00:25:18 10 kernel: Executing in 32-bit protected mode.
+Oct  3 00:25:18 10 kernel: 
+Oct  3 00:25:18 10 kernel:                                                                                                                                              
+Oct  3 00:25:18 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 00:25:18 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 00:25:18 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 00:25:18 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 00:25:18 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 00:25:18 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 00:25:18 10 kernel: Replacing root
+Oct  3 00:29:26 10 syslogd: exiting on signal 15
+Oct  3 00:34:53 10 syslogd: restart
+Oct  3 00:34:53 10 kernel: 
+Oct  3 00:34:53 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 00:34:53 10 kernel: Executing in 32-bit protected mode.
+Oct  3 00:34:53 10 kernel: 
+Oct  3 00:34:53 10 kernel:                                                                                                                                              
+Oct  3 00:34:53 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 00:34:53 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 00:34:53 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 00:34:53 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 00:34:53 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 00:34:53 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 00:34:53 10 kernel: Replacing root
+Oct  3 00:38:10 10 syslogd: exiting on signal 15
+Oct  3 00:38:15 10 syslogd: restart
+Oct  3 00:38:15 10 kernel: 
+Oct  3 00:38:15 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 00:38:15 10 kernel: Executing in 32-bit protected mode.
+Oct  3 00:38:15 10 kernel: 
+Oct  3 00:38:15 10 kernel:                                                                                                                                              
+Oct  3 00:38:15 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 00:38:15 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 00:38:15 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 00:38:15 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 00:38:15 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 00:38:15 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 00:38:15 10 kernel: Replacing root
+Oct  3 00:38:19 10 kernel: 
+Oct  3 00:38:19 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:38:21 10 kernel: 
+Oct  3 00:38:21 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:38:21 10 kernel: No space on device 9/0
+Oct  3 00:38:21 10 kernel: No space on device 9/0
+Oct  3 00:38:23 10 kernel: 
+Oct  3 00:38:23 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:38:23 10 kernel: No space on device 9/0
+Oct  3 00:38:23 10 kernel: No space on device 9/0
+Oct  3 00:38:27 10 kernel: 
+Oct  3 00:38:27 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:38:27 10 kernel: No space on device 9/0
+Oct  3 00:38:27 10 kernel: No space on device 9/0
+Oct  3 00:40:06 10 syslogd: exiting on signal 15
+Oct  3 00:41:55 10 syslogd: restart
+Oct  3 00:41:55 10 kernel: 
+Oct  3 00:41:55 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 00:41:55 10 kernel: Executing in 32-bit protected mode.
+Oct  3 00:41:55 10 kernel: 
+Oct  3 00:41:55 10 kernel:                                                                                                                                              
+Oct  3 00:41:55 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 00:41:55 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 00:41:55 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 00:41:55 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 00:41:55 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 00:41:55 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 00:41:55 10 kernel: Replacing root
+Oct  3 00:42:27 10 syslogd: exiting on signal 15
+Oct  3 00:42:32 10 syslogd: restart
+Oct  3 00:42:32 10 kernel: 
+Oct  3 00:42:32 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 00:42:32 10 kernel: Executing in 32-bit protected mode.
+Oct  3 00:42:32 10 kernel: 
+Oct  3 00:42:32 10 kernel:                                                                                                                                              
+Oct  3 00:42:32 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 00:42:32 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 00:42:32 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 00:42:32 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 00:42:32 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 00:42:32 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 00:42:32 10 kernel: Replacing root
+Oct  3 00:42:35 10 kernel: 
+Oct  3 00:42:35 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:42:35 10 kernel: loop1 - 0
+Oct  3 00:42:36 10 kernel: 
+Oct  3 00:42:36 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:42:36 10 kernel: loop1 - 0
+Oct  3 00:42:36 10 kernel: No space on device 9/0
+Oct  3 00:42:36 10 kernel: No space on device 9/0
+Oct  3 00:42:38 10 kernel: 
+Oct  3 00:42:38 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:42:38 10 kernel: loop1 - 0
+Oct  3 00:42:38 10 kernel: No space on device 9/0
+Oct  3 00:42:38 10 kernel: No space on device 9/0
+Oct  3 00:43:04 10 kernel: 
+Oct  3 00:43:04 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:43:04 10 kernel: (-4)      0         -4  idle     15/15 08/08   1951     1     72K ------
+Oct  3 00:43:04 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:43:04 10 kernel: [-2]      0         -2  system   00/00 08/08     53     0     72K ------
+Oct  3 00:43:04 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:43:04 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:43:04 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:43:04 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:04 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:43:04 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:43:04 10 kernel:   5       0          5  tty      01/01 04/04      1     0     84K --R--- ANY    
+Oct  3 00:43:04 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:04 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:04 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:04 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:04 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:43:04 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:43:04 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:43:04 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:43:04 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:43:04 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:04 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:43:04 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:43:04 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:43:04 10 kernel: --more--
+Oct  3 00:43:05 10 kernel: 
+Oct  3 00:43:05 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 00:43:05 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 00:43:05 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 00:43:05 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 00:43:05 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 00:43:05 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 00:43:05 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 00:43:05 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 00:43:05 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 00:43:05 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 00:43:05 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 00:43:05 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 00:43:05 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 00:43:05 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 00:43:05 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 00:43:05 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 00:43:05 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 00:43:05 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 00:43:05 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 00:43:05 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 00:43:05 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 00:43:05 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 00:43:05 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 00:43:05 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 00:43:05 10 kernel: --more--
+Oct  3 00:43:14 10 kernel: 
+Oct  3 00:43:14 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:43:14 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:43:14 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:43:14 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:14 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:14 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:14 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:43:26 10 kernel: 
+Oct  3 00:43:26 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:43:26 10 kernel: (-4)      0         -4  idle     15/15 01/08   3285     2     72K ------
+Oct  3 00:43:26 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:43:26 10 kernel: [-2]      0         -2  system   00/00 08/08     53     0     72K ------
+Oct  3 00:43:26 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:43:26 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:43:26 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:43:26 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:26 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:43:26 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:43:26 10 kernel:   5       0          5  tty      01/01 04/04      2     0     84K --R--- ANY    
+Oct  3 00:43:26 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:26 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:26 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:26 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:26 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:43:26 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:43:26 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:43:26 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:43:26 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:43:26 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:26 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:43:26 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:43:26 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:43:26 10 kernel: --more--
+Oct  3 00:43:27 10 kernel: 
+Oct  3 00:43:27 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:43:27 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:43:27 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:43:27 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:27 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:27 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:27 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:43:27 10 kernel: 
+Oct  3 00:43:27 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:43:27 10 kernel: (-4)      0         -4  idle     15/15 04/08   3330     2     72K ------
+Oct  3 00:43:27 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:43:27 10 kernel: [-2]      0         -2  system   00/00 08/08     53     0     72K ------
+Oct  3 00:43:27 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:43:27 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:43:27 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:43:27 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:27 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:43:27 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:43:27 10 kernel:   5       0          5  tty      01/01 04/04      2     0     84K --R--- ANY    
+Oct  3 00:43:27 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:27 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:27 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:27 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:27 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:43:27 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:43:27 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:43:27 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:43:27 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:43:27 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:27 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:43:27 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:43:27 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:43:27 10 kernel: --more--
+Oct  3 00:43:28 10 kernel: 
+Oct  3 00:43:28 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:43:28 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:43:28 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:43:28 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:28 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:28 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:28 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:43:30 10 kernel: 
+Oct  3 00:43:30 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:43:30 10 kernel: (-4)      0         -4  idle     15/15 08/08   3517     3     72K ------
+Oct  3 00:43:30 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:43:30 10 kernel: [-2]      0         -2  system   00/00 08/08     54     0     72K ------
+Oct  3 00:43:30 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:43:30 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:43:30 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:43:30 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:30 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:43:30 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:43:30 10 kernel:   5       0          5  tty      01/01 04/04      2     0     84K --R--- ANY    
+Oct  3 00:43:30 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:30 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:30 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:30 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:30 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:43:30 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:43:30 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:43:30 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:43:30 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:43:30 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:30 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:43:30 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:43:30 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:43:30 10 kernel: --more--
+Oct  3 00:43:31 10 kernel: 
+Oct  3 00:43:31 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:43:31 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:43:31 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:43:31 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:31 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:31 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:43:31 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:43:33 10 kernel: 
+Oct  3 00:43:33 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:43:33 10 kernel: (-4)      0         -4  idle     15/15 07/08   3693     4     72K ------
+Oct  3 00:43:33 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:43:33 10 kernel: [-2]      0         -2  system   00/00 08/08     55     0     72K ------
+Oct  3 00:43:33 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:43:33 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:43:33 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:43:33 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:33 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:43:33 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:43:33 10 kernel:   5       0          5  tty      01/01 04/04      2     0     84K --R--- ANY    
+Oct  3 00:43:33 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:33 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:33 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:43:33 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:43:33 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:43:33 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:43:33 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K ------
+Oct  3 00:43:33 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:43:33 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:43:33 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:43:33 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:43:33 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:43:33 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- pm     
+Oct  3 00:43:33 10 kernel: --more--
+Oct  3 00:46:58 10 kernel: 
+Oct  3 00:46:58 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:46:58 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:46:58 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:46:58 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:46:58 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:46:58 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:46:58 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:46:59 10 kernel: 
+Oct  3 00:46:59 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:46:59 10 kernel: (-4)      0         -4  idle     15/15 05/08  16063     4     72K ------
+Oct  3 00:46:59 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:46:59 10 kernel: [-2]      0         -2  system   00/00 08/08     55     0     72K ------
+Oct  3 00:46:59 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:46:59 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:46:59 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:46:59 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:46:59 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:46:59 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:46:59 10 kernel:   5       0          5  tty      01/01 04/04      2     0     84K --R--- ANY    
+Oct  3 00:46:59 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:46:59 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:46:59 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:46:59 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:46:59 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:46:59 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:46:59 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:46:59 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:46:59 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:46:59 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:46:59 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:46:59 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:46:59 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:46:59 10 kernel: --more--
+Oct  3 00:47:04 10 kernel: 
+Oct  3 00:47:04 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:04 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:04 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:47:04 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:04 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:04 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:04 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:47:11 10 kernel: 
+Oct  3 00:47:11 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:11 10 kernel: (-4)      0         -4  idle     15/15 06/08  16762     4     72K ------
+Oct  3 00:47:11 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:47:11 10 kernel: [-2]      0         -2  system   00/00 08/08     55     0     72K ------
+Oct  3 00:47:11 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:47:11 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:47:11 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:47:11 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:11 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:47:11 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:47:11 10 kernel:   5       0          5  tty      01/01 04/04      2     0     84K --R--- ANY    
+Oct  3 00:47:11 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:11 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:11 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:11 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:11 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:47:11 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:11 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:47:11 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:47:11 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:47:11 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:11 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:47:11 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:47:11 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:47:11 10 kernel: --more--
+Oct  3 00:47:11 10 kernel: 
+Oct  3 00:47:11 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:11 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:11 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:47:11 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:11 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:11 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:11 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:47:12 10 kernel: 
+Oct  3 00:47:12 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:12 10 kernel: (-4)      0         -4  idle     15/15 07/08  16824     5     72K ------
+Oct  3 00:47:12 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:47:12 10 kernel: [-2]      0         -2  system   00/00 08/08     55     0     72K ------
+Oct  3 00:47:12 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:47:12 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:47:12 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:47:12 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:12 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:47:12 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:47:12 10 kernel:   5       0          5  tty      01/01 03/04      3     0     84K --R--- ANY    
+Oct  3 00:47:12 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:12 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:12 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:12 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:12 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:47:12 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:12 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:47:12 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:47:12 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:47:12 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:12 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:47:12 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:47:12 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:47:12 10 kernel: --more--
+Oct  3 00:47:12 10 kernel: 
+Oct  3 00:47:12 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:12 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:12 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:47:12 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:12 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:12 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:12 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:47:13 10 kernel: 
+Oct  3 00:47:13 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:13 10 kernel: (-4)      0         -4  idle     15/15 01/08  16864     7     72K ------
+Oct  3 00:47:13 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:47:13 10 kernel: [-2]      0         -2  system   00/00 08/08     55     0     72K ------
+Oct  3 00:47:13 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:47:13 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   5       0          5  tty      01/01 04/04      5     0     84K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:13 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:13 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:47:13 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:47:13 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:47:13 10 kernel: --more--
+Oct  3 00:47:13 10 kernel: 
+Oct  3 00:47:13 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:13 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:47:13 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:13 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:13 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:13 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:47:13 10 kernel: 
+Oct  3 00:47:13 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:13 10 kernel: (-4)      0         -4  idle     15/15 06/08  16891     8     72K ------
+Oct  3 00:47:13 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:47:13 10 kernel: [-2]      0         -2  system   00/00 08/08     56     0     72K ------
+Oct  3 00:47:13 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:47:13 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   5       0          5  tty      01/01 04/04      5     0     84K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:13 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:13 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:13 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:47:13 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:47:13 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:47:13 10 kernel: --more--
+Oct  3 00:47:13 10 kernel: 
+Oct  3 00:47:13 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:13 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:13 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:47:13 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:13 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:13 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:13 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:47:14 10 kernel: 
+Oct  3 00:47:14 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:14 10 kernel: (-4)      0         -4  idle     15/15 05/08  16931     9     72K ------
+Oct  3 00:47:14 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:47:14 10 kernel: [-2]      0         -2  system   00/00 08/08     56     0     72K ------
+Oct  3 00:47:14 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:47:14 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:47:14 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:47:14 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:14 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:47:14 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:47:14 10 kernel:   5       0          5  tty      01/01 03/04      6     0     84K --R--- ANY    
+Oct  3 00:47:14 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:14 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:14 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:14 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:14 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:47:14 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:14 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:47:14 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:47:14 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:47:14 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:14 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:47:14 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:47:14 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:47:14 10 kernel: --more--
+Oct  3 00:47:22 10 kernel: 
+Oct  3 00:47:22 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:22 10 kernel:  72       1      35611  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:22 10 kernel:  78       1      35617  sh       07/07 08/08      0     1    180K --R--- fs     
+Oct  3 00:47:22 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:22 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:22 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 00:47:22 10 kernel:  90       1      35629  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 00:47:22 10 kernel: 
+Oct  3 00:47:22 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 00:47:22 10 kernel: (-4)      0         -4  idle     15/15 04/08  17430    10     72K ------
+Oct  3 00:47:22 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 00:47:22 10 kernel: [-2]      0         -2  system   00/00 08/08     57     0     72K ------
+Oct  3 00:47:22 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 00:47:22 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 00:47:22 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 00:47:22 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:22 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 00:47:22 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 00:47:22 10 kernel:   5       0          5  tty      01/01 04/04      6     0     84K --R--- ANY    
+Oct  3 00:47:22 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:22 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:22 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 00:47:22 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 00:47:22 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 00:47:22 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 00:47:22 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 00:47:22 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 00:47:22 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 00:47:22 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 00:47:22 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 00:47:22 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 00:47:22 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 00:47:22 10 kernel: --more--
+Oct  3 01:02:32 10 -- MARK --
+Oct  3 01:19:13 10 kernel: 
+Oct  3 01:19:13 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 01:19:13 10 kernel: loop1 - 0
+Oct  3 01:19:13 10 kernel: loop1 - 1
+Oct  3 01:19:13 10 kernel: loop2 - 1
+Oct  3 01:19:13 10 kernel: loop2 - 2
+Oct  3 01:19:13 10 kernel: loop1 - 2
+Oct  3 01:19:13 10 kernel: loop2 - 2
+Oct  3 01:19:13 10 kernel: loop2 - 3
+Oct  3 01:19:13 10 kernel: loop1 - 3
+Oct  3 01:19:13 10 kernel: loop2 - 3
+Oct  3 01:19:13 10 kernel: loop2 - 4
+Oct  3 01:19:13 10 kernel: loop2 - 5
+Oct  3 01:19:13 10 kernel: loop2 - 6
+Oct  3 01:19:13 10 kernel: loop2 - 7
+Oct  3 01:19:13 10 kernel: loop1 - 4
+Oct  3 01:19:13 10 kernel: loop2 - 4
+Oct  3 01:19:13 10 kernel: loop1 - 5
+Oct  3 01:19:13 10 kernel: loop2 - 5
+Oct  3 01:19:13 10 kernel: loop1 - 6
+Oct  3 01:19:13 10 kernel: loop2 - 6
+Oct  3 01:19:13 10 kernel: loop2 - 7
+Oct  3 01:19:13 10 kernel: loop1 - 7
+Oct  3 01:19:13 10 kernel: loop2 - 7
+Oct  3 01:19:13 10 kernel: loop2 - 8
+Oct  3 01:19:13 10 kernel: loop1 - 8
+Oct  3 01:19:13 10 kernel: loop2 - 8
+Oct  3 01:19:13 10 kernel: loop2 - 9
+Oct  3 01:19:13 10 kernel: loop1 - 9
+Oct  3 01:19:13 10 kernel: loop2 - 9
+Oct  3 01:19:13 10 kernel: loop2 - 10
+Oct  3 01:19:13 10 kernel: loop1 - 10
+Oct  3 01:19:13 10 kernel: loop2 - 10
+Oct  3 01:19:13 10 kernel: loop2 - 11
+Oct  3 01:19:13 10 kernel: loop1 - 11
+Oct  3 01:19:13 10 kernel: loop2 - 11
+Oct  3 01:19:13 10 kernel: loop1 - 12
+Oct  3 01:19:13 10 last message repeated 2 times
+Oct  3 01:19:13 10 kernel: loop2 - 12
+Oct  3 01:19:13 10 kernel: loop2 - 13
+Oct  3 01:19:13 10 kernel: loop2 - 14
+Oct  3 01:19:13 10 kernel: loop2 - 15
+Oct  3 01:19:13 10 kernel: No space on device 9/0
+Oct  3 01:19:13 10 kernel: No space on device 9/0
+Oct  3 01:19:31 10 kernel: 
+Oct  3 01:19:31 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 01:19:31 10 kernel: loop1 - 0
+Oct  3 01:19:31 10 kernel: No space on device 9/0
+Oct  3 01:19:31 10 kernel: No space on device 9/0
+Oct  3 01:20:04 10 kernel: Dump of kernel environment strings set by boot monitor.
+Oct  3 01:20:04 10 kernel: 
+Oct  3 01:20:04 10 kernel: rootdev=896
+Oct  3 01:20:04 10 kernel: ramimagedev=896
+Oct  3 01:20:04 10 kernel: ramsize=0
+Oct  3 01:20:04 10 kernel: processor=686
+Oct  3 01:20:04 10 kernel: bus=at
+Oct  3 01:20:04 10 kernel: video=vga
+Oct  3 01:20:04 10 kernel: chrome=color
+Oct  3 01:20:04 10 kernel: memory=800:92970,100000:FF00000
+Oct  3 01:20:04 10 kernel: image=/boot/image_big
+Oct  3 01:20:04 10 kernel: 
+Oct  3 01:20:04 10 kernel: Dump of kernel environment strings set by boot monitor.
+Oct  3 01:20:04 10 kernel: 
+Oct  3 01:20:04 10 kernel: rootdev=896
+Oct  3 01:20:04 10 kernel: ramimagedev=896
+Oct  3 01:20:04 10 kernel: ramsize=0
+Oct  3 01:20:04 10 kernel: processor=686
+Oct  3 01:20:04 10 kernel: bus=at
+Oct  3 01:20:04 10 kernel: video=vga
+Oct  3 01:20:04 10 kernel: chrome=color
+Oct  3 01:20:04 10 kernel: memory=800:92970,100000:FF00000
+Oct  3 01:20:04 10 kernel: image=/boot/image_big
+Oct  3 01:20:04 10 kernel: 
+Oct  3 01:20:04 10 kernel: Dump of kernel environment strings set by boot monitor.
+Oct  3 01:20:04 10 kernel: 
+Oct  3 01:20:04 10 kernel: rootdev=896
+Oct  3 01:20:04 10 kernel: ramimagedev=896
+Oct  3 01:20:04 10 kernel: ramsize=0
+Oct  3 01:20:04 10 kernel: processor=686
+Oct  3 01:20:04 10 kernel: bus=at
+Oct  3 01:20:04 10 kernel: video=vga
+Oct  3 01:20:04 10 kernel: chrome=color
+Oct  3 01:20:04 10 kernel: memory=800:92970,100000:FF00000
+Oct  3 01:20:04 10 kernel: image=/boot/image_big
+Oct  3 01:20:04 10 kernel: 
+Oct  3 01:20:07 10 kernel: 
+Oct  3 01:20:07 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 01:20:07 10 kernel: loop1 - 0
+Oct  3 01:20:07 10 kernel: No space on device 9/0
+Oct  3 01:20:07 10 kernel: No space on device 9/0
+Oct  3 01:21:13 10 syslogd: exiting on signal 15
+Oct  3 12:26:34 10 syslogd: restart
+Oct  3 12:26:34 10 kernel: 
+Oct  3 12:26:34 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 12:26:34 10 kernel: Executing in 32-bit protected mode.
+Oct  3 12:26:34 10 kernel: 
+Oct  3 12:26:34 10 kernel:                                                                                                                                              
+Oct  3 12:26:34 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 12:26:34 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 12:26:34 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 12:26:34 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 12:26:34 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 12:26:34 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 12:26:34 10 kernel: Replacing root
+Oct  3 12:26:37 10 kernel: 
+Oct  3 12:26:37 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:37 10 kernel: loop1 - 0
+Oct  3 12:26:47 10 kernel: 
+Oct  3 12:26:47 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:47 10 kernel: loop1 - 0
+Oct  3 12:26:47 10 kernel: No space on device 9/0
+Oct  3 12:26:47 10 kernel: No space on device 9/0
+Oct  3 12:26:49 10 kernel: Image table dump showing all processes included in system image.
+Oct  3 12:26:49 10 kernel: ---name-- -nr- -flags- -traps- -sq- ----pc- -stack- -ipc_to[0]--------
+Oct  3 12:26:49 10 kernel:     idle   -4   P-BS-   -----   15    3708     512   00000000 00000000 
+Oct  3 12:26:49 10 kernel:    clock   -3   ---S-   --R--    0   11856     512   00000000 00000000 
+Oct  3 12:26:49 10 kernel:   system   -2   ---S-   --R--    0    9604     512   00000000 00000000 
+Oct  3 12:26:49 10 kernel:   kernel   -1   ---S-   -----    0       0       0   00000000 00000000 
+Oct  3 12:26:49 10 kernel:       pm    0   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:26:49 10 kernel:       fs    1   P--S-   ESRBN    4       0       0   11111111 11111111 
+Oct  3 12:26:49 10 kernel:       rs    2   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:26:49 10 kernel:       ds    6   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:26:49 10 kernel:      tty    5   P--S-   ESRBN    1       0       0   11111111 11111111 
+Oct  3 12:26:49 10 kernel:      mem    3   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:26:49 10 kernel:      log    4   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:26:49 10 kernel:     init    7   P-B--   E--B-    7       0       0   00010111 00000000 
+Oct  3 12:26:49 10 kernel: 
+Oct  3 12:26:50 10 kernel: 
+Oct  3 12:26:50 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:50 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:50 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:50 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:50 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:50 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 12:26:50 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 12:26:50 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 12:26:50 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 12:26:50 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 12:26:50 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 12:26:50 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 12:26:50 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 12:26:50 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 12:26:50 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 12:26:50 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 12:26:50 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 12:26:50 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 12:26:50 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 12:26:50 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 12:26:50 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 12:26:50 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 12:26:50 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 12:26:50 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 12:26:50 10 kernel: --more--
+Oct  3 12:26:50 10 kernel: 
+Oct  3 12:26:50 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:50 10 kernel: (-4)      0         -4  idle     15/15 06/08   1026     1     72K ------
+Oct  3 12:26:50 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 12:26:50 10 kernel: [-2]      0         -2  system   00/00 08/08     17     0     72K ------
+Oct  3 12:26:50 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 12:26:50 10 kernel:   0       0          0  pm       03/03 31/32      1     0    120K --R--- ANY    
+Oct  3 12:26:50 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 12:26:50 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:50 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 12:26:50 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 12:26:50 10 kernel:   5       0          5  tty      01/01 04/04      0     0     84K --R--- ANY    
+Oct  3 12:26:50 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:50 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:50 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:50 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:50 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 12:26:50 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:26:50 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 12:26:50 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 12:26:50 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 12:26:50 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:50 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 12:26:50 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 12:26:50 10 kernel:  65       1      35604  syslogd  07/07 07/08      0     1     68K --R--- fs     
+Oct  3 12:26:50 10 kernel: --more--
+Oct  3 12:26:50 10 kernel: 
+Oct  3 12:26:50 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:50 10 kernel:  73 rescue    1025   1f70    0   59    2    0   5b    1    1   5c    1    16K
+Oct  3 12:26:50 10 kernel:  78 sh        ec29  1ce34    0  876   10    0  886    5   1c  8a2    1   180K
+Oct  3 12:26:50 10 kernel:  79 getty     1651   4db0    0  6b7    2    0  6be    1    4  6c2    1    28K
+Oct  3 12:26:50 10 kernel:  80 getty     1651   4db0    0  6b7    2    0  6c3    1    4  6c7    1    28K
+Oct  3 12:26:50 10 kernel:  81 getty     1651   4db0    0  6b7    2    0  6c8    1    4  6cc    1    28K
+Oct  3 12:26:50 10 kernel:  89 is        2535  3ff1c    0  6f4    4    0  6f8   20   3f  737    1   272K
+Oct  3 12:26:50 10 kernel: 
+Oct  3 12:26:50 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:50 10 kernel:  73       1      35612  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:26:50 10 kernel:  78       1      35617  sh       07/07 08/08      0     0    180K --R--- fs     
+Oct  3 12:26:50 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:50 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:50 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:50 10 kernel:  89       1      35628  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 12:26:50 10 kernel: 
+Oct  3 12:26:50 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:50 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:50 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:50 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:50 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:50 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 12:26:50 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 12:26:50 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 12:26:50 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 12:26:50 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 12:26:50 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 12:26:50 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 12:26:50 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 12:26:50 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 12:26:50 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 12:26:50 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 12:26:50 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 12:26:50 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 12:26:50 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 12:26:50 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 12:26:50 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 12:26:50 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 12:26:50 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 12:26:50 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 12:26:50 10 kernel: --more--
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:51 10 kernel: (-4)      0         -4  idle     15/15 03/08   1058     5     72K ------
+Oct  3 12:26:51 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 12:26:51 10 kernel: [-2]      0         -2  system   00/00 08/08     19     0     72K ------
+Oct  3 12:26:51 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 12:26:51 10 kernel:   0       0          0  pm       03/03 31/32      1     0    120K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   4       0          4  log      02/02 02/04      2     0     76K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   5       0          5  tty      01/01 04/04      0     0     84K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:51 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:51 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 12:26:51 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 12:26:51 10 kernel:  65       1      35604  syslogd  07/07 07/08      0     1     68K --R--- fs     
+Oct  3 12:26:51 10 kernel: --more--
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:51 10 kernel:  73 rescue    1025   1f70    0   59    2    0   5b    1    1   5c    1    16K
+Oct  3 12:26:51 10 kernel:  78 sh        ec29  1ce34    0  876   10    0  886    5   1c  8a2    1   180K
+Oct  3 12:26:51 10 kernel:  79 getty     1651   4db0    0  6b7    2    0  6be    1    4  6c2    1    28K
+Oct  3 12:26:51 10 kernel:  80 getty     1651   4db0    0  6b7    2    0  6c3    1    4  6c7    1    28K
+Oct  3 12:26:51 10 kernel:  81 getty     1651   4db0    0  6b7    2    0  6c8    1    4  6cc    1    28K
+Oct  3 12:26:51 10 kernel:  89 is        2535  3ff1c    0  6f4    4    0  6f8   20   3f  737    1   272K
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:51 10 kernel:  73       1      35612  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  78       1      35617  sh       07/07 08/08      0     0    180K --R--- fs     
+Oct  3 12:26:51 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:51 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:51 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:51 10 kernel:  89       1      35628  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:51 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:51 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:51 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:51 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:51 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 12:26:51 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 12:26:51 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 12:26:51 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 12:26:51 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 12:26:51 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 12:26:51 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 12:26:51 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 12:26:51 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 12:26:51 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 12:26:51 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 12:26:51 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 12:26:51 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 12:26:51 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 12:26:51 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 12:26:51 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 12:26:51 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 12:26:51 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 12:26:51 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 12:26:51 10 kernel: --more--
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:51 10 kernel: (-4)      0         -4  idle     15/15 02/08   1081     7     72K ------
+Oct  3 12:26:51 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 12:26:51 10 kernel: [-2]      0         -2  system   00/00 08/08     21     0     72K ------
+Oct  3 12:26:51 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 12:26:51 10 kernel:   0       0          0  pm       03/03 31/32      1     0    120K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   4       0          4  log      02/02 02/04      2     0     76K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   5       0          5  tty      01/01 04/04      0     0     84K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:51 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:51 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 12:26:51 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 12:26:51 10 kernel:  65       1      35604  syslogd  07/07 07/08      0     1     68K --R--- fs     
+Oct  3 12:26:51 10 kernel: --more--
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:51 10 kernel:  73 rescue    1025   1f70    0   59    2    0   5b    1    1   5c    1    16K
+Oct  3 12:26:51 10 kernel:  78 sh        ec29  1ce34    0  876   10    0  886    5   1c  8a2    1   180K
+Oct  3 12:26:51 10 kernel:  79 getty     1651   4db0    0  6b7    2    0  6be    1    4  6c2    1    28K
+Oct  3 12:26:51 10 kernel:  80 getty     1651   4db0    0  6b7    2    0  6c3    1    4  6c7    1    28K
+Oct  3 12:26:51 10 kernel:  81 getty     1651   4db0    0  6b7    2    0  6c8    1    4  6cc    1    28K
+Oct  3 12:26:51 10 kernel:  89 is        2535  3ff1c    0  6f4    4    0  6f8   20   3f  737    1   272K
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:51 10 kernel:  73       1      35612  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  78       1      35617  sh       07/07 08/08      0     0    180K --R--- fs     
+Oct  3 12:26:51 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:51 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:51 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:51 10 kernel:  89       1      35628  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:51 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:51 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:51 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:51 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:51 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 12:26:51 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 12:26:51 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 12:26:51 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 12:26:51 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 12:26:51 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 12:26:51 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 12:26:51 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 12:26:51 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 12:26:51 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 12:26:51 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 12:26:51 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 12:26:51 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 12:26:51 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 12:26:51 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 12:26:51 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 12:26:51 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 12:26:51 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 12:26:51 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 12:26:51 10 kernel: --more--
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:51 10 kernel: (-4)      0         -4  idle     15/15 01/08   1105    10     72K ------
+Oct  3 12:26:51 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 12:26:51 10 kernel: [-2]      0         -2  system   00/00 08/08     22     0     72K ------
+Oct  3 12:26:51 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 12:26:51 10 kernel:   0       0          0  pm       03/03 32/32      1     0    120K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   4       0          4  log      02/02 04/04      2     0     76K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   5       0          5  tty      01/01 02/04      2     0     84K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:51 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:51 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 12:26:51 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:51 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 12:26:51 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 12:26:51 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     1     68K --R--- fs     
+Oct  3 12:26:51 10 kernel: --more--
+Oct  3 12:26:51 10 kernel: 
+Oct  3 12:26:51 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:51 10 kernel:  73 rescue    1025   1f70    0   59    2    0   5b    1    1   5c    1    16K
+Oct  3 12:26:51 10 kernel:  78 sh        ec29  1ce34    0  876   10    0  886    5   1c  8a2    1   180K
+Oct  3 12:26:51 10 kernel:  79 getty     1651   4db0    0  6b7    2    0  6be    1    4  6c2    1    28K
+Oct  3 12:26:51 10 kernel:  80 getty     1651   4db0    0  6b7    2    0  6c3    1    4  6c7    1    28K
+Oct  3 12:26:51 10 kernel:  81 getty     1651   4db0    0  6b7    2    0  6c8    1    4  6cc    1    28K
+Oct  3 12:26:51 10 kernel:  89 is        2535  3ff1c    0  6f4    4    0  6f8   20   3f  737    1   272K
+Oct  3 12:26:52 10 kernel: 
+Oct  3 12:26:52 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:52 10 kernel:  73       1      35612  rescue   03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:26:52 10 kernel:  78       1      35617  sh       07/07 08/08      0     0    180K --R--- fs     
+Oct  3 12:26:52 10 kernel:  79       1      35618  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:52 10 kernel:  80       1      35619  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:52 10 kernel:  81       1      35620  getty    07/07 08/08      0     0     28K --R--- fs     
+Oct  3 12:26:52 10 kernel:  89       1      35628  is       03/03 04/04      0     0    272K --R--- system 
+Oct  3 12:26:52 10 kernel: 
+Oct  3 12:26:52 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:52 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:52 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:52 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:52 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:52 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 12:26:52 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 12:26:52 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 12:26:52 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 12:26:52 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 12:26:52 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 12:26:52 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 12:26:52 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 12:26:52 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 12:26:52 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 12:26:52 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 12:26:52 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 12:26:52 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 12:26:52 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 12:26:52 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 12:26:52 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 12:26:52 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 12:26:52 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 12:26:52 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 12:26:52 10 kernel: --more--
+Oct  3 12:26:52 10 kernel: 
+Oct  3 12:26:52 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:52 10 kernel: (-4)      0         -4  idle     15/15 07/08   1131    11     72K ------
+Oct  3 12:26:52 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 12:26:52 10 kernel: [-2]      0         -2  system   00/00 08/08     23     0     72K ------
+Oct  3 12:26:52 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 12:26:52 10 kernel:   0       0          0  pm       03/03 32/32      1     0    120K --R--- ANY    
+Oct  3 12:26:52 10 kernel:   1       0          1  fs       04/04 32/32      0     0   4956K --R--- ANY    
+Oct  3 12:26:52 10 kernel:   2       0          2  rs       03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:52 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 12:26:52 10 kernel:   4       0          4  log      02/02 04/04      2     0     76K --R--- ANY    
+Oct  3 12:26:52 10 kernel:   5       0          5  tty      01/01 02/04      2     0     84K --R--- ANY    
+Oct  3 12:26:52 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:52 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:52 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:26:52 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:26:52 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 12:26:52 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:26:52 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 12:26:52 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 12:26:52 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 12:26:52 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:26:52 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 12:26:52 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 12:26:52 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     1     68K --R--- fs     
+Oct  3 12:26:52 10 kernel: --more--
+Oct  3 12:26:52 10 kernel: 
+Oct  3 12:26:52 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:52 10 kernel:  73 rescue    1025   1f70    0   59    2    0   5b    1    1   5c    1    16K
+Oct  3 12:26:52 10 kernel:  78 sh        ec29  1ce34    0  876   10    0  886    5   1c  8a2    1   180K
+Oct  3 12:26:52 10 kernel:  79 getty     1651   4db0    0  6b7    2    0  6be    1    4  6c2    1    28K
+Oct  3 12:26:52 10 kernel:  80 getty     1651   4db0    0  6b7    2    0  6c3    1    4  6c7    1    28K
+Oct  3 12:26:52 10 kernel:  81 getty     1651   4db0    0  6b7    2    0  6c8    1    4  6cc    1    28K
+Oct  3 12:26:52 10 kernel:  89 is        2535  3ff1c    0  6f4    4    0  6f8   20   3f  737    1   272K
+Oct  3 12:26:52 10 kernel: 
+Oct  3 12:26:52 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:52 10 kernel: loop1 - 0
+Oct  3 12:26:52 10 kernel: loop1 - 1
+Oct  3 12:26:52 10 kernel: loop2 - 1
+Oct  3 12:26:52 10 kernel: loop2 - 2
+Oct  3 12:26:52 10 kernel: loop1 - 2
+Oct  3 12:26:52 10 kernel: loop2 - 2
+Oct  3 12:26:52 10 kernel: loop2 - 3
+Oct  3 12:26:52 10 kernel: loop1 - 3
+Oct  3 12:26:52 10 kernel: loop2 - 3
+Oct  3 12:26:52 10 kernel: loop2 - 4
+Oct  3 12:26:52 10 kernel: No space on device 9/0
+Oct  3 12:26:52 10 kernel: No space on device 9/0
+Oct  3 12:26:56 10 kernel: 
+Oct  3 12:26:56 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:26:56 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:56 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:56 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:56 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:26:56 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 12:26:56 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 12:26:56 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 12:26:56 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 12:26:56 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 12:26:56 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 12:26:56 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 12:26:56 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 12:26:56 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 12:26:56 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 12:26:56 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 12:26:56 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 12:26:56 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 12:26:56 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 12:26:56 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 12:26:56 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 12:26:56 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 12:26:56 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 12:26:56 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 12:26:56 10 kernel: --more--
+Oct  3 12:26:57 10 kernel: 
+Oct  3 12:26:57 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:26:57 10 kernel: loop1 - 0
+Oct  3 12:26:57 10 kernel: loop1 - 1
+Oct  3 12:26:57 10 kernel: loop2 - 1
+Oct  3 12:26:57 10 kernel: loop2 - 2
+Oct  3 12:26:57 10 kernel: loop1 - 2
+Oct  3 12:26:57 10 kernel: loop2 - 2
+Oct  3 12:26:57 10 kernel: loop2 - 3
+Oct  3 12:26:57 10 kernel: loop1 - 3
+Oct  3 12:26:57 10 kernel: loop2 - 3
+Oct  3 12:26:57 10 kernel: loop2 - 4
+Oct  3 12:26:57 10 kernel: No space on device 9/0
+Oct  3 12:26:57 10 kernel: No space on device 9/0
+Oct  3 12:28:54 10 syslogd: exiting on signal 15
+Oct  3 12:29:15 10 syslogd: restart
+Oct  3 12:29:15 10 kernel: 
+Oct  3 12:29:15 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 12:29:15 10 kernel: Executing in 32-bit protected mode.
+Oct  3 12:29:15 10 kernel: 
+Oct  3 12:29:15 10 kernel:                                                                                                                                              
+Oct  3 12:29:15 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 12:29:15 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 12:29:15 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 12:29:15 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 12:29:15 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 12:29:15 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 12:29:15 10 kernel: Replacing root
+Oct  3 12:29:20 10 kernel: 
+Oct  3 12:29:20 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:29:20 10 kernel: loop1 - 0
+Oct  3 12:29:21 10 kernel: 
+Oct  3 12:29:21 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:29:21 10 kernel: loop1 - 0
+Oct  3 12:29:21 10 kernel: No space on device 9/0
+Oct  3 12:29:21 10 kernel: No space on device 9/0
+Oct  3 12:29:23 10 kernel: 
+Oct  3 12:29:23 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:29:23 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:29:23 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:29:23 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:29:23 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:29:23 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 12:29:23 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 12:29:23 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 12:29:23 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 12:29:23 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 12:29:23 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 12:29:23 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 12:29:23 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 12:29:23 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 12:29:23 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 12:29:23 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 12:29:23 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 12:29:23 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 12:29:23 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 12:29:23 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 12:29:23 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 12:29:23 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 12:29:23 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 12:29:23 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 12:29:23 10 kernel: --more--
+Oct  3 12:29:23 10 kernel: Image table dump showing all processes included in system image.
+Oct  3 12:29:23 10 kernel: ---name-- -nr- -flags- -traps- -sq- ----pc- -stack- -ipc_to[0]--------
+Oct  3 12:29:23 10 kernel:     idle   -4   P-BS-   -----   15    3708     512   00000000 00000000 
+Oct  3 12:29:23 10 kernel:    clock   -3   ---S-   --R--    0   11856     512   00000000 00000000 
+Oct  3 12:29:23 10 kernel:   system   -2   ---S-   --R--    0    9604     512   00000000 00000000 
+Oct  3 12:29:23 10 kernel:   kernel   -1   ---S-   -----    0       0       0   00000000 00000000 
+Oct  3 12:29:23 10 kernel:       pm    0   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:29:23 10 kernel:       fs    1   P--S-   ESRBN    4       0       0   11111111 11111111 
+Oct  3 12:29:23 10 kernel:       rs    2   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:29:23 10 kernel:       ds    6   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:29:23 10 kernel:      tty    5   P--S-   ESRBN    1       0       0   11111111 11111111 
+Oct  3 12:29:23 10 kernel:      mem    3   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:29:23 10 kernel:      log    4   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:29:23 10 kernel:     init    7   P-B--   E--B-    7       0       0   00010111 00000000 
+Oct  3 12:29:23 10 kernel: 
+Oct  3 12:29:23 10 kernel: 
+Oct  3 12:29:23 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:29:23 10 kernel: (-4)      0         -4  idle     15/15 07/08    529     2     72K ------
+Oct  3 12:29:23 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 12:29:23 10 kernel: [-2]      0         -2  system   00/00 08/08     42     0     72K ------
+Oct  3 12:29:23 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 12:29:23 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 12:29:23 10 kernel:   1       0          1  fs       04/04 32/32      1     0   4956K --R--- ANY    
+Oct  3 12:29:23 10 kernel:   2       0          2  rs       03/03 02/04      0     0     48K --R--- ANY    
+Oct  3 12:29:23 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 12:29:23 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 12:29:23 10 kernel:   5       0          5  tty      01/01 04/04      0     0     84K --R--- ANY    
+Oct  3 12:29:23 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:29:23 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:29:23 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:29:23 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:29:23 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 12:29:23 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:29:23 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 12:29:23 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 12:29:23 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 12:29:23 10 kernel:  54       1      35593  update   09/07 01/08      0     0     16K --R--- pm     
+Oct  3 12:29:23 10 kernel:  56       1      35595  cron     09/07 04/08      0     0     64K --R--- pm     
+Oct  3 12:29:23 10 kernel:  63       1      35602  nonamed  09/07 01/08      0     0     80K --R--- fs     
+Oct  3 12:29:23 10 kernel:  65       1      35604  syslogd  09/07 01/08      0     0     68K --R--- fs     
+Oct  3 12:29:23 10 kernel: --more--
+Oct  3 12:29:23 10 kernel: 
+Oct  3 12:29:23 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:29:23 10 kernel:  71 rescue    1025   1f70    0   59    2    0   5b    1    1   5c    1    16K
+Oct  3 12:29:23 10 kernel:  77 sh        ec29  1ce34    0  876   10    0  886    5   1c  8a2    1   180K
+Oct  3 12:29:23 10 kernel:  78 getty     1651   4db0    0  6b7    2    0  6be    1    4  6c2    1    28K
+Oct  3 12:29:23 10 kernel:  79 getty     1651   4db0    0  6b7    2    0  6c3    1    4  6c7    1    28K
+Oct  3 12:29:23 10 kernel:  80 getty     1651   4db0    0  6b7    2    0  6c8    1    4  6cc    1    28K
+Oct  3 12:29:23 10 kernel:  89 is        2535  3ff1c    0  6f4    4    0  6f8   20   3f  737    1   272K
+Oct  3 12:29:24 10 kernel: 
+Oct  3 12:29:24 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:29:24 10 kernel: loop1 - 0
+Oct  3 12:29:24 10 kernel: loop1 - 1
+Oct  3 12:29:24 10 kernel: loop2 - 1
+Oct  3 12:29:24 10 kernel: loop2 - 2
+Oct  3 12:29:24 10 kernel: loop1 - 2
+Oct  3 12:29:24 10 kernel: loop2 - 2
+Oct  3 12:29:24 10 kernel: loop2 - 3
+Oct  3 12:29:24 10 kernel: loop1 - 3
+Oct  3 12:29:24 10 kernel: loop2 - 3
+Oct  3 12:29:24 10 kernel: loop2 - 4
+Oct  3 12:29:24 10 kernel: No space on device 9/0
+Oct  3 12:29:24 10 kernel: No space on device 9/0
+Oct  3 12:29:28 10 kernel: 
+Oct  3 12:29:28 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:29:28 10 kernel: (-4)      0         -4  idle     15/15 05/08    806     3     72K ------
+Oct  3 12:29:28 10 kernel: [-3]      0         -3  clock    00/00 08/08      1     0     72K --R--- ANY    
+Oct  3 12:29:28 10 kernel: [-2]      0         -2  system   00/00 08/08     43     0     72K ------
+Oct  3 12:29:28 10 kernel: [-1]      0         -1  kernel   00/00 08/08      0     0     72K M-----
+Oct  3 12:29:28 10 kernel:   0       0          0  pm       03/03 32/32      0     0    120K --R--- ANY    
+Oct  3 12:29:28 10 kernel:   1       0          1  fs       04/04 32/32      1     0   4956K --R--- ANY    
+Oct  3 12:29:28 10 kernel:   2       0          2  rs       03/03 02/04      0     0     48K --R--- ANY    
+Oct  3 12:29:28 10 kernel:   3       0          3  mem      02/02 04/04      0     0    304K --R--- ANY    
+Oct  3 12:29:28 10 kernel:   4       0          4  log      02/02 04/04      0     0     76K --R--- ANY    
+Oct  3 12:29:28 10 kernel:   5       0          5  tty      01/01 04/04      0     0     84K --R--- ANY    
+Oct  3 12:29:28 10 kernel:   6       0          6  ds       03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:29:28 10 kernel:   7       0          7  init     07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:29:28 10 kernel:  10       1      35549  pci      03/03 04/04      0     0     48K --R--- ANY    
+Oct  3 12:29:28 10 kernel:  12       1      35551  floppy   03/03 04/04      0     0     24K --R--- ANY    
+Oct  3 12:29:28 10 kernel:  15       1      35554  at_wini  03/03 04/04      0     0     88K --R--- ANY    
+Oct  3 12:29:28 10 kernel:  24       1      35563  cmos     03/03 04/04      0     0     16K --R--- ANY    
+Oct  3 12:29:28 10 kernel:  38       1      35577  random   03/03 04/04      0     0     44K --R--- ANY    
+Oct  3 12:29:28 10 kernel:  48       1      35587  inet     03/03 04/04      0     0    900K --R--- ANY    
+Oct  3 12:29:28 10 kernel:  51       1      35590  printer  03/03 04/04      0     0    136K --R--- ANY    
+Oct  3 12:29:28 10 kernel:  54       1      35593  update   07/07 08/08      0     0     16K --R--- pm     
+Oct  3 12:29:28 10 kernel:  56       1      35595  cron     07/07 08/08      0     0     64K --R--- pm     
+Oct  3 12:29:28 10 kernel:  63       1      35602  nonamed  07/07 08/08      0     0     80K --R--- fs     
+Oct  3 12:29:28 10 kernel:  65       1      35604  syslogd  07/07 08/08      0     0     68K --R--- fs     
+Oct  3 12:29:28 10 kernel: --more--
+Oct  3 12:29:28 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:29:28 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:29:28 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:29:28 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:29:28 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:29:28 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 12:29:28 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 12:29:28 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 12:29:28 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 12:29:28 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 12:29:28 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 12:29:28 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 12:29:28 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 12:29:28 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 12:29:28 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 12:29:28 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 12:29:28 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 12:29:28 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 12:29:28 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 12:29:28 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 12:29:28 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 12:29:28 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 12:29:28 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 12:29:28 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 12:29:28 10 kernel: --more--
+Oct  3 12:29:28 10 kernel: Image table dump showing all processes included in system image.
+Oct  3 12:29:28 10 kernel: ---name-- -nr- -flags- -traps- -sq- ----pc- -stack- -ipc_to[0]--------
+Oct  3 12:29:28 10 kernel:     idle   -4   P-BS-   -----   15    3708     512   00000000 00000000 
+Oct  3 12:29:28 10 kernel:    clock   -3   ---S-   --R--    0   11856     512   00000000 00000000 
+Oct  3 12:29:28 10 kernel:   system   -2   ---S-   --R--    0    9604     512   00000000 00000000 
+Oct  3 12:29:28 10 kernel:   kernel   -1   ---S-   -----    0       0       0   00000000 00000000 
+Oct  3 12:29:28 10 kernel:       pm    0   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:29:28 10 kernel:       fs    1   P--S-   ESRBN    4       0       0   11111111 11111111 
+Oct  3 12:29:28 10 kernel:       rs    2   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:29:28 10 kernel:       ds    6   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:29:28 10 kernel:      tty    5   P--S-   ESRBN    1       0       0   11111111 11111111 
+Oct  3 12:29:28 10 kernel:      mem    3   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:29:28 10 kernel:      log    4   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:29:28 10 kernel:     init    7   P-B--   E--B-    7       0       0   00010111 00000000 
+Oct  3 12:29:28 10 kernel: 
+Oct  3 12:29:28 10 kernel: 
+Oct  3 12:29:28 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:29:28 10 kernel: loop1 - 0
+Oct  3 12:29:28 10 kernel: loop1 - 1
+Oct  3 12:29:28 10 kernel: loop2 - 1
+Oct  3 12:29:28 10 kernel: loop2 - 2
+Oct  3 12:29:28 10 kernel: loop1 - 2
+Oct  3 12:29:28 10 kernel: loop2 - 2
+Oct  3 12:29:28 10 kernel: loop2 - 3
+Oct  3 12:29:28 10 kernel: No space on device 9/0
+Oct  3 12:29:28 10 kernel: No space on device 9/0
+Oct  3 12:30:26 10 syslogd: exiting on signal 15
+Oct  3 12:30:30 10 syslogd: restart
+Oct  3 12:30:30 10 kernel: 
+Oct  3 12:30:30 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 12:30:30 10 kernel: Executing in 32-bit protected mode.
+Oct  3 12:30:30 10 kernel: 
+Oct  3 12:30:30 10 kernel:                                                                                                                                              
+Oct  3 12:30:30 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 12:30:30 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 12:30:30 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 12:30:30 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 12:30:30 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 12:30:30 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 12:30:30 10 kernel: Replacing root
+Oct  3 12:30:39 10 kernel: 
+Oct  3 12:30:39 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:30:39 10 kernel: loop1 - 0
+Oct  3 12:30:40 10 kernel: 
+Oct  3 12:30:40 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:30:40 10 kernel: loop1 - 0
+Oct  3 12:30:40 10 kernel: No space on device 9/0
+Oct  3 12:30:40 10 kernel: No space on device 9/0
+Oct  3 12:30:42 10 kernel: Image table dump showing all processes included in system image.
+Oct  3 12:30:42 10 kernel: ---name-- -nr- -flags- -traps- -sq- ----pc- -stack- -ipc_to[0]--------
+Oct  3 12:30:42 10 kernel:     idle   -4   P-BS-   -----   15    3708     512   00000000 00000000 
+Oct  3 12:30:42 10 kernel:    clock   -3   ---S-   --R--    0   11856     512   00000000 00000000 
+Oct  3 12:30:42 10 kernel:   system   -2   ---S-   --R--    0    9604     512   00000000 00000000 
+Oct  3 12:30:42 10 kernel:   kernel   -1   ---S-   -----    0       0       0   00000000 00000000 
+Oct  3 12:30:42 10 kernel:       pm    0   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:       fs    1   P--S-   ESRBN    4       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:       rs    2   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:       ds    6   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:      tty    5   P--S-   ESRBN    1       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:      mem    3   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:      log    4   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:     init    7   P-B--   E--B-    7       0       0   00010111 00000000 
+Oct  3 12:30:42 10 kernel: 
+Oct  3 12:30:42 10 kernel: 
+Oct  3 12:30:42 10 kernel: -nr/name--- --pc-- --sp-- -----text----- -----data----- ----stack----- --size-
+Oct  3 12:30:42 10 kernel:  -4 idle       e98   9074    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:30:42 10 kernel:  -3 clock     5be9   923c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:30:42 10 kernel:  -2 system    5be9   944c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:30:42 10 kernel:  -1 kernel       0   947c    0    1    6    0    7    c    c   13    0    72K
+Oct  3 12:30:42 10 kernel:   0 pm        4e21  17fb0    0  100    6    0  106   18   18  11e    0   120K
+Oct  3 12:30:42 10 kernel:   1 fs        9f55 4cbfc4    0  11e    b    0  129  4cc  4cc  5f5    0  4956K
+Oct  3 12:30:42 10 kernel:   2 rs        11f1   9f80    0  5f5    2    0  5f7    a    a  601    0    48K
+Oct  3 12:30:42 10 kernel:   3 mem       14b1  49f88    0  61c    2    0  61e   4a   4a  668    0   304K
+Oct  3 12:30:42 10 kernel:   4 log       14dd  10f7c    0  668    2    0  66a   11   11  67b    0    76K
+Oct  3 12:30:42 10 kernel:   5 tty       67c5   df90    0  607    7    0  60e    e    e  61c    0    84K
+Oct  3 12:30:42 10 kernel:   6 ds         9b5   4f94    0  601    1    0  602    5    5  607    0    24K
+Oct  3 12:30:42 10 kernel:   7 init      17b5   1f0c    0  67b    2    0  67d    2    2  67f    0    16K
+Oct  3 12:30:42 10 kernel:  10 pci       4d91   5f88    0  67f    6    0  685    5    5  68a    1    48K
+Oct  3 12:30:42 10 kernel:  12 floppy    2681   2f74    0  68b    3    0  68e    2    2  690    1    24K
+Oct  3 12:30:42 10 kernel:  15 at_wini   5101   ff6c    0  691    6    0  697    e    f  6a6    1    88K
+Oct  3 12:30:42 10 kernel:  24 cmos       f55   1f80    0   5f    2    0   61    1    1   62    1    16K
+Oct  3 12:30:42 10 kernel:  38 random    3461   6f74    0   63    4    0   67    6    6   6d    1    44K
+Oct  3 12:30:42 10 kernel:  48 inet     1c295  c3f6c    0  760   1d    0  77d   a6   c3  840    1   900K
+Oct  3 12:30:42 10 kernel:  51 printer    d11  20f80    0   6e    1    0   6f    1   20   8f    1   136K
+Oct  3 12:30:42 10 kernel:  54 update     569   2ef0    0   55    1    0   56    1    2   58    1    16K
+Oct  3 12:30:42 10 kernel:  56 cron      3f69   9efc    0  841    6    0  847    2    9  850    1    64K
+Oct  3 12:30:42 10 kernel:  63 nonamed   5a95   ae8c    0  862    9    0  86b    3    a  875    1    80K
+Oct  3 12:30:42 10 kernel:  65 syslogd   3591   bccc    0  851    5    0  73c    4    b  747    1    68K
+Oct  3 12:30:42 10 kernel: --more--
+Oct  3 12:30:42 10 kernel: Image table dump showing all processes included in system image.
+Oct  3 12:30:42 10 kernel: ---name-- -nr- -flags- -traps- -sq- ----pc- -stack- -ipc_to[0]--------
+Oct  3 12:30:42 10 kernel:     idle   -4   P-BS-   -----   15    3708     512   00000000 00000000 
+Oct  3 12:30:42 10 kernel:    clock   -3   ---S-   --R--    0   11856     512   00000000 00000000 
+Oct  3 12:30:42 10 kernel:   system   -2   ---S-   --R--    0    9604     512   00000000 00000000 
+Oct  3 12:30:42 10 kernel:   kernel   -1   ---S-   -----    0       0       0   00000000 00000000 
+Oct  3 12:30:42 10 kernel:       pm    0   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:       fs    1   P--S-   ESRBN    4       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:       rs    2   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:       ds    6   P--S-   ESRBN    3       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:      tty    5   P--S-   ESRBN    1       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:      mem    3   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:      log    4   P--S-   ESRBN    2       0       0   11111111 11111111 
+Oct  3 12:30:42 10 kernel:     init    7   P-B--   E--B-    7       0       0   00010111 00000000 
+Oct  3 12:30:42 10 kernel: 
+Oct  3 12:30:43 10 kernel: 
+Oct  3 12:30:43 10 kernel: -nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-
+Oct  3 12:30:43 10 kernel: loop1 - 0
+Oct  3 12:30:43 10 kernel: oi
+Oct  3 12:30:43 10 kernel: loop1 - 1
+Oct  3 12:30:43 10 kernel: oi
+Oct  3 12:30:43 10 kernel: loop2 - 1
+Oct  3 12:30:43 10 kernel: loop2 - 2
+Oct  3 12:30:43 10 kernel: loop1 - 2
+Oct  3 12:30:43 10 kernel: oi
+Oct  3 12:30:43 10 kernel: loop2 - 2
+Oct  3 12:30:43 10 kernel: loop2 - 3
+Oct  3 12:30:43 10 kernel: No space on device 9/0
+Oct  3 12:30:43 10 kernel: No space on device 9/0
+Oct  3 12:34:19 10 syslogd: exiting on signal 15
+Oct  3 12:49:52 10 syslogd: restart
+Oct  3 12:49:52 10 kernel: 
+Oct  3 12:49:52 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 12:49:52 10 kernel: Executing in 32-bit protected mode.
+Oct  3 12:49:52 10 kernel: 
+Oct  3 12:49:52 10 kernel:                                                                                                                                              
+Oct  3 12:49:52 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 12:49:52 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 12:49:52 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 12:49:52 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 12:49:52 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 12:49:52 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 12:49:52 10 kernel: Replacing root
+Oct  3 12:54:30 10 syslogd: exiting on signal 15
+Oct  3 12:54:34 10 syslogd: restart
+Oct  3 12:54:34 10 kernel: 
+Oct  3 12:54:34 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct  3 12:54:34 10 kernel: Executing in 32-bit protected mode.
+Oct  3 12:54:34 10 kernel: 
+Oct  3 12:54:34 10 kernel:                                                                                                                                              
+Oct  3 12:54:34 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct  3 12:54:34 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct  3 12:54:34 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct  3 12:54:34 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct  3 12:54:34 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct  3 12:54:34 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct  3 12:54:34 10 kernel: Replacing root

@@ -352,10 +352,8 @@ PUBLIC void priority_dmp()
 {
 /* Proc table dump */
 
-  register struct proc *rp;
-  static struct proc *oldrp = BEG_PROC_ADDR;
+  struct proc;
   int r, n, i, j = 0;
-  struct proc *processes[23];
   phys_clicks text, data, size;
 
   /* First obtain a fresh copy of the current process table. */
@@ -364,16 +362,43 @@ PUBLIC void priority_dmp()
       return;
   }
 
-  printf("\n-nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-\n");
+  for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
+    proc[104] = proc[i];
+    if(!isemptyp(&proc[104])){
+      for(j = i-1; j >= 0; j--){
+        if((&proc[j])->p_priority > (&proc[104])->p_priority){
+            proc[j+1] = proc[j];
+        }
+        else{
+          proc[j+1] = proc[104];
+          break;
+        }
 
+      }
+
+    }
+  }
+
+  for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
+    if(!isemptyp(&proc[i])){
+      printf("Name: %s  Prioridade: %d \n", (&proc[i])->p_name, (&proc[i])->p_priority);
+    }
+  }
+
+  /*printf("\n-nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-\n");*/
+  /*
   for (i = 0; i < END_PROC_ADDR - BEG_PROC_ADDR; ++i){
     proc[i] = NULL;
   }
-
-  for (i=0, rp = oldrp; rp < END_PROC_ADDR; rp++, ++i) {
+  */
+  /*for (i=0, rp = oldrp; rp < END_PROC_ADDR; rp++) {
+    printf("loop1 - %d\n", i);
     if(!isemptyp(rp) && (rp->p_priority > processes[i]->p_priority || i < 23)){
+      printf("oi\n");
+      if(i < 23) i++;
       processes[i] = rp;
       for(j=i-1; j>0 ; j++){
+        printf("loop2 - %d\n", j);
         if(processes[j+1]->p_priority < processes[j]->p_priority){
           processes[j+1] = processes[j];
           processes[j] = rp;
@@ -384,13 +409,14 @@ PUBLIC void priority_dmp()
   }
 
   for (rp = oldrp; rp < END_PROC_ADDR; rp++) {
+    printf("loop3\n");
     if (isemptyp(rp)) continue;
     if (++n > 23) break;
     printf("Name: %s  Prioridade: %d ", rp->p_name, rp->p_priority);
     
-  }
+  }*/
 
-  for (rp = oldrp; rp < END_PROC_ADDR; rp++) {
+  /*for (rp = oldrp; rp < END_PROC_ADDR; rp++) {
     if (isemptyp(rp)) continue;
     if (++n > 23) break;
     text = rp->p_memmap[T].mem_phys;
@@ -419,7 +445,7 @@ PUBLIC void priority_dmp()
     printf("\n");
   }
   if (rp == END_PROC_ADDR) rp = BEG_PROC_ADDR; else printf("--more--\r");
-  oldrp = rp;
+  oldrp = rp;*/
 }
 
 /*===========================================================================*
