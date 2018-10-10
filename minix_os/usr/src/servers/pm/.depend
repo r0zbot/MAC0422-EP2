@@ -197,9 +197,11 @@ main.o:	type.h
 
 misc.o:	../../kernel/config.h
 misc.o:	../../kernel/const.h
-misc.o:	../../kernel/priv.h
-misc.o:	../../kernel/proc.h
-misc.o:	../../kernel/protect.h
+misc.o:	../../kernel/debug.h
+misc.o:	../../kernel/glo.h
+misc.o:	../../kernel/ipc.h
+misc.o:	../../kernel/kernel.h
+misc.o:	../../kernel/proto.h
 misc.o:	../../kernel/type.h
 misc.o:	/usr/include/ansi.h
 misc.o:	/usr/include/errno.h
@@ -207,6 +209,7 @@ misc.o:	/usr/include/fcntl.h
 misc.o:	/usr/include/ibm/bios.h
 misc.o:	/usr/include/ibm/cpu.h
 misc.o:	/usr/include/ibm/interrupt.h
+misc.o:	/usr/include/ibm/portio.h
 misc.o:	/usr/include/ibm/ports.h
 misc.o:	/usr/include/lib.h
 misc.o:	/usr/include/limits.h

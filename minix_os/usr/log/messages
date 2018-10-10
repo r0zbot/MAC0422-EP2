@@ -114,3 +114,17 @@ Oct 10 04:48:57 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
 Oct 10 04:48:57 10 kernel: AT-D0: Ultra DMA mode selected: 2
 Oct 10 04:48:57 10 kernel: Replacing root
 Oct 10 04:50:50 10 syslogd: exiting on signal 15
+Oct 10 04:57:10 10 syslogd: restart
+Oct 10 04:57:10 10 kernel: 
+Oct 10 04:57:10 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 10 04:57:10 10 kernel: Executing in 32-bit protected mode.
+Oct 10 04:57:10 10 kernel: 
+Oct 10 04:57:10 10 kernel:                                                                                                                                              
+Oct 10 04:57:10 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 10 04:57:10 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct 10 04:57:10 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 10 04:57:10 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 10 04:57:10 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 10 04:57:10 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 10 04:57:10 10 kernel: Replacing root
+Oct 10 04:58:45 10 syslogd: exiting on signal 15

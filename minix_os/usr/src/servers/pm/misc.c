@@ -23,6 +23,7 @@
 #include <lib.h>
 #include "mproc.h"
 #include "param.h"
+#include <stdio.h>
 #include "../../kernel/proc.h"
 
 /*===========================================================================*
@@ -225,6 +226,7 @@ PUBLIC int do_reboot()
  *===========================================================================*/
 PUBLIC int do_chpriority()
 {
+  printf("BATATATTTTTTTTTTTTTTAAAAAAAAAAAAAAA\n");
   return 1234;
 }
 /* ######################################################################### */
