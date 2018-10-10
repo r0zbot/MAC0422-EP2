@@ -226,8 +226,8 @@ PUBLIC int do_reboot()
  *===========================================================================*/
 PUBLIC int do_chpriority()
 {
-  printf("BATATATTTTTTTTTTTTTTAAAAAAAAAAAAAAA\n");
-  return(EINVAL); 
+  printf("FUNCIONOU!!!!\n");
+  return 1234; 
 }
 /* ######################################################################### */
 
