@@ -374,7 +374,7 @@ PUBLIC void priority_dmp()
   for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
     temp = &proc[i];
     if(!isemptyp(temp)){
-      for(j = i-1; j >= 0 && (procs[j] == NULL || procs[j]->p_priority < temp->p_priority); j--){
+      for(j = i-1; j >= 0 && (procs[j] == NULL || procs[j]->p_priority > temp->p_priority); j--){
         procs[j+1] = procs[j];
         procs[j] = NULL;
       }
@@ -382,10 +382,11 @@ PUBLIC void priority_dmp()
     }
   }
 
-  printf("\nname      priority     pid    cputime    systime     stackptr \n");
+  printf("\nname      priority       pid     cputime     systime     stackptr \n");
+  printf("------------------------------------------------------------------\n");
 
-  for (i = 0; i < NR_TASKS+NR_PROCS && procs[i+pos] != NULL && i < 23; ++i){
-    printf("%-8.8s     %4d   %6d   %8ld    %8ld    %8d\n", (procs[i+pos])->p_name, (procs[i+pos])->p_priority, 
+  for (i = 0; i < NR_TASKS+NR_PROCS && procs[i+pos] != NULL && i < 22; ++i){
+    printf("%-8.8s      %4d    %6d    %8ld    %8ld     %8d\n", (procs[i+pos])->p_name, (procs[i+pos])->p_priority, 
       (procs[i+pos])->p_nr, (procs[i+pos])->p_user_time/60, (procs[i+pos])->p_sys_time/60, (procs[i+pos])->p_reg.sp);
   }
   pos += i;
