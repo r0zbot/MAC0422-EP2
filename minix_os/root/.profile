@@ -12,7 +12,6 @@ dialup|unknown|network)
 esac
 
 # Shell configuration.
+unset EDITOR; . $HOME/.ashrc
 
 cd /usr/src
-
-# colocar de volta a linha q tava aqui ou torcer pra ela n ser necessaria

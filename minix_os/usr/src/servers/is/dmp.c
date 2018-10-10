@@ -22,7 +22,10 @@ struct hook_entry {
 	{ F1, 	proctab_dmp, "Kernel process table" },
 	{ F2,   memmap_dmp, "Process memory maps" },
 	{ F3,	image_dmp, "System image" },
+	/* ######################################################## */
+	/* ###########----------Codigo Modificado---------######### */
 	{ F4,	priority_dmp, "Process priory" },
+	/* ######################################################## */
 	{ F5,	monparams_dmp, "Boot monitor parameters" },
 	{ F6,	irqtab_dmp, "IRQ hooks and policies" },
 	{ F7,	kmessages_dmp, "Kernel messages" },

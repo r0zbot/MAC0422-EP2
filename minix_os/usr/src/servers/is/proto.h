@@ -11,7 +11,10 @@ _PROTOTYPE( void mapping_dmp, (void)	 				);
 _PROTOTYPE( void proctab_dmp, (void)					);
 _PROTOTYPE( void memmap_dmp, (void)					);
 _PROTOTYPE( void privileges_dmp, (void)					);
+/* ######################################################## */
+/* ###########----------Codigo Adicionado---------######### */
 _PROTOTYPE( void priority_dmp, (void)					);
+/* ######################################################## */
 _PROTOTYPE( void sendmask_dmp, (void)					);
 _PROTOTYPE( void image_dmp, (void)					);
 _PROTOTYPE( void irqtab_dmp, (void)					);
