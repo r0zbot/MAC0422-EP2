@@ -1,5 +1,5 @@
-#include <resource.h>
 #include <sys/resource.h>
+#include <stdio.h>
 
 int main(int argc, char const *argv[])
 {

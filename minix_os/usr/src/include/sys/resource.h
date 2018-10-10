@@ -18,4 +18,6 @@
 int getpriority(int, int);
 int setpriority(int, int, int);
 
+int chpriority(int, int);
+
 #endif

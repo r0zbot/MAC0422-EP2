@@ -112,9 +112,9 @@ PUBLIC _PROTOTYPE (int (*call_vec[]), (void) ) = {
 	no_sys,		/* 92 = setegid */
 	do_truncate,	/* 93 = truncate */
 	do_ftruncate,	/* 94 = truncate */
-	/* ######################################################## */
+/* ######################################################## */
 /* ###########----------Codigo Adicionado---------######### */
-	do_chpriority,	/* 95 = chpriority */
+	no_sys,	/* 95 = chpriority */
 /* ######################################################## */
 };
 /* This should not fail with "array size is negative": */
