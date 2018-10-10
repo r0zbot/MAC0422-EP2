@@ -44,3 +44,15 @@ int setpriority(int which, int who, int prio)
 	return _syscall(MM, SETPRIORITY, &m);
 }
 
+/* ######################################################## */
+/* ###########----------Codigo Adicionado---------######### */
+int chpriority(int pid, int priority)
+{
+	message m;
+
+	m.m1_i1 = pid;
+	m.m1_i2 = priority;
+
+	return _syscall(MM, CHPRIORITY, &m);
+}
+/* ######################################################## */
