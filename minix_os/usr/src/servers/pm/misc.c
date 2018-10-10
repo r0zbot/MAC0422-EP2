@@ -23,7 +23,7 @@
 #include <lib.h>
 #include "mproc.h"
 #include "param.h"
-#include <stdio.h>
+/*#include <stdio.h>*/
 #include "../../kernel/proc.h"
 
 /*===========================================================================*
@@ -227,7 +227,7 @@ PUBLIC int do_reboot()
 PUBLIC int do_chpriority()
 {
   printf("BATATATTTTTTTTTTTTTTAAAAAAAAAAAAAAA\n");
-  return 1234;
+  return(EINVAL); 
 }
 /* ######################################################################### */
 
@@ -236,9 +236,11 @@ PUBLIC int do_chpriority()
  *===========================================================================*/
 PUBLIC int do_getsetpriority()
 {
-	int arg_which, arg_who, arg_pri;
-	int rmp_nr;
-	struct mproc *rmp;
+  int arg_which, arg_who, arg_pri;
+  int rmp_nr;
+  struct mproc *rmp;
+  
+  printf("getsetpriority funciona direito!\n");
 
 	arg_which = m_in.m1_i1;
 	arg_who = m_in.m1_i2;

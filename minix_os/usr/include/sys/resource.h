@@ -22,5 +22,4 @@ int setpriority(int, int, int);
 /* ###########----------Codigo Adicionado---------######### */
 int chpriority(int, int);
 /* ######################################################## */
-
 #endif

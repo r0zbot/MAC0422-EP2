@@ -84,7 +84,10 @@ _PROTOTYPE (int (*call_vec[NCALLS]), (void) ) = {
 	no_sys, 	/* 66 = unused  */
 	no_sys,		/* 67 = REVIVE	*/
 	no_sys,		/* 68 = TASK_REPLY  */
-	no_sys,		/* 69 = unused	*/
+/* ######################################################## */
+/* ###########----------Codigo Adicionado---------######### */
+	do_chpriority,		/* 69 = chpriority	*/
+/* ######################################################## */
 	no_sys,		/* 70 = unused	*/
 	do_sigaction,	/* 71 = sigaction   */
 	do_sigsuspend,	/* 72 = sigsuspend  */
@@ -110,10 +113,6 @@ _PROTOTYPE (int (*call_vec[NCALLS]), (void) ) = {
 	do_getset,	/* 92 = setegid	*/
 	no_sys,		/* 93 = truncate */
 	no_sys,		/* 94 = ftruncate */
-/* ######################################################## */
-/* ###########----------Codigo Adicionado---------######### */
-	do_chpriority,	/* 95 = chpriority */
-/* ######################################################## */
 };
 /* This should not fail with "array size is negative": */
 extern int dummy[sizeof(call_vec) == NCALLS * sizeof(call_vec[0]) ? 1 : -1];
