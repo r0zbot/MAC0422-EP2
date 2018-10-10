@@ -382,12 +382,11 @@ PUBLIC void priority_dmp()
     }
   }
 
-  printf("\nname     priority     pid    cputime    systime     stackptr \n");
+  printf("\nname      priority     pid    cputime    systime     stackptr \n");
 
   for (i = 0; i < NR_TASKS+NR_PROCS && procs[i+pos] != NULL && i < 23; ++i){
-    printf("%-7.7s  %2d  %4d  %6ld  %6ld  %6d\n", (procs[i+pos])->p_name, (procs[i+pos])->p_priority, 
-      (procs[i+pos])->p_nr, (procs[i+pos])->p_user_time/60, (procs[i+pos])->p_sys_time/60, (procs[i+pos])->p_reg->sp);
-    usleep(80000);
+    printf("%-8.8s     %4d   %6d   %8ld    %8ld    %8d\n", (procs[i+pos])->p_name, (procs[i+pos])->p_priority, 
+      (procs[i+pos])->p_nr, (procs[i+pos])->p_user_time/60, (procs[i+pos])->p_sys_time/60, (procs[i+pos])->p_reg.sp);
   }
   pos += i;
   if (pos == NR_TASKS+NR_PROCS || procs[pos] == NULL){
