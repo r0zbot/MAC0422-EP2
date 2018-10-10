@@ -357,6 +357,7 @@ PUBLIC void priority_dmp()
   phys_clicks text, data, size;
   struct proc *procs[NR_TASKS+NR_PROCS];
   struct proc *temp;
+  static int pos = 0;
 
   /* First obtain a fresh copy of the current process table. */
   if ((r = sys_getproctab(proc)) != OK) {
@@ -381,11 +382,19 @@ PUBLIC void priority_dmp()
     }
   }
 
-  for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
-    if(procs[i] != NULL && !isemptyp(procs[i])){
-      printf("Name: %s  Prioridade: %d  \n", (procs[i])->p_name, (procs[i])->p_priority);
-      usleep(80000);
-    }
+  printf("\nname     priority     pid    cputime    systime     stackptr \n");
+
+  for (i = 0; i < NR_TASKS+NR_PROCS && procs[i+pos] != NULL && i < 23; ++i){
+    printf("%-7.7s  %2d  %4d  %6ld  %6ld  %6d\n", (procs[i+pos])->p_name, (procs[i+pos])->p_priority, 
+      (procs[i+pos])->p_nr, (procs[i+pos])->p_user_time/60, (procs[i+pos])->p_sys_time/60, (procs[i+pos])->p_reg->sp);
+    usleep(80000);
+  }
+  pos += i;
+  if (pos == NR_TASKS+NR_PROCS || procs[pos] == NULL){
+    pos = 0; 
+  }
+  else {
+    printf("--more--\r");
   }
 
   /*printf("\n-nr-----gen---endpoint--name--- -prior-quant- -user---sys----size-rts flags-\n");*/
