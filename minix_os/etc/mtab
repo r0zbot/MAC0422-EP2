@@ -2,3 +2,4 @@
 /dev/c0d0p0s2 /usr 3 rw
 /dev/c0d0p0s1 /home 3 rw
 /dev/rescue /boot/rescue 3 rw
+/dev/c0d2p2 /mnt 3 ro
