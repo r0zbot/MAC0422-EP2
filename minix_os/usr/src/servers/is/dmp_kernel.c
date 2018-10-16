@@ -370,9 +370,10 @@ PUBLIC void priority_dmp()
     procs[i] = NULL;
   }
 
-
+  /*printf("NR_TASKS: %d    NR_PROCS: %d", NR_TASKS, NR_PROCS);*/
   for (i = 0; i < NR_TASKS+NR_PROCS; ++i){
     temp = &proc[i];
+    /*printf("i: %d   isemptyp: %d  nr: %d  pid?:%d  name: %s  priority: %d\n", i, isemptyp(temp), temp->p_nr, getpidfromnr(temp->p_nr),temp->p_name, temp->p_priority);*/
     if(!isemptyp(temp)){
       for(j = i-1; j >= 0 && (procs[j] == NULL || procs[j]->p_priority > temp->p_priority); j--){
         procs[j+1] = procs[j];
@@ -387,7 +388,7 @@ PUBLIC void priority_dmp()
 
   for (i = 0; i < NR_TASKS+NR_PROCS && procs[i+pos] != NULL && i < 22; ++i){
     printf("%-8.8s      %4d    %6d    %8ld    %8ld     %8d\n", (procs[i+pos])->p_name, (procs[i+pos])->p_priority, 
-      (procs[i+pos])->p_nr, (procs[i+pos])->p_user_time/60, (procs[i+pos])->p_sys_time/60, (procs[i+pos])->p_reg.sp);
+      getpidfromnr((procs[i+pos])->p_nr), (procs[i+pos])->p_user_time/60, (procs[i+pos])->p_sys_time/60, (procs[i+pos])->p_reg.sp);
   }
   pos += i;
   if (pos == NR_TASKS+NR_PROCS || procs[pos] == NULL){

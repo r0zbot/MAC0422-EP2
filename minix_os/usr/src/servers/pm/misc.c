@@ -226,7 +226,42 @@ PUBLIC int do_reboot()
  *===========================================================================*/
 PUBLIC int do_chpriority()
 {
-  printf("FUNCIONOU!!!!\n");
+  int pidi;
+  int i;
+  int mode;
+  int priority;
+  int r;
+  struct proc *pr;
+  struct mproc *rmp;
+  struct proc proc[NR_TASKS + NR_PROCS];
+  mode = m_in.m1_i3;
+  priority = m_in.m1_i2;
+  pidi = m_in.m1_i1;
+
+ /* First obtain a fresh copy of the current process table. */
+  if ((r = sys_getproctab(proc)) != OK) {
+      report("IS","warning: couldn't get copy of process table", r);
+      return;
+  }
+
+  pr = &proc[proc_from_pid(pidi)];
+  /*Mode 1 = return pid from nr*/
+  if(mode == 1){
+    return mproc[pidi].mp_pid;
+  }
+  /*Mode 0 = change priority*/
+  else{
+    /*for (i = 0; i < NR_PROCS && i<40; ++i){
+      rmp = &mproc[i];
+      printf("i: %d   PID: %d  name: %s  \n", i , rmp->mp_pid, rmp->mp_name );
+    }*/
+
+    if(priority > pr->p_max_priority){
+      
+    }
+
+    printf("Process: %s  Priority: %d  Max Priority: %d\n", pr->p_name, pr->p_priority, pr->p_max_priority);
+  }
   return 1234; 
 }
 /* ######################################################################### */
@@ -240,8 +275,6 @@ PUBLIC int do_getsetpriority()
   int rmp_nr;
   struct mproc *rmp;
   
-  printf("getsetpriority funciona direito!\n");
-
 	arg_which = m_in.m1_i1;
 	arg_who = m_in.m1_i2;
 	arg_pri = m_in.m1_i3;	/* for SETPRIORITY */

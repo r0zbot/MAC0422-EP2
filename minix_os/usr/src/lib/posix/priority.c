@@ -52,9 +52,21 @@ int chpriority(int pid, int priority)
 
 	m.m1_i1 = pid;
 	m.m1_i2 = priority;
-
-	printf("AAAAAAAAAAAAAAAAAAAAAA\n");
+	m.m1_i3 = 0;
 
 	return _syscall(MM, CHPRIORITY, &m);
 }
+
+int getpidfromnr(int nr)
+{
+	message m;
+
+	m.m1_i1 = nr;
+	m.m1_i3 = 1;
+		
+	if(nr < 0) return nr;
+
+	return _syscall(MM, CHPRIORITY, &m);
+}
+
 /* ######################################################## */
