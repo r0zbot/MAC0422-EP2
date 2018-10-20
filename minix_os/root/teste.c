@@ -30,7 +30,6 @@ int main(int argc, char const *argv[])
 		printf("chpriority retornou %d\n", chpriority(filho, 14));
 		sleep(100);
 	}
-	printf("errno %d\n", errno);
 	return 0;
 }
 /* ######################################################## */
