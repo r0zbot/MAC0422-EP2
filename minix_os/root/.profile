@@ -13,5 +13,3 @@ esac
 
 # Shell configuration.
 unset EDITOR; . $HOME/.ashrc
-
-cd /usr/src
