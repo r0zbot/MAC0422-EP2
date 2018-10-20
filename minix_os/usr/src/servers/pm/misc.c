@@ -25,6 +25,8 @@
 #include "param.h"
 /*#include <stdio.h>*/
 #include "../../kernel/proc.h"
+#include <stddef.h>
+#include <unistd.h>
 
 /*===========================================================================*
  *				do_allocmem				     *
@@ -233,18 +235,13 @@ PUBLIC int do_chpriority()
   int r;
   struct proc *pr;
   struct mproc *rmp;
-  struct proc proc[NR_TASKS + NR_PROCS];
+  static struct proc proctab[NR_PROCS+NR_TASKS];
   mode = m_in.m1_i3;
   priority = m_in.m1_i2;
   pidi = m_in.m1_i1;
 
- /* First obtain a fresh copy of the current process table. */
-  if ((r = sys_getproctab(proc)) != OK) {
-      report("IS","warning: couldn't get copy of process table", r);
-      return;
-  }
 
-  pr = &proc[proc_from_pid(pidi)];
+/*  pr = &proc[proc_from_pid(pidi)];*/
   /*Mode 1 = return pid from nr*/
   if(mode == 1){
     return mproc[pidi].mp_pid;
@@ -255,12 +252,26 @@ PUBLIC int do_chpriority()
       rmp = &mproc[i];
       printf("i: %d   PID: %d  name: %s  \n", i , rmp->mp_pid, rmp->mp_name );
     }*/
-
-    if(priority > pr->p_max_priority){
-      
+    if((r=sys_getproctab(proctab)) != OK){
+      return r;
     }
+    pr = NULL;
+    for (i = 0; i < NR_PROCS; ++i){
+      if(mproc[i].mp_pid == pidi) {
+        pr = &proctab[i+NR_TASKS];
+        rmp = &mproc[i];
+        break;
+      }
+    }
+    printf("Process: %s  nr: %d  pid: %d  Priority: %d   Priority passado: %d  Max Priority: %d  Parent id: %d  who_name: %s who_nr: %d\n", pr->p_name, pr->p_nr, pidi, pr->p_priority, priority, pr->p_max_priority, rmp->mp_parent, mproc[who_p].mp_name, who_p);
+    if(pr == NULL || rmp->mp_parent != who_p){
+      return -2;
+    }
+    if(priority < pr->p_max_priority){
+      return -1;
+    }
+    return sys_priority(pr->p_nr, priority);
 
-    printf("Process: %s  Priority: %d  Max Priority: %d\n", pr->p_name, pr->p_priority, pr->p_max_priority);
   }
   return 1234; 
 }

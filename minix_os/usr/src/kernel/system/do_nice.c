@@ -12,6 +12,8 @@
 
 #if USE_NICE
 
+/* ######################################################################### */
+/* ##################----------Codigo Modificado---------################### */
 /*===========================================================================*
  *				  do_nice				     *
  *===========================================================================*/
@@ -27,35 +29,43 @@ PUBLIC int do_nice(message *m_ptr)
   pri = m_ptr->PR_PRIORITY;
   rp = proc_addr(proc_nr);
 
-  if (pri == PRIO_STOP) {
-
-      /* Take process off the scheduling queues. */
-      lock_dequeue(rp);
-      rp->p_rts_flags |= NO_PRIORITY;
-      return(OK);
+  if(m_ptr->m1_i3){
+    lock_dequeue(rp);
+    rp->p_priority = pri;
+    lock_enqueue(rp);
+    return(OK);
   }
-  else if (pri >= PRIO_MIN && pri <= PRIO_MAX) {
+  else{
+    if (pri == PRIO_STOP) {
 
-      /* The value passed in is currently between PRIO_MIN and PRIO_MAX. 
-       * We have to scale this between MIN_USER_Q and MAX_USER_Q to match 
-       * the kernel's scheduling queues.
-       */
-      new_q = MAX_USER_Q + (pri-PRIO_MIN) * (MIN_USER_Q-MAX_USER_Q+1) / 
-          (PRIO_MAX-PRIO_MIN+1);
-      if (new_q < MAX_USER_Q) new_q = MAX_USER_Q;	/* shouldn't happen */
-      if (new_q > MIN_USER_Q) new_q = MIN_USER_Q;	/* shouldn't happen */
+        /* Take process off the scheduling queues. */
+        lock_dequeue(rp);
+        rp->p_rts_flags |= NO_PRIORITY;
+        return(OK);
+    }
+    else if (pri >= PRIO_MIN && pri <= PRIO_MAX) {
 
-      /* Make sure the process is not running while changing its priority. 
-       * Put the process back in its new queue if it is runnable.
-       */
-      lock_dequeue(rp);
-      rp->p_max_priority = rp->p_priority = new_q;
-      if (! rp->p_rts_flags) lock_enqueue(rp);
+        /* The value passed in is currently between PRIO_MIN and PRIO_MAX. 
+         * We have to scale this between MIN_USER_Q and MAX_USER_Q to match 
+         * the kernel's scheduling queues.
+         */
+        new_q = MAX_USER_Q + (pri-PRIO_MIN) * (MIN_USER_Q-MAX_USER_Q+1) / 
+            (PRIO_MAX-PRIO_MIN+1);
+        if (new_q < MAX_USER_Q) new_q = MAX_USER_Q; /* shouldn't happen */
+        if (new_q > MIN_USER_Q) new_q = MIN_USER_Q; /* shouldn't happen */
 
-      return(OK);
+        /* Make sure the process is not running while changing its priority. 
+         * Put the process back in its new queue if it is runnable.
+         */
+        lock_dequeue(rp);
+        rp->p_max_priority = rp->p_priority = new_q;
+        if (! rp->p_rts_flags) lock_enqueue(rp);
+
+        return(OK);
+    }
   }
   return(EINVAL);
 }
-
+/* ######################################################################### */
 #endif /* USE_NICE */
 

@@ -10057,3 +10057,1894 @@ Oct 16 18:46:10 10 kernel: init            14        -1           4           0 
 Oct 16 18:46:10 10 kernel: update          14        -1           0           3        12076
 Oct 16 18:46:10 10 kernel: cron            14        -1           3           0        40688
 Oct 16 18:46:10 10 kernel: idle            15        -4           3           0        36980
+Oct 17 13:40:41 10 syslogd: restart
+Oct 17 13:40:41 10 kernel: 
+Oct 17 13:40:41 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:40:41 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:40:41 10 kernel: 
+Oct 17 13:40:41 10 kernel:                                                                                                                                              
+Oct 17 13:40:41 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:40:41 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct 17 13:40:41 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:40:41 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:40:41 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:40:41 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:40:41 10 kernel: Replacing root
+Oct 17 13:41:02 10 syslogd: exiting on signal 15
+Oct 17 13:41:36 10 syslogd: restart
+Oct 17 13:41:36 10 kernel: 
+Oct 17 13:41:36 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:41:36 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:41:36 10 kernel: 
+Oct 17 13:41:36 10 kernel:                                                                                                                                              
+Oct 17 13:41:36 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:41:36 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct 17 13:41:36 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:41:36 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:41:36 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:41:36 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:41:36 10 kernel: Replacing root
+Oct 17 13:42:23 10 syslogd: exiting on signal 15
+Oct 17 13:43:46 10 syslogd: restart
+Oct 17 13:43:46 10 kernel: 
+Oct 17 13:43:46 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:43:46 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:43:46 10 kernel: 
+Oct 17 13:43:46 10 kernel:                                                                                                                                              
+Oct 17 13:43:46 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:43:46 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct 17 13:43:46 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:43:46 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:43:46 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:43:46 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:43:46 10 kernel: Replacing root
+Oct 17 13:43:58 10 syslogd: exiting on signal 15
+Oct 17 13:44:02 10 syslogd: restart
+Oct 17 13:44:02 10 kernel: 
+Oct 17 13:44:02 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:44:02 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:44:02 10 kernel: 
+Oct 17 13:44:02 10 kernel:                                                                                                                                              
+Oct 17 13:44:02 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:44:02 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct 17 13:44:02 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:44:02 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:44:02 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:44:02 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:44:02 10 kernel: Replacing root
+Oct 17 13:44:06 10 kernel: 
+Oct 17 13:44:06 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 13:44:06 10 kernel: ------------------------------------------------------------------
+Oct 17 13:44:06 10 kernel: clock            0        -3           0           0        37436
+Oct 17 13:44:06 10 kernel: system           0        -2           0           0        37964
+Oct 17 13:44:06 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 13:44:06 10 kernel: tty              1         7           0           0        57232
+Oct 17 13:44:06 10 kernel: mem              2         8           0           0       302984
+Oct 17 13:44:06 10 kernel: log              2         9           0           0        69500
+Oct 17 13:44:06 10 kernel: pm               3         0           0           0        98224
+Oct 17 13:44:06 10 kernel: rs               3         5           0           0        40832
+Oct 17 13:44:06 10 kernel: ds               3         6           0           0        20372
+Oct 17 13:44:06 10 kernel: pci              3        12           0           0        24456
+Oct 17 13:44:06 10 kernel: floppy           3        14           0           0        12148
+Oct 17 13:44:06 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 13:44:06 10 kernel: is               3        24           0           0       261484
+Oct 17 13:44:06 10 kernel: cmos             3        26           0           0         8064
+Oct 17 13:44:06 10 kernel: random           3        40           0           0        28532
+Oct 17 13:44:06 10 kernel: inet             3        50           0           0       802668
+Oct 17 13:44:06 10 kernel: printer          3        53           0           0       135040
+Oct 17 13:44:06 10 kernel: rescue           3        74           0           0         8048
+Oct 17 13:44:06 10 kernel: fs               4         4           0           0      5029828
+Oct 17 13:44:06 10 kernel: init             7         1           0           0         7948
+Oct 17 13:44:06 10 kernel: sh               7        79           0           0       118324
+Oct 17 13:44:06 10 kernel: getty            7        80           0           0        19888
+Oct 17 13:44:06 10 kernel: --more--
+Oct 17 13:44:08 10 kernel: 
+Oct 17 13:44:08 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 13:44:08 10 kernel: ------------------------------------------------------------------
+Oct 17 13:44:08 10 kernel: getty            7        81           0           0        19888
+Oct 17 13:44:08 10 kernel: getty            7        82           0           0        19888
+Oct 17 13:44:08 10 kernel: update          10        56           0           0        12016
+Oct 17 13:44:08 10 kernel: cron            10        58           0           0        40700
+Oct 17 13:44:08 10 kernel: nonamed         10        65           0           0        44684
+Oct 17 13:44:08 10 kernel: syslogd         10        67           0           0        48332
+Oct 17 13:44:08 10 kernel: idle            15        -4           6           0        36980
+Oct 17 13:44:31 10 syslogd: exiting on signal 15
+Oct 17 13:46:25 10 syslogd: restart
+Oct 17 13:46:25 10 kernel: 
+Oct 17 13:46:25 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:46:25 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:46:25 10 kernel: 
+Oct 17 13:46:25 10 kernel:                                                                                                                                              
+Oct 17 13:46:25 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:46:25 10 kernel: Physical memory: total 261440 KB, system 5700 KB, free 255740 KB.
+Oct 17 13:46:25 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:46:25 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:46:25 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:46:25 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:46:25 10 kernel: Replacing root
+Oct 17 13:46:33 10 syslogd: exiting on signal 15
+Oct 17 13:46:36 10 syslogd: restart
+Oct 17 13:46:36 10 kernel: 
+Oct 17 13:46:36 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:46:36 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:46:36 10 kernel: 
+Oct 17 13:46:36 10 kernel:                                                                                                                                              
+Oct 17 13:46:36 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:46:36 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 13:46:36 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:46:36 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:46:36 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:46:36 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:46:36 10 kernel: Replacing root
+Oct 17 13:46:43 10 syslogd: exiting on signal 15
+Oct 17 13:53:16 10 syslogd: restart
+Oct 17 13:53:16 10 kernel: 
+Oct 17 13:53:16 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:53:16 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:53:16 10 kernel: 
+Oct 17 13:53:16 10 kernel:                                                                                                                                              
+Oct 17 13:53:16 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:53:16 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 13:53:16 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:53:16 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:53:16 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:53:16 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:53:16 10 kernel: Replacing root
+Oct 17 13:53:37 10 syslogd: exiting on signal 15
+Oct 17 13:56:14 10 syslogd: restart
+Oct 17 13:56:14 10 kernel: 
+Oct 17 13:56:14 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:56:14 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:56:14 10 kernel: 
+Oct 17 13:56:14 10 kernel:                                                                                                                                              
+Oct 17 13:56:14 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:56:14 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 13:56:14 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:56:14 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:56:14 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:56:14 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:56:14 10 kernel: Replacing root
+Oct 17 13:57:22 10 syslogd: exiting on signal 15
+Oct 17 13:58:48 10 syslogd: restart
+Oct 17 13:58:48 10 kernel: 
+Oct 17 13:58:48 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:58:48 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:58:48 10 kernel: 
+Oct 17 13:58:48 10 kernel:                                                                                                                                              
+Oct 17 13:58:48 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:58:48 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 13:58:48 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:58:48 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:58:48 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:58:48 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:58:48 10 kernel: Replacing root
+Oct 17 13:59:01 10 syslogd: exiting on signal 15
+Oct 17 13:59:05 10 syslogd: restart
+Oct 17 13:59:05 10 kernel: 
+Oct 17 13:59:05 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 13:59:05 10 kernel: Executing in 32-bit protected mode.
+Oct 17 13:59:05 10 kernel: 
+Oct 17 13:59:05 10 kernel:                                                                                                                                              
+Oct 17 13:59:05 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 13:59:05 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 13:59:05 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 13:59:05 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 13:59:05 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 13:59:05 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 13:59:05 10 kernel: Replacing root
+Oct 17 14:00:06 10 syslogd: exiting on signal 15
+Oct 17 14:01:30 10 syslogd: restart
+Oct 17 14:01:30 10 kernel: 
+Oct 17 14:01:30 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:01:30 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:01:30 10 kernel: 
+Oct 17 14:01:30 10 kernel:                                                                                                                                              
+Oct 17 14:01:30 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:01:30 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:01:30 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:01:30 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:01:30 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:01:30 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:01:30 10 kernel: Replacing root
+Oct 17 14:01:39 10 syslogd: exiting on signal 15
+Oct 17 14:01:42 10 syslogd: restart
+Oct 17 14:01:42 10 kernel: 
+Oct 17 14:01:42 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:01:42 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:01:42 10 kernel: 
+Oct 17 14:01:42 10 kernel:                                                                                                                                              
+Oct 17 14:01:42 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:01:42 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:01:42 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:01:42 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:01:42 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:01:42 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:01:42 10 kernel: Replacing root
+Oct 17 14:01:55 10 kernel: 4 Process: pm  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 5 Process: fs  Priority: 4  Max Priority: 4
+Oct 17 14:01:55 10 kernel: 6 Process: rs  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 7 Process: mem  Priority: 2  Max Priority: 2
+Oct 17 14:01:55 10 kernel: 8 Process: log  Priority: 2  Max Priority: 2
+Oct 17 14:01:55 10 kernel: 9 Process: tty  Priority: 1  Max Priority: 1
+Oct 17 14:01:55 10 kernel: 10 Process: ds  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 11 Process: init  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 12 Process: sh  Priority: 9  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 13 Process: service  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 14 Process: pci  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 15 Process: service  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 16 Process: floppy  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 17 Process: sysenv  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 18 Process: service  Priority: 8  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 19 Process: at_wini  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 20 Process: sysenv  Priority: 8  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 21 Process: dev2nam  Priority: 8  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 22 Process: sysenv  Priority: 8  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 23 Process: newroot  Priority: 9  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 24 Process: loadkey  Priority: 9  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 25 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 26 Process: is  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 27 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 28 Process: cmos  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 29 Process: readclo  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 30 Process: printro  Priority: 10  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 31 Process: sysenv  Priority: 10  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 32 Process: mount  Priority: 10  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 33 Process: rm  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 34 Process: shutdow  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 35 Process: mount  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 36 Process: touch  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 37 Process: printro  Priority: 12  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 38 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 39 Process: rm  Priority: 12  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 40 Process: sysenv  Priority: 12  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 41 Process: service  Priority: 13  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 42 Process: random  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 43 Process: cat  Priority: 13  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 44 Process: dd  Priority: 13  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 45 Process: grep  Priority: 13  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 46 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 47 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 48 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 49 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 50 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 51 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 52 Process: inet  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 53 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 54 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 55 Process: printer  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 56 Process: sh  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 57 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 58 Process: update  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 59 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 60 Process: cron  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 61 Process: rm  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 62 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 63 Process: syslogd  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 64 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 65 Process: ifconfi  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 66 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 67 Process: nonamed  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 68 Process: hostadd  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 69 Process: syslogd  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 70 Process: elvprsv  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 71 Process: sh  Priority: 12  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 72 Process: ls  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 73 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 74 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 75 Process: rescue  Priority: 3  Max Priority: 3
+Oct 17 14:01:55 10 kernel: 76 Process: mkfs  Priority: 10  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 77 Process: mount  Priority: 10  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 78 Process: cp  Priority: 10  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 79 Process: service  Priority: 10  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 80 Process: sh  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 81 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 82 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 83 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 84 Process: date  Priority: 12  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 85 Process: pwdauth  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 86 Process: stty  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 87 Process: tget  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 88 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:01:55 10 kernel: 89 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 90 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 91 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 92 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 93 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 94 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 95 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 96 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 97 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 98 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: 99 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:01:55 10 kernel: Process: update  Priority: 7  Max Priority: 7
+Oct 17 14:02:11 10 kernel: Dump of kernel environment strings set by boot monitor.
+Oct 17 14:02:11 10 kernel: 
+Oct 17 14:02:11 10 kernel: rootdev=896
+Oct 17 14:02:11 10 kernel: ramimagedev=896
+Oct 17 14:02:11 10 kernel: ramsize=0
+Oct 17 14:02:11 10 kernel: processor=686
+Oct 17 14:02:11 10 kernel: bus=at
+Oct 17 14:02:11 10 kernel: video=vga
+Oct 17 14:02:11 10 kernel: chrome=color
+Oct 17 14:02:11 10 kernel: memory=800:92970,100000:FF00000
+Oct 17 14:02:11 10 kernel: image=/boot/image_big
+Oct 17 14:02:11 10 kernel: 
+Oct 17 14:02:12 10 kernel: 
+Oct 17 14:02:12 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:02:12 10 kernel: ------------------------------------------------------------------
+Oct 17 14:02:12 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:02:12 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:02:12 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:02:12 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:02:12 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:02:12 10 kernel: log              2         9           0           0        69500
+Oct 17 14:02:12 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:02:12 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:02:12 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:02:12 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:02:12 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:02:12 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:02:12 10 kernel: is               3        24           0           0       261484
+Oct 17 14:02:12 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:02:12 10 kernel: random           3        40           0           0        28532
+Oct 17 14:02:12 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:02:12 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:02:12 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:02:12 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:02:12 10 kernel: init             7         1           0           0         7948
+Oct 17 14:02:12 10 kernel: update           7        56           0           0        12016
+Oct 17 14:02:12 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:02:12 10 kernel: --more--
+Oct 17 14:02:18 10 kernel: 4 Process: pm  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 5 Process: fs  Priority: 4  Max Priority: 4
+Oct 17 14:02:18 10 kernel: 6 Process: rs  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 7 Process: mem  Priority: 2  Max Priority: 2
+Oct 17 14:02:18 10 kernel: 8 Process: log  Priority: 2  Max Priority: 2
+Oct 17 14:02:18 10 kernel: 9 Process: tty  Priority: 1  Max Priority: 1
+Oct 17 14:02:18 10 kernel: 10 Process: ds  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 11 Process: init  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 12 Process: sh  Priority: 9  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 13 Process: service  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 14 Process: pci  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 15 Process: service  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 16 Process: floppy  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 17 Process: sysenv  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 18 Process: service  Priority: 8  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 19 Process: at_wini  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 20 Process: sysenv  Priority: 8  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 21 Process: dev2nam  Priority: 8  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 22 Process: sysenv  Priority: 8  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 23 Process: newroot  Priority: 9  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 24 Process: loadkey  Priority: 9  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 25 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 26 Process: is  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 27 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 28 Process: cmos  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 29 Process: readclo  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 30 Process: printro  Priority: 10  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 31 Process: sysenv  Priority: 10  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 32 Process: mount  Priority: 10  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 33 Process: rm  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 34 Process: shutdow  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 35 Process: mount  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 36 Process: touch  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 37 Process: printro  Priority: 12  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 38 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 39 Process: rm  Priority: 12  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 40 Process: sysenv  Priority: 12  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 41 Process: service  Priority: 13  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 42 Process: random  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 43 Process: cat  Priority: 13  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 44 Process: dd  Priority: 13  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 45 Process: grep  Priority: 13  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 46 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 47 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 48 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 49 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 50 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 51 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 52 Process: inet  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 53 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 54 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 55 Process: printer  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 56 Process: sh  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 57 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 58 Process: update  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 59 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 60 Process: cron  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 61 Process: rm  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 62 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 63 Process: syslogd  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 64 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 65 Process: ifconfi  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 66 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 67 Process: nonamed  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 68 Process: hostadd  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 69 Process: syslogd  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 70 Process: elvprsv  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 71 Process: sh  Priority: 12  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 72 Process: ls  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 73 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 74 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 75 Process: rescue  Priority: 3  Max Priority: 3
+Oct 17 14:02:18 10 kernel: 76 Process: mkfs  Priority: 10  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 77 Process: mount  Priority: 10  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 78 Process: cp  Priority: 10  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 79 Process: service  Priority: 10  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 80 Process: sh  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 81 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 82 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 83 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 84 Process: date  Priority: 12  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 85 Process: pwdauth  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 86 Process: stty  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 87 Process: tget  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 88 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 89 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:02:18 10 kernel: 90 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: 91 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: 92 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: 93 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: 94 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: 95 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: 96 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: 97 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: 98 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: 99 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:02:18 10 kernel: Process: update  Priority: 7  Max Priority: 7
+Oct 17 14:02:27 10 kernel: 
+Oct 17 14:02:27 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:02:27 10 kernel: ------------------------------------------------------------------
+Oct 17 14:02:27 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:02:27 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:02:27 10 kernel: sh               7        78           0           0       118324
+Oct 17 14:02:27 10 kernel: getty            7        79           0           0        19888
+Oct 17 14:02:27 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:02:27 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:02:27 10 kernel: idle            15        -4          45           0        36980
+Oct 17 14:02:34 10 kernel: 
+Oct 17 14:02:34 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:02:34 10 kernel: ------------------------------------------------------------------
+Oct 17 14:02:34 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:02:34 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:02:34 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:02:34 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:02:34 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:02:34 10 kernel: log              2         9           0           0        69500
+Oct 17 14:02:34 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:02:34 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:02:34 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:02:34 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:02:34 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:02:34 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:02:34 10 kernel: is               3        24           0           0       261484
+Oct 17 14:02:34 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:02:34 10 kernel: random           3        40           0           0        28532
+Oct 17 14:02:34 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:02:34 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:02:34 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:02:34 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:02:34 10 kernel: init             7         1           0           0         7948
+Oct 17 14:02:34 10 kernel: update           7        56           0           0        12016
+Oct 17 14:02:34 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:02:34 10 kernel: --more--
+Oct 17 14:03:02 10 kernel: 4 Process: pm  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 5 Process: fs  Priority: 4  Max Priority: 4
+Oct 17 14:03:02 10 kernel: 6 Process: rs  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 7 Process: mem  Priority: 2  Max Priority: 2
+Oct 17 14:03:02 10 kernel: 8 Process: log  Priority: 2  Max Priority: 2
+Oct 17 14:03:02 10 kernel: 9 Process: tty  Priority: 1  Max Priority: 1
+Oct 17 14:03:02 10 kernel: 10 Process: ds  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 11 Process: init  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 12 Process: sh  Priority: 9  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 13 Process: service  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 14 Process: pci  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 15 Process: service  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 16 Process: floppy  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 17 Process: sysenv  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 18 Process: service  Priority: 8  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 19 Process: at_wini  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 20 Process: sysenv  Priority: 8  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 21 Process: dev2nam  Priority: 8  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 22 Process: sysenv  Priority: 8  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 23 Process: newroot  Priority: 9  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 24 Process: loadkey  Priority: 9  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 25 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 26 Process: is  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 27 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 28 Process: cmos  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 29 Process: readclo  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 30 Process: printro  Priority: 10  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 31 Process: sysenv  Priority: 10  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 32 Process: mount  Priority: 10  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 33 Process: rm  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 34 Process: shutdow  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 35 Process: mount  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 36 Process: touch  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 37 Process: printro  Priority: 12  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 38 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 39 Process: rm  Priority: 12  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 40 Process: sysenv  Priority: 12  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 41 Process: service  Priority: 13  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 42 Process: random  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 43 Process: cat  Priority: 13  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 44 Process: dd  Priority: 13  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 45 Process: grep  Priority: 13  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 46 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 47 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 48 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 49 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 50 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 51 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 52 Process: inet  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 53 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 54 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 55 Process: printer  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 56 Process: sh  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 57 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 58 Process: update  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 59 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 60 Process: cron  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 61 Process: rm  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 62 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 63 Process: syslogd  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 64 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 65 Process: ifconfi  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 66 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 67 Process: nonamed  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 68 Process: hostadd  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 69 Process: syslogd  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 70 Process: elvprsv  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 71 Process: sh  Priority: 12  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 72 Process: ls  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 73 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 74 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 75 Process: rescue  Priority: 3  Max Priority: 3
+Oct 17 14:03:02 10 kernel: 76 Process: mkfs  Priority: 10  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 77 Process: mount  Priority: 10  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 78 Process: cp  Priority: 10  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 79 Process: service  Priority: 10  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 80 Process: sh  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 81 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 82 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 83 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 84 Process: date  Priority: 12  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 85 Process: pwdauth  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 86 Process: stty  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 87 Process: tget  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 88 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 89 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 90 Process: elvis  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 91 Process: cc  Priority: 8  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 92 Process: em_cemc  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 93 Process: em_opt  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 94 Process: cg  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 95 Process: as  Priority: 8  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 96 Process: em_led  Priority: 8  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 97 Process: cv  Priority: 8  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 98 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:03:02 10 kernel: 99 Process:   Priority: 0  Max Priority: 0
+Oct 17 14:03:02 10 kernel: Process: rescue  Priority: 3  Max Priority: 3
+Oct 17 14:03:07 10 kernel: 
+Oct 17 14:03:07 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:07 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:07 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:03:07 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:03:07 10 kernel: sh               7        78           0           0       118324
+Oct 17 14:03:07 10 kernel: getty            7        79           0           0        19888
+Oct 17 14:03:07 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:03:07 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:03:07 10 kernel: idle            15        -4          86           0        36980
+Oct 17 14:03:13 10 kernel: 
+Oct 17 14:03:13 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:13 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:13 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:03:13 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:03:13 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:03:13 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:03:13 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:03:13 10 kernel: log              2         9           0           0        69500
+Oct 17 14:03:13 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:03:13 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:03:13 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:03:13 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:03:13 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:03:13 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:03:13 10 kernel: is               3        24           0           0       261484
+Oct 17 14:03:13 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:03:13 10 kernel: random           3        40           0           0        28532
+Oct 17 14:03:13 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:03:13 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:03:13 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:03:13 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:03:13 10 kernel: init             7         1           0           0         7948
+Oct 17 14:03:13 10 kernel: update           7        56           0           0        12016
+Oct 17 14:03:13 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:03:13 10 kernel: --more--
+Oct 17 14:03:13 10 kernel: 
+Oct 17 14:03:13 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:13 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:13 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:03:13 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:03:13 10 kernel: sh               7        78           0           0       118324
+Oct 17 14:03:13 10 kernel: getty            7        79           0           0        19888
+Oct 17 14:03:13 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:03:13 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:03:13 10 kernel: idle            15        -4          92           0        36980
+Oct 17 14:03:14 10 kernel: 
+Oct 17 14:03:14 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:14 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:14 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:03:14 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:03:14 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:03:14 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:03:14 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:03:14 10 kernel: log              2         9           0           0        69500
+Oct 17 14:03:14 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:03:14 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:03:14 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:03:14 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:03:14 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:03:14 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:03:14 10 kernel: is               3        24           0           0       261484
+Oct 17 14:03:14 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:03:14 10 kernel: random           3        40           0           0        28532
+Oct 17 14:03:14 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:03:14 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:03:14 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:03:14 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:03:14 10 kernel: init             7         1           0           0         7948
+Oct 17 14:03:14 10 kernel: update           7        56           0           0        12016
+Oct 17 14:03:14 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:03:14 10 kernel: --more--
+Oct 17 14:03:14 10 kernel: 
+Oct 17 14:03:14 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:14 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:14 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:03:14 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:03:14 10 kernel: sh               7        78           0           0       118324
+Oct 17 14:03:14 10 kernel: getty            7        79           0           0        19888
+Oct 17 14:03:14 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:03:14 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:03:14 10 kernel: idle            15        -4          93           0        36980
+Oct 17 14:03:15 10 kernel: 
+Oct 17 14:03:15 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:15 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:15 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:03:15 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:03:15 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:03:15 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:03:15 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:03:15 10 kernel: log              2         9           0           0        69500
+Oct 17 14:03:15 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:03:15 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:03:15 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:03:15 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:03:15 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:03:15 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:03:15 10 kernel: is               3        24           0           0       261484
+Oct 17 14:03:15 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:03:15 10 kernel: random           3        40           0           0        28532
+Oct 17 14:03:15 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:03:15 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:03:15 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:03:15 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:03:15 10 kernel: init             7         1           0           0         7948
+Oct 17 14:03:15 10 kernel: update           7        56           0           0        12016
+Oct 17 14:03:15 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:03:15 10 kernel: --more--
+Oct 17 14:03:18 10 kernel: 
+Oct 17 14:03:18 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:18 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:18 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:03:18 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:03:18 10 kernel: sh               7        78           0           0       118324
+Oct 17 14:03:18 10 kernel: getty            7        79           0           0        19888
+Oct 17 14:03:18 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:03:18 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:03:18 10 kernel: idle            15        -4          96           0        36980
+Oct 17 14:03:20 10 kernel: 
+Oct 17 14:03:20 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:20 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:20 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:03:20 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:03:20 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:03:20 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:03:20 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:03:20 10 kernel: log              2         9           0           0        69500
+Oct 17 14:03:20 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:03:20 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:03:20 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:03:20 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:03:20 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:03:20 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:03:20 10 kernel: is               3        24           0           0       261484
+Oct 17 14:03:20 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:03:20 10 kernel: random           3        40           0           0        28532
+Oct 17 14:03:20 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:03:20 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:03:20 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:03:20 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:03:20 10 kernel: init             7         1           0           0         7948
+Oct 17 14:03:20 10 kernel: update           7        56           0           0        12016
+Oct 17 14:03:20 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:03:20 10 kernel: --more--
+Oct 17 14:03:28 10 kernel: 
+Oct 17 14:03:28 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:28 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:28 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:03:28 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:03:28 10 kernel: sh               7        78           0           0       118324
+Oct 17 14:03:28 10 kernel: getty            7        79           0           0        19888
+Oct 17 14:03:28 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:03:28 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:03:28 10 kernel: idle            15        -4         106           0        36980
+Oct 17 14:03:28 10 kernel: 
+Oct 17 14:03:28 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:03:28 10 kernel: ------------------------------------------------------------------
+Oct 17 14:03:28 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:03:28 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:03:28 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:03:28 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:03:28 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:03:28 10 kernel: log              2         9           0           0        69500
+Oct 17 14:03:28 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:03:28 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:03:28 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:03:28 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:03:28 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:03:28 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:03:28 10 kernel: is               3        24           0           0       261484
+Oct 17 14:03:28 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:03:28 10 kernel: random           3        40           0           0        28532
+Oct 17 14:03:28 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:03:28 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:03:28 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:03:28 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:03:28 10 kernel: init             7         1           0           0         7948
+Oct 17 14:03:28 10 kernel: update           7        56           0           0        12016
+Oct 17 14:03:28 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:03:28 10 kernel: --more--
+Oct 17 14:04:07 10 kernel: 4 Process: pm  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 5 Process: fs  Priority: 4  Max Priority: 4
+Oct 17 14:04:07 10 kernel: 6 Process: rs  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 7 Process: mem  Priority: 2  Max Priority: 2
+Oct 17 14:04:07 10 kernel: 8 Process: log  Priority: 2  Max Priority: 2
+Oct 17 14:04:07 10 kernel: 9 Process: tty  Priority: 1  Max Priority: 1
+Oct 17 14:04:07 10 kernel: 10 Process: ds  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 11 Process: init  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 12 Process: em_led  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 13 Process: cv  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 14 Process: pci  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 15 Process: cc  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 16 Process: floppy  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 17 Process: em_cemc  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 18 Process: em_opt  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 19 Process: at_wini  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 20 Process: cg  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 21 Process: as  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 22 Process: em_led  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 23 Process: cv  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 24 Process: elvis  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 25 Process: cc  Priority: 9  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 26 Process: is  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 27 Process: em_cemc  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 28 Process: cmos  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 29 Process: em_opt  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 30 Process: cg  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 31 Process: as  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 32 Process: em_led  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 33 Process: cv  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 34 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 35 Process: mount  Priority: 11  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 36 Process: touch  Priority: 11  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 37 Process: printro  Priority: 12  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 38 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 39 Process: rm  Priority: 12  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 40 Process: sysenv  Priority: 12  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 41 Process: service  Priority: 13  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 42 Process: random  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 43 Process: cat  Priority: 13  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 44 Process: dd  Priority: 13  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 45 Process: grep  Priority: 13  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 46 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 47 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 48 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 49 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 50 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 51 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 52 Process: inet  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 53 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 54 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 55 Process: printer  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 56 Process: sh  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 57 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 58 Process: update  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 59 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 60 Process: cron  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 61 Process: rm  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 62 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 63 Process: syslogd  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 64 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 65 Process: ifconfi  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 66 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 67 Process: nonamed  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 68 Process: hostadd  Priority: 11  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 69 Process: syslogd  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 70 Process: elvprsv  Priority: 11  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 71 Process: sh  Priority: 12  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 72 Process: ls  Priority: 11  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 73 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 74 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 75 Process: rescue  Priority: 3  Max Priority: 3
+Oct 17 14:04:07 10 kernel: 76 Process: mkfs  Priority: 10  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 77 Process: mount  Priority: 10  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 78 Process: cp  Priority: 10  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 79 Process: service  Priority: 10  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 80 Process: sh  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 81 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 82 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 83 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 84 Process: date  Priority: 12  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 85 Process: pwdauth  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 86 Process: stty  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 87 Process: tget  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 88 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 89 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 90 Process: elvis  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 91 Process: cc  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 92 Process: em_cemc  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 93 Process: em_opt  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 94 Process: cg  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 95 Process: as  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 96 Process: em_led  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 97 Process: cv  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 98 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:04:07 10 kernel: 99 Process: cc  Priority: 8  Max Priority: 7
+Oct 17 14:04:07 10 kernel: Process: tty  Priority: 1  Max Priority: 1
+Oct 17 14:04:22 10 kernel: 
+Oct 17 14:04:22 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:04:22 10 kernel: ------------------------------------------------------------------
+Oct 17 14:04:22 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:04:22 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:04:22 10 kernel: sh               7        78           0           0       118324
+Oct 17 14:04:22 10 kernel: getty            7        79           0           0        19888
+Oct 17 14:04:22 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:04:22 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:04:22 10 kernel: idle            15        -4         160           0        36980
+Oct 17 14:04:23 10 kernel: 
+Oct 17 14:04:23 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:04:23 10 kernel: ------------------------------------------------------------------
+Oct 17 14:04:23 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:04:23 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:04:23 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:04:23 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:04:23 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:04:23 10 kernel: log              2         9           0           0        69500
+Oct 17 14:04:23 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:04:23 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:04:23 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:04:23 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:04:23 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:04:23 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:04:23 10 kernel: is               3        24           0           0       261484
+Oct 17 14:04:23 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:04:23 10 kernel: random           3        40           0           0        28532
+Oct 17 14:04:23 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:04:23 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:04:23 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:04:23 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:04:23 10 kernel: init             7         1           0           0         7948
+Oct 17 14:04:23 10 kernel: update           7        56           0           0        12016
+Oct 17 14:04:23 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:04:23 10 kernel: --more--
+Oct 17 14:04:26 10 kernel: 4 Process: pm  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 5 Process: fs  Priority: 4  Max Priority: 4
+Oct 17 14:04:26 10 kernel: 6 Process: rs  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 7 Process: mem  Priority: 2  Max Priority: 2
+Oct 17 14:04:26 10 kernel: 8 Process: log  Priority: 2  Max Priority: 2
+Oct 17 14:04:26 10 kernel: 9 Process: tty  Priority: 1  Max Priority: 1
+Oct 17 14:04:26 10 kernel: 10 Process: ds  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 11 Process: init  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 12 Process: em_led  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 13 Process: cv  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 14 Process: pci  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 15 Process: cc  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 16 Process: floppy  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 17 Process: em_cemc  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 18 Process: em_opt  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 19 Process: at_wini  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 20 Process: cg  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 21 Process: as  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 22 Process: em_led  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 23 Process: cv  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 24 Process: elvis  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 25 Process: cc  Priority: 9  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 26 Process: is  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 27 Process: em_cemc  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 28 Process: cmos  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 29 Process: em_opt  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 30 Process: cg  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 31 Process: as  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 32 Process: em_led  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 33 Process: cv  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 34 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 35 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 36 Process: touch  Priority: 11  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 37 Process: printro  Priority: 12  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 38 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 39 Process: rm  Priority: 12  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 40 Process: sysenv  Priority: 12  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 41 Process: service  Priority: 13  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 42 Process: random  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 43 Process: cat  Priority: 13  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 44 Process: dd  Priority: 13  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 45 Process: grep  Priority: 13  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 46 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 47 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 48 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 49 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 50 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 51 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 52 Process: inet  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 53 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 54 Process: service  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 55 Process: printer  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 56 Process: sh  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 57 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 58 Process: update  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 59 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 60 Process: cron  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 61 Process: rm  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 62 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 63 Process: syslogd  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 64 Process: grep  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 65 Process: ifconfi  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 66 Process: sysenv  Priority: 14  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 67 Process: nonamed  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 68 Process: hostadd  Priority: 11  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 69 Process: syslogd  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 70 Process: elvprsv  Priority: 11  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 71 Process: sh  Priority: 12  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 72 Process: ls  Priority: 11  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 73 Process: sh  Priority: 11  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 74 Process: service  Priority: 9  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 75 Process: rescue  Priority: 3  Max Priority: 3
+Oct 17 14:04:26 10 kernel: 76 Process: mkfs  Priority: 10  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 77 Process: mount  Priority: 10  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 78 Process: cp  Priority: 10  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 79 Process: service  Priority: 10  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 80 Process: sh  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 81 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 82 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 83 Process: getty  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 84 Process: date  Priority: 12  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 85 Process: pwdauth  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 86 Process: stty  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 87 Process: tget  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 88 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 89 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 90 Process: elvis  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 91 Process: cc  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 92 Process: em_cemc  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 93 Process: em_opt  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 94 Process: cg  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 95 Process: as  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 96 Process: em_led  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 97 Process: cv  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 98 Process: a.out  Priority: 7  Max Priority: 7
+Oct 17 14:04:26 10 kernel: 99 Process: cc  Priority: 8  Max Priority: 7
+Oct 17 14:04:26 10 kernel: Process: tty  Priority: 1  Max Priority: 1
+Oct 17 14:04:52 10 syslogd: exiting on signal 15
+Oct 17 14:09:25 10 syslogd: restart
+Oct 17 14:09:25 10 kernel: 
+Oct 17 14:09:25 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:09:25 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:09:25 10 kernel: 
+Oct 17 14:09:25 10 kernel:                                                                                                                                              
+Oct 17 14:09:25 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:09:25 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:09:25 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:09:25 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:09:25 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:09:25 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:09:25 10 kernel: Replacing root
+Oct 17 14:09:33 10 syslogd: exiting on signal 15
+Oct 17 14:09:36 10 syslogd: restart
+Oct 17 14:09:36 10 kernel: 
+Oct 17 14:09:36 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:09:36 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:09:36 10 kernel: 
+Oct 17 14:09:36 10 kernel:                                                                                                                                              
+Oct 17 14:09:36 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:09:36 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:09:36 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:09:36 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:09:36 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:09:36 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:09:36 10 kernel: Replacing root
+Oct 17 14:09:50 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 84
+Oct 17 14:10:15 10 kernel: 
+Oct 17 14:10:15 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:10:15 10 kernel: ------------------------------------------------------------------
+Oct 17 14:10:15 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:10:15 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:10:15 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:10:15 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:10:15 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:10:15 10 kernel: log              2         9           0           0        69500
+Oct 17 14:10:15 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:10:15 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:10:15 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:10:15 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:10:15 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:10:15 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:10:15 10 kernel: is               3        24           0           0       261484
+Oct 17 14:10:15 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:10:15 10 kernel: random           3        40           0           0        28532
+Oct 17 14:10:15 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:10:15 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:10:15 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:10:15 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:10:15 10 kernel: init             7         1           0           0         7948
+Oct 17 14:10:15 10 kernel: update           7        56           0           0        12016
+Oct 17 14:10:15 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:10:15 10 kernel: --more--
+Oct 17 14:10:27 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 85
+Oct 17 14:10:32 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 86
+Oct 17 14:10:33 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 87
+Oct 17 14:10:33 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 88
+Oct 17 14:10:34 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 89
+Oct 17 14:10:34 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 90
+Oct 17 14:10:34 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 91
+Oct 17 14:10:35 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 92
+Oct 17 14:10:35 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 93
+Oct 17 14:10:35 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 94
+Oct 17 14:10:36 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 95
+Oct 17 14:10:37 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 96
+Oct 17 14:10:37 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 97
+Oct 17 14:10:37 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 98
+Oct 17 14:10:37 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 99
+Oct 17 14:10:39 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 8
+Oct 17 14:10:44 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 9
+Oct 17 14:10:45 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 11
+Oct 17 14:10:46 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 13
+Oct 17 14:10:46 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 14
+Oct 17 14:10:47 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 16
+Oct 17 14:10:48 10 kernel: Process: tty  Priority: 1  Max Priority: 1  Parent id: 2  who: 17
+Oct 17 14:11:02 10 syslogd: exiting on signal 15
+Oct 17 14:20:52 10 syslogd: restart
+Oct 17 14:20:52 10 kernel: 
+Oct 17 14:20:52 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:20:52 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:20:52 10 kernel: 
+Oct 17 14:20:52 10 kernel:                                                                                                                                              
+Oct 17 14:20:52 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:20:52 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:20:52 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:20:52 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:20:52 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:20:52 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:20:52 10 kernel: Replacing root
+Oct 17 14:21:21 10 syslogd: exiting on signal 15
+Oct 17 14:22:20 10 syslogd: restart
+Oct 17 14:22:20 10 kernel: 
+Oct 17 14:22:20 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:22:20 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:22:20 10 kernel: 
+Oct 17 14:22:20 10 kernel:                                                                                                                                              
+Oct 17 14:22:20 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:22:20 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:22:20 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:22:20 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:22:20 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:22:20 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:22:20 10 kernel: Replacing root
+Oct 17 14:22:27 10 syslogd: exiting on signal 15
+Oct 17 14:22:31 10 syslogd: restart
+Oct 17 14:22:31 10 kernel: 
+Oct 17 14:22:31 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:22:31 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:22:31 10 kernel: 
+Oct 17 14:22:31 10 kernel:                                                                                                                                              
+Oct 17 14:22:31 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:22:31 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:22:31 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:22:31 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:22:31 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:22:31 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:22:31 10 kernel: Replacing root
+Oct 17 14:23:50 10 kernel: 
+Oct 17 14:23:50 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:23:50 10 kernel: ------------------------------------------------------------------
+Oct 17 14:23:50 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:23:50 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:23:50 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:23:50 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:23:50 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:23:50 10 kernel: log              2         9           0           0        69500
+Oct 17 14:23:50 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:23:50 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:23:50 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:23:50 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:23:50 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:23:50 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:23:50 10 kernel: is               3        24           0           0       261484
+Oct 17 14:23:50 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:23:50 10 kernel: random           3        40           0           0        28532
+Oct 17 14:23:50 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:23:50 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:23:50 10 kernel: rescue           3        74           0           0         8048
+Oct 17 14:23:50 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:23:50 10 kernel: init             7         1           0           0         7948
+Oct 17 14:23:50 10 kernel: update           7        56           0           0        12016
+Oct 17 14:23:50 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:23:50 10 kernel: --more--
+Oct 17 14:23:52 10 kernel: 
+Oct 17 14:23:52 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:23:52 10 kernel: ------------------------------------------------------------------
+Oct 17 14:23:52 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:23:52 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:23:52 10 kernel: sh               7        79           0           0       118156
+Oct 17 14:23:52 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:23:52 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:23:52 10 kernel: getty            7        82           0           0        19888
+Oct 17 14:23:52 10 kernel: a.out            7        97           0           0       134720
+Oct 17 14:23:52 10 kernel: a.out            7        98           0           0       134720
+Oct 17 14:23:52 10 kernel: idle            15        -4          82           0        36980
+Oct 17 14:24:07 10 kernel: 
+Oct 17 14:24:07 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:24:07 10 kernel: ------------------------------------------------------------------
+Oct 17 14:24:07 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:24:07 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:24:07 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:24:07 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:24:07 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:24:07 10 kernel: log              2         9           0           0        69500
+Oct 17 14:24:07 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:24:07 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:24:07 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:24:07 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:24:07 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:24:07 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:24:07 10 kernel: is               3        24           0           0       261484
+Oct 17 14:24:07 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:24:07 10 kernel: random           3        40           0           0        28532
+Oct 17 14:24:07 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:24:07 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:24:07 10 kernel: rescue           3        74           0           0         8048
+Oct 17 14:24:07 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:24:07 10 kernel: init             7         1           0           0         7948
+Oct 17 14:24:07 10 kernel: update           7        56           0           0        12016
+Oct 17 14:24:07 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:24:07 10 kernel: --more--
+Oct 17 14:24:09 10 kernel: 
+Oct 17 14:24:09 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:24:09 10 kernel: ------------------------------------------------------------------
+Oct 17 14:24:09 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:24:09 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:24:09 10 kernel: sh               7        79           0           0       118156
+Oct 17 14:24:09 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:24:09 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:24:09 10 kernel: getty            7        82           0           0        19888
+Oct 17 14:24:09 10 kernel: a.out            7        97           0           0       134720
+Oct 17 14:24:09 10 kernel: a.out            7        98           0           0       134720
+Oct 17 14:24:09 10 kernel: idle            15        -4          98           0        36980
+Oct 17 14:25:11 10 syslogd: exiting on signal 15
+Oct 17 14:26:29 10 syslogd: restart
+Oct 17 14:26:29 10 kernel: 
+Oct 17 14:26:29 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:26:29 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:26:29 10 kernel: 
+Oct 17 14:26:29 10 kernel:                                                                                                                                              
+Oct 17 14:26:29 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:26:29 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:26:29 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:26:29 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:26:29 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:26:29 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:26:29 10 kernel: Replacing root
+Oct 17 14:26:37 10 syslogd: exiting on signal 15
+Oct 17 14:26:40 10 syslogd: restart
+Oct 17 14:26:40 10 kernel: 
+Oct 17 14:26:40 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:26:40 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:26:40 10 kernel: 
+Oct 17 14:26:40 10 kernel:                                                                                                                                              
+Oct 17 14:26:40 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:26:40 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:26:40 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:26:40 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:26:40 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:26:40 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:26:40 10 kernel: Replacing root
+Oct 17 14:26:48 10 kernel: Process: pm  Priority: 3  Max Priority: 3  Parent id: 2  who_name: a.out who_nr: 85
+Oct 17 14:27:19 10 kernel: 
+Oct 17 14:27:19 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:27:19 10 kernel: ------------------------------------------------------------------
+Oct 17 14:27:19 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:27:19 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:27:19 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:27:19 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:27:19 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:27:19 10 kernel: log              2         9           0           0        69500
+Oct 17 14:27:19 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:27:19 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:27:19 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:27:19 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:27:19 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:27:19 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:27:19 10 kernel: is               3        24           0           0       261484
+Oct 17 14:27:19 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:27:19 10 kernel: random           3        40           0           0        28532
+Oct 17 14:27:19 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:27:19 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:27:19 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:27:19 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:27:19 10 kernel: init             7         1           0           0         7948
+Oct 17 14:27:19 10 kernel: update           7        56           0           0        12016
+Oct 17 14:27:19 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:27:19 10 kernel: --more--
+Oct 17 14:27:21 10 kernel: 
+Oct 17 14:27:21 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:27:21 10 kernel: ------------------------------------------------------------------
+Oct 17 14:27:21 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:27:21 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:27:21 10 kernel: sh               7        78           0           0       118156
+Oct 17 14:27:21 10 kernel: getty            7        79           0           0        19888
+Oct 17 14:27:21 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:27:21 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:27:21 10 kernel: a.out            7        86           0           0       134720
+Oct 17 14:27:21 10 kernel: a.out            7        87           0           0       134720
+Oct 17 14:27:21 10 kernel: idle            15        -4          41           0        36980
+Oct 17 14:27:28 10 kernel: 
+Oct 17 14:27:28 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:27:28 10 kernel: ------------------------------------------------------------------
+Oct 17 14:27:28 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:27:28 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:27:28 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:27:28 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:27:28 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:27:28 10 kernel: log              2         9           0           0        69500
+Oct 17 14:27:28 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:27:28 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:27:28 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:27:28 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:27:28 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:27:28 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:27:28 10 kernel: is               3        24           0           0       261484
+Oct 17 14:27:28 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:27:28 10 kernel: random           3        40           0           0        28532
+Oct 17 14:27:28 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:27:28 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:27:28 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:27:28 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:27:28 10 kernel: init             7         1           0           0         7948
+Oct 17 14:27:28 10 kernel: update           7        56           0           0        12016
+Oct 17 14:27:28 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:27:28 10 kernel: --more--
+Oct 17 14:27:48 10 kernel: Process: pm  Priority: 3  Max Priority: 3  Parent id: 2  who_name: a.out who_nr: 87
+Oct 17 14:28:05 10 kernel: 
+Oct 17 14:28:05 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:28:05 10 kernel: ------------------------------------------------------------------
+Oct 17 14:28:05 10 kernel: nonamed          7        65           0           0        44684
+Oct 17 14:28:05 10 kernel: syslogd          7        67           0           0        48332
+Oct 17 14:28:05 10 kernel: sh               7        78           0           0       118156
+Oct 17 14:28:05 10 kernel: getty            7        79           0           0        19888
+Oct 17 14:28:05 10 kernel: getty            7        80           0           0        19888
+Oct 17 14:28:05 10 kernel: getty            7        81           0           0        19888
+Oct 17 14:28:05 10 kernel: a.out            7        88           0           0       134720
+Oct 17 14:28:05 10 kernel: a.out            7        89           0           0       134720
+Oct 17 14:28:05 10 kernel: idle            15        -4          86           0        36980
+Oct 17 14:28:20 10 kernel: 
+Oct 17 14:28:20 10 kernel: name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:28:20 10 kernel: ------------------------------------------------------------------
+Oct 17 14:28:20 10 kernel: clock            0        -3           0           0        37436
+Oct 17 14:28:20 10 kernel: system           0        -2           0           0        37964
+Oct 17 14:28:20 10 kernel: kernel           0        -1           0           0        38012
+Oct 17 14:28:20 10 kernel: tty              1         7           0           0        57232
+Oct 17 14:28:20 10 kernel: mem              2         8           0           0       302984
+Oct 17 14:28:20 10 kernel: log              2         9           0           0        69500
+Oct 17 14:28:20 10 kernel: pm               3         0           0           0       122800
+Oct 17 14:28:20 10 kernel: rs               3         5           0           0        40832
+Oct 17 14:28:20 10 kernel: ds               3         6           0           0        20372
+Oct 17 14:28:20 10 kernel: pci              3        12           0           0        24456
+Oct 17 14:28:20 10 kernel: floppy           3        14           0           0        12148
+Oct 17 14:28:20 10 kernel: at_wini          3        17           0           0        65388
+Oct 17 14:28:20 10 kernel: is               3        24           0           0       261484
+Oct 17 14:28:20 10 kernel: cmos             3        26           0           0         8064
+Oct 17 14:28:20 10 kernel: random           3        40           0           0        28532
+Oct 17 14:28:20 10 kernel: inet             3        50           0           0       802668
+Oct 17 14:28:20 10 kernel: printer          3        53           0           0       135040
+Oct 17 14:28:20 10 kernel: rescue           3        73           0           0         8048
+Oct 17 14:28:20 10 kernel: fs               4         4           0           0      5029828
+Oct 17 14:28:20 10 kernel: init             7         1           0           0         7948
+Oct 17 14:28:20 10 kernel: update           7        56           0           0        12016
+Oct 17 14:28:20 10 kernel: cron             7        58           0           0        40700
+Oct 17 14:28:20 10 kernel: --more--
+Oct 17 14:28:36 10 kernel: Process: pm  Priority: 3  Max Priority: 3  Parent id: 2  who_name: a.out who_nr: 89
+Oct 17 14:28:58 10 syslogd: exiting on signal 15
+Oct 17 14:31:41 10 syslogd: restart
+Oct 17 14:31:41 10 kernel: 
+Oct 17 14:31:41 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:31:41 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:31:41 10 kernel: 
+Oct 17 14:31:41 10 kernel:                                                                                                                                              
+Oct 17 14:31:41 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:31:41 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:31:41 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:31:41 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:31:41 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:31:41 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:31:41 10 kernel: Replacing root
+Oct 17 14:32:24 10 syslogd: exiting on signal 15
+Oct 17 14:32:29 10 syslogd: restart
+Oct 17 14:32:29 10 kernel: 
+Oct 17 14:32:29 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:32:29 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:32:29 10 kernel: 
+Oct 17 14:32:29 10 kernel:                                                                                                                                              
+Oct 17 14:32:29 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:32:29 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:32:29 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:32:29 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:32:29 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:32:29 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:32:29 10 kernel: Replacing root
+Oct 17 14:32:32 10 kernel: Process: pm  Priority: 3  Max Priority: 3  Parent id: 2  who_name: a.out who_nr: 85
+Oct 17 14:32:46 10 kernel: 
+Oct 17 14:32:46 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:32:46 10 kernel: ------------------------------------------------------------------
+Oct 17 14:32:46 10 kernel: 18392                  -3         0           0       37436         8948
+Oct 17 14:32:46 10 kernel: 18600                  -2         0           0       37964         8948
+Oct 17 14:32:46 10 kernel: 18808                  -1         0           0       38012         8948
+Oct 17 14:32:46 10 kernel: 20056                   7         0           0       57232         8948
+Oct 17 14:32:46 10 kernel: 19640                   8         0           0      302984         8948
+Oct 17 14:32:46 10 kernel: 19848                   9         0           0       69500         8948
+Oct 17 14:32:46 10 kernel: 19016                   0         0           0      122800         8948
+Oct 17 14:32:46 10 kernel: 19432                   5         0           0       40832         8948
+Oct 17 14:32:46 10 kernel: 20264                   6         0           0       20372         8948
+Oct 17 14:32:46 10 kernel: 21096                  12         0           0       24456         8948
+Oct 17 14:32:46 10 kernel: 21512                  14         0           0       12148         8948
+Oct 17 14:32:46 10 kernel: 22136                  17         0           0       65388         8948
+Oct 17 14:32:46 10 kernel: 23592                  24         0           0      261484         8948
+Oct 17 14:32:46 10 kernel: 24008                  26         0           0        8064         8948
+Oct 17 14:32:46 10 kernel: 26920                  40         0           0       28532         8948
+Oct 17 14:32:46 10 kernel: 29000                  50         0           0      802668         8948
+Oct 17 14:32:46 10 kernel: 29624                  53         0           0      135040         8948
+Oct 17 14:32:46 10 kernel: 33784                  73         0           0        8048         8948
+Oct 17 14:32:46 10 kernel: 19224  Í                4         0           0     5029828         8948
+Oct 17 14:32:46 10 kernel: 20472                   1         0           0        7948         8948
+Oct 17 14:32:46 10 kernel: 30248                  56         0           0       12016         8948
+Oct 17 14:32:46 10 kernel: 30664                  58         0           0       40700         8948
+Oct 17 14:32:46 10 kernel: --more--
+Oct 17 14:33:02 10 syslogd: exiting on signal 15
+Oct 17 14:34:50 10 syslogd: restart
+Oct 17 14:34:50 10 kernel: 
+Oct 17 14:34:50 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:34:50 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:34:50 10 kernel: 
+Oct 17 14:34:50 10 kernel:                                                                                                                                              
+Oct 17 14:34:50 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:34:50 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:34:50 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:34:50 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:34:50 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:34:50 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:34:50 10 kernel: Replacing root
+Oct 17 14:35:05 10 syslogd: exiting on signal 15
+Oct 17 14:35:09 10 syslogd: restart
+Oct 17 14:35:09 10 kernel: 
+Oct 17 14:35:09 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:35:09 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:35:09 10 kernel: 
+Oct 17 14:35:09 10 kernel:                                                                                                                                              
+Oct 17 14:35:09 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:35:09 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:35:09 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:35:09 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:35:09 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:35:09 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:35:09 10 kernel: Replacing root
+Oct 17 14:35:17 10 kernel: Process: pm  nr: 0  pid: 0  Priority: 3  Max Priority: 3  Parent id: 2  who_name: a.out who_nr: 85
+Oct 17 14:36:09 10 kernel: Process: a.out  nr: 95  pid: 97  Priority: 7  Max Priority: 7  Parent id: 94  who_name: a.out who_nr: 94
+Oct 17 14:36:40 10 kernel: 
+Oct 17 14:36:40 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:36:40 10 kernel: ------------------------------------------------------------------
+Oct 17 14:36:40 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:36:40 10 kernel:   -2  system           0        -2           0           0        37964
+Oct 17 14:36:40 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:36:40 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:36:40 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:36:40 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:36:40 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:36:40 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:36:40 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:36:40 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:36:40 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:36:40 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:36:40 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:36:40 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:36:40 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:36:40 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:36:40 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:36:40 10 kernel:   71  rescue           3        73           0           0         8048
+Oct 17 14:36:40 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:36:40 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:36:40 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:36:40 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:36:40 10 kernel: --more--
+Oct 17 14:36:47 10 kernel: 
+Oct 17 14:36:47 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:36:47 10 kernel: ------------------------------------------------------------------
+Oct 17 14:36:47 10 kernel:   61  syslogd          7        63           0           0        48332
+Oct 17 14:36:47 10 kernel:   64  nonamed          7        66           0           0        44684
+Oct 17 14:36:47 10 kernel:   77  sh               7        79           0           0       118156
+Oct 17 14:36:47 10 kernel:   78  getty            7        80           0           0        19888
+Oct 17 14:36:47 10 kernel:   79  getty            7        81           0           0        19888
+Oct 17 14:36:47 10 kernel:   80  getty            7        82           0           0        19888
+Oct 17 14:36:47 10 kernel:   94  a.out            7        96           0           0       134720
+Oct 17 14:36:47 10 kernel:   95  a.out            7        97           0           0       134720
+Oct 17 14:36:47 10 kernel:   -4  idle            15        -4          98           0        36980
+Oct 17 14:36:54 10 kernel: 
+Oct 17 14:36:54 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:36:54 10 kernel: ------------------------------------------------------------------
+Oct 17 14:36:54 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:36:54 10 kernel:   -2  system           0        -2           0           0        37964
+Oct 17 14:36:54 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:36:54 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:36:54 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:36:54 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:36:54 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:36:54 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:36:54 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:36:54 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:36:54 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:36:54 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:36:54 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:36:54 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:36:54 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:36:54 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:36:54 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:36:54 10 kernel:   71  rescue           3        73           0           0         8048
+Oct 17 14:36:54 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:36:54 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:36:54 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:36:54 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:36:54 10 kernel: --more--
+Oct 17 14:36:56 10 kernel: 
+Oct 17 14:36:56 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:36:56 10 kernel: ------------------------------------------------------------------
+Oct 17 14:36:56 10 kernel:   61  syslogd          7        63           0           0        48332
+Oct 17 14:36:56 10 kernel:   64  nonamed          7        66           0           0        44684
+Oct 17 14:36:56 10 kernel:   77  sh               7        79           0           0       118156
+Oct 17 14:36:56 10 kernel:   78  getty            7        80           0           0        19888
+Oct 17 14:36:56 10 kernel:   79  getty            7        81           0           0        19888
+Oct 17 14:36:56 10 kernel:   80  getty            7        82           0           0        19888
+Oct 17 14:36:56 10 kernel:   94  a.out            7        96           0           0       134720
+Oct 17 14:36:56 10 kernel:   95  a.out            7        97           0           0       134720
+Oct 17 14:36:56 10 kernel:   -4  idle            15        -4         107           0        36980
+Oct 17 14:37:00 10 kernel: 
+Oct 17 14:37:00 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:37:00 10 kernel: ------------------------------------------------------------------
+Oct 17 14:37:00 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:37:00 10 kernel:   -2  system           0        -2           0           0        37964
+Oct 17 14:37:00 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:37:00 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:37:00 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:37:00 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:37:00 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:37:00 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:37:00 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:37:00 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:37:00 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:37:00 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:37:00 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:37:00 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:37:00 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:37:00 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:37:00 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:37:00 10 kernel:   71  rescue           3        73           0           0         8048
+Oct 17 14:37:00 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:37:00 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:37:00 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:37:00 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:37:00 10 kernel: --more--
+Oct 17 14:37:02 10 kernel: 
+Oct 17 14:37:02 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:37:02 10 kernel: ------------------------------------------------------------------
+Oct 17 14:37:02 10 kernel:   61  syslogd          7        63           0           0        48332
+Oct 17 14:37:02 10 kernel:   64  nonamed          7        66           0           0        44684
+Oct 17 14:37:02 10 kernel:   77  sh               7        79           0           0       118156
+Oct 17 14:37:02 10 kernel:   78  getty            7        80           0           0        19888
+Oct 17 14:37:02 10 kernel:   79  getty            7        81           0           0        19888
+Oct 17 14:37:02 10 kernel:   80  getty            7        82           0           0        19888
+Oct 17 14:37:02 10 kernel:   94  a.out            7        96           0           0       134720
+Oct 17 14:37:02 10 kernel:   95  a.out            7        97           0           0       134720
+Oct 17 14:37:02 10 kernel:   -4  idle            15        -4         113           0        36980
+Oct 17 14:37:04 10 kernel: 
+Oct 17 14:37:04 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:37:04 10 kernel: ------------------------------------------------------------------
+Oct 17 14:37:04 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:37:04 10 kernel:   -2  system           0        -2           1           0        37964
+Oct 17 14:37:04 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:37:04 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:37:04 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:37:04 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:37:04 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:37:04 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:37:04 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:37:04 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:37:04 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:37:04 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:37:04 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:37:04 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:37:04 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:37:04 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:37:04 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:37:04 10 kernel:   71  rescue           3        73           0           0         8048
+Oct 17 14:37:04 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:37:04 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:37:04 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:37:04 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:37:04 10 kernel: --more--
+Oct 17 14:37:05 10 kernel: 
+Oct 17 14:37:05 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:37:05 10 kernel: ------------------------------------------------------------------
+Oct 17 14:37:05 10 kernel:   61  syslogd          7        63           0           0        48332
+Oct 17 14:37:05 10 kernel:   64  nonamed          7        66           0           0        44684
+Oct 17 14:37:05 10 kernel:   77  sh               7        79           0           0       118156
+Oct 17 14:37:05 10 kernel:   78  getty            7        80           0           0        19888
+Oct 17 14:37:05 10 kernel:   79  getty            7        81           0           0        19888
+Oct 17 14:37:05 10 kernel:   80  getty            7        82           0           0        19888
+Oct 17 14:37:05 10 kernel:   94  a.out            7        96           0           0       134720
+Oct 17 14:37:05 10 kernel:   95  a.out            7        97           0           0       134720
+Oct 17 14:37:05 10 kernel:   -4  idle            15        -4         116           0        36980
+Oct 17 14:37:05 10 kernel: 
+Oct 17 14:37:05 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:37:05 10 kernel: ------------------------------------------------------------------
+Oct 17 14:37:05 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:37:05 10 kernel:   -2  system           0        -2           1           0        37964
+Oct 17 14:37:05 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:37:05 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:37:05 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:37:05 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:37:05 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:37:05 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:37:05 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:37:05 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:37:05 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:37:05 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:37:05 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:37:05 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:37:05 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:37:05 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:37:05 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:37:05 10 kernel:   71  rescue           3        73           0           0         8048
+Oct 17 14:37:05 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:37:05 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:37:05 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:37:05 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:37:05 10 kernel: --more--
+Oct 17 14:37:13 10 syslogd: exiting on signal 15
+Oct 17 14:41:49 10 syslogd: restart
+Oct 17 14:41:49 10 kernel: 
+Oct 17 14:41:49 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:41:49 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:41:49 10 kernel: 
+Oct 17 14:41:49 10 kernel:                                                                                                                                              
+Oct 17 14:41:49 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:41:49 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:41:49 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:41:49 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:41:49 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:41:49 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:41:49 10 kernel: Replacing root
+Oct 17 14:42:01 10 syslogd: exiting on signal 15
+Oct 17 14:42:05 10 syslogd: restart
+Oct 17 14:42:05 10 kernel: 
+Oct 17 14:42:05 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:42:05 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:42:05 10 kernel: 
+Oct 17 14:42:05 10 kernel:                                                                                                                                              
+Oct 17 14:42:05 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:42:05 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:42:05 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:42:05 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:42:05 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:42:05 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:42:05 10 kernel: Replacing root
+Oct 17 14:42:14 10 syslogd: exiting on signal 15
+Oct 17 14:42:18 10 syslogd: restart
+Oct 17 14:42:18 10 kernel: 
+Oct 17 14:42:18 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:42:18 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:42:18 10 kernel: 
+Oct 17 14:42:18 10 kernel:                                                                                                                                              
+Oct 17 14:42:18 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:42:18 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:42:18 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:42:18 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:42:18 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:42:18 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:42:18 10 kernel: Replacing root
+Oct 17 14:42:33 10 kernel: Process: a.out  nr: 85  pid: 87  Priority: 7  Max Priority: 7  Parent id: 84  who_name: a.out who_nr: 84
+Oct 17 14:42:39 10 kernel: 
+Oct 17 14:42:39 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:42:39 10 kernel: ------------------------------------------------------------------
+Oct 17 14:42:39 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:42:39 10 kernel:   -2  system           0        -2           0           0        37964
+Oct 17 14:42:39 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:42:39 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:42:39 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:42:39 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:42:39 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:42:39 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:42:39 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:42:39 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:42:39 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:42:39 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:42:39 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:42:39 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:42:39 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:42:39 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:42:39 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:42:39 10 kernel:   72  rescue           3        74           0           0         8048
+Oct 17 14:42:39 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:42:39 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:42:39 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:42:39 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:42:39 10 kernel: --more--
+Oct 17 14:42:40 10 kernel: 
+Oct 17 14:42:40 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:42:40 10 kernel: ------------------------------------------------------------------
+Oct 17 14:42:40 10 kernel:   63  nonamed          7        65           0           0        44684
+Oct 17 14:42:40 10 kernel:   65  syslogd          7        67           0           0        48332
+Oct 17 14:42:40 10 kernel:   77  sh               7        79           0           0       118156
+Oct 17 14:42:40 10 kernel:   78  getty            7        80           0           0        19888
+Oct 17 14:42:40 10 kernel:   79  getty            7        81           0           0        19888
+Oct 17 14:42:40 10 kernel:   80  getty            7        82           0           0        19888
+Oct 17 14:42:40 10 kernel:   84  a.out            7        86           0           0       134720
+Oct 17 14:42:40 10 kernel:   85  a.out            7        87           0           0       134720
+Oct 17 14:42:40 10 kernel:   -4  idle            15        -4          23           0        36980
+Oct 17 14:42:44 10 kernel: 
+Oct 17 14:42:44 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:42:44 10 kernel: ------------------------------------------------------------------
+Oct 17 14:42:44 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:42:44 10 kernel:   -2  system           0        -2           0           0        37964
+Oct 17 14:42:44 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:42:44 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:42:44 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:42:44 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:42:44 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:42:44 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:42:44 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:42:44 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:42:44 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:42:44 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:42:44 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:42:44 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:42:44 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:42:44 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:42:44 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:42:44 10 kernel:   72  rescue           3        74           0           0         8048
+Oct 17 14:42:44 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:42:44 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:42:44 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:42:44 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:42:44 10 kernel: --more--
+Oct 17 14:42:45 10 kernel: 
+Oct 17 14:42:45 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:42:45 10 kernel: ------------------------------------------------------------------
+Oct 17 14:42:45 10 kernel:   63  nonamed          7        65           0           0        44684
+Oct 17 14:42:45 10 kernel:   65  syslogd          7        67           0           0        48332
+Oct 17 14:42:45 10 kernel:   77  sh               7        79           0           0       118156
+Oct 17 14:42:45 10 kernel:   78  getty            7        80           0           0        19888
+Oct 17 14:42:45 10 kernel:   79  getty            7        81           0           0        19888
+Oct 17 14:42:45 10 kernel:   80  getty            7        82           0           0        19888
+Oct 17 14:42:45 10 kernel:   84  a.out            7        86           0           0       134720
+Oct 17 14:42:45 10 kernel:   85  a.out            7        87           0           0       134720
+Oct 17 14:42:45 10 kernel:   -4  idle            15        -4          28           0        36980
+Oct 17 14:42:49 10 kernel: 
+Oct 17 14:42:49 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:42:49 10 kernel: ------------------------------------------------------------------
+Oct 17 14:42:49 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:42:49 10 kernel:   -2  system           0        -2           0           0        37964
+Oct 17 14:42:49 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:42:49 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:42:49 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:42:49 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:42:49 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:42:49 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:42:49 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:42:49 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:42:49 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:42:49 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:42:49 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:42:49 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:42:49 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:42:49 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:42:49 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:42:49 10 kernel:   72  rescue           3        74           0           0         8048
+Oct 17 14:42:49 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:42:49 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:42:49 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:42:49 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:42:49 10 kernel: --more--
+Oct 17 14:42:50 10 kernel: 
+Oct 17 14:42:50 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:42:50 10 kernel: ------------------------------------------------------------------
+Oct 17 14:42:50 10 kernel:   63  nonamed          7        65           0           0        44684
+Oct 17 14:42:50 10 kernel:   65  syslogd          7        67           0           0        48332
+Oct 17 14:42:50 10 kernel:   77  sh               7        79           0           0       118156
+Oct 17 14:42:50 10 kernel:   78  getty            7        80           0           0        19888
+Oct 17 14:42:50 10 kernel:   79  getty            7        81           0           0        19888
+Oct 17 14:42:50 10 kernel:   80  getty            7        82           0           0        19888
+Oct 17 14:42:50 10 kernel:   84  a.out            7        86           0           0       134720
+Oct 17 14:42:50 10 kernel:   85  a.out            7        87           0           0       134720
+Oct 17 14:42:50 10 kernel:   -4  idle            15        -4          33           0        36980
+Oct 17 14:45:08 10 kernel: Process: update  nr: 54  pid: 56  Priority: 7  Max Priority: 7  Parent id: 7  who_name: a.out who_nr: 94
+Oct 17 14:45:08 10 kernel: Process: a.out  nr: 95  pid: 97  Priority: 7  Max Priority: 7  Parent id: 94  who_name: a.out who_nr: 94
+Oct 17 14:47:17 10 syslogd: exiting on signal 15
+Oct 17 14:50:14 10 syslogd: restart
+Oct 17 14:50:14 10 kernel: 
+Oct 17 14:50:14 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 14:50:14 10 kernel: Executing in 32-bit protected mode.
+Oct 17 14:50:14 10 kernel: 
+Oct 17 14:50:14 10 kernel:                                                                                                                                              
+Oct 17 14:50:14 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 14:50:14 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 14:50:14 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 14:50:14 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 14:50:14 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 14:50:14 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 14:50:14 10 kernel: Replacing root
+Oct 17 14:50:20 10 kernel: Process: update  nr: 54  pid: 56  Priority: 10  Max Priority: 7  Parent id: 7  who_name: a.out who_nr: 84
+Oct 17 14:50:20 10 kernel: Process: a.out  nr: 85  pid: 87  Priority: 7  Max Priority: 7  Parent id: 84  who_name: a.out who_nr: 84
+Oct 17 14:50:27 10 kernel: Process: update  nr: 54  pid: 56  Priority: 7  Max Priority: 7  Parent id: 7  who_name: a.out who_nr: 86
+Oct 17 14:50:27 10 kernel: Process: a.out  nr: 87  pid: 89  Priority: 7  Max Priority: 7  Parent id: 86  who_name: a.out who_nr: 86
+Oct 17 14:50:28 10 kernel: 
+Oct 17 14:50:28 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:50:28 10 kernel: ------------------------------------------------------------------
+Oct 17 14:50:28 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:50:28 10 kernel:   -2  system           0        -2           0           0        37964
+Oct 17 14:50:28 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:50:28 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:50:28 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:50:28 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:50:28 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:50:28 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:50:28 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:50:28 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:50:28 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:50:28 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:50:28 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:50:28 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:50:28 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:50:28 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:50:28 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:50:28 10 kernel:   71  rescue           3        73           0           0         8048
+Oct 17 14:50:28 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:50:28 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:50:28 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:50:28 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:50:28 10 kernel: --more--
+Oct 17 14:50:28 10 kernel: 
+Oct 17 14:50:28 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:50:28 10 kernel: ------------------------------------------------------------------
+Oct 17 14:50:28 10 kernel:   63  nonamed          7        65           0           0        44684
+Oct 17 14:50:28 10 kernel:   65  syslogd          7        67           0           0        48332
+Oct 17 14:50:28 10 kernel:   77  sh               7        79           0           0       118156
+Oct 17 14:50:28 10 kernel:   78  getty            7        80           0           0        19888
+Oct 17 14:50:28 10 kernel:   79  getty            7        81           0           0        19888
+Oct 17 14:50:28 10 kernel:   80  getty            7        82           0           0        19888
+Oct 17 14:50:28 10 kernel:   86  a.out            7        88           0           0       134720
+Oct 17 14:50:28 10 kernel:   87  a.out            7        89           0           0       134720
+Oct 17 14:50:28 10 kernel:   -4  idle            15        -4          14           0        36980
+Oct 17 14:50:30 10 kernel: 
+Oct 17 14:50:30 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:50:30 10 kernel: ------------------------------------------------------------------
+Oct 17 14:50:30 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:50:30 10 kernel:   -2  system           0        -2           0           0        37964
+Oct 17 14:50:30 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:50:30 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:50:30 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:50:30 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:50:30 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:50:30 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:50:30 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:50:30 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:50:30 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:50:30 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:50:30 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:50:30 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:50:30 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:50:30 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:50:30 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:50:30 10 kernel:   71  rescue           3        73           0           0         8048
+Oct 17 14:50:30 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:50:30 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:50:30 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:50:30 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:50:30 10 kernel: --more--
+Oct 17 14:50:30 10 kernel: 
+Oct 17 14:50:30 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:50:30 10 kernel: ------------------------------------------------------------------
+Oct 17 14:50:30 10 kernel:   63  nonamed          7        65           0           0        44684
+Oct 17 14:50:30 10 kernel:   65  syslogd          7        67           0           0        48332
+Oct 17 14:50:30 10 kernel:   77  sh               7        79           0           0       118156
+Oct 17 14:50:30 10 kernel:   78  getty            7        80           0           0        19888
+Oct 17 14:50:30 10 kernel:   79  getty            7        81           0           0        19888
+Oct 17 14:50:30 10 kernel:   80  getty            7        82           0           0        19888
+Oct 17 14:50:30 10 kernel:   86  a.out            7        88           0           0       134720
+Oct 17 14:50:30 10 kernel:   87  a.out            7        89           0           0       134720
+Oct 17 14:50:30 10 kernel:   -4  idle            15        -4          16           0        36980
+Oct 17 14:50:33 10 kernel: 
+Oct 17 14:50:33 10 kernel:   nr  name      priority       pid     cputime     systime     stackptr 
+Oct 17 14:50:33 10 kernel: ------------------------------------------------------------------
+Oct 17 14:50:33 10 kernel:   -3  clock            0        -3           0           0        37436
+Oct 17 14:50:33 10 kernel:   -2  system           0        -2           0           0        37964
+Oct 17 14:50:33 10 kernel:   -1  kernel           0        -1           0           0        38012
+Oct 17 14:50:33 10 kernel:    5  tty              1         7           0           0        57232
+Oct 17 14:50:33 10 kernel:    3  mem              2         8           0           0       302984
+Oct 17 14:50:33 10 kernel:    4  log              2         9           0           0        69500
+Oct 17 14:50:33 10 kernel:    0  pm               3         0           0           0       122800
+Oct 17 14:50:33 10 kernel:    2  rs               3         5           0           0        40832
+Oct 17 14:50:33 10 kernel:    6  ds               3         6           0           0        20372
+Oct 17 14:50:33 10 kernel:   10  pci              3        12           0           0        24456
+Oct 17 14:50:33 10 kernel:   12  floppy           3        14           0           0        12148
+Oct 17 14:50:33 10 kernel:   15  at_wini          3        17           0           0        65388
+Oct 17 14:50:33 10 kernel:   22  is               3        24           0           0       261484
+Oct 17 14:50:33 10 kernel:   24  cmos             3        26           0           0         8064
+Oct 17 14:50:33 10 kernel:   38  random           3        40           0           0        28532
+Oct 17 14:50:33 10 kernel:   48  inet             3        50           0           0       802668
+Oct 17 14:50:33 10 kernel:   51  printer          3        53           0           0       135040
+Oct 17 14:50:33 10 kernel:   71  rescue           3        73           0           0         8048
+Oct 17 14:50:33 10 kernel:    1  fs               4         4           0           0      5029828
+Oct 17 14:50:33 10 kernel:    7  init             7         1           0           0         7948
+Oct 17 14:50:33 10 kernel:   54  update           7        56           0           0        12016
+Oct 17 14:50:33 10 kernel:   56  cron             7        58           0           0        40700
+Oct 17 14:50:33 10 kernel: --more--
+Oct 17 14:50:37 10 syslogd: exiting on signal 15
+Oct 17 15:07:04 10 syslogd: restart
+Oct 17 15:07:04 10 kernel: 
+Oct 17 15:07:04 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 15:07:04 10 kernel: Executing in 32-bit protected mode.
+Oct 17 15:07:04 10 kernel: 
+Oct 17 15:07:04 10 kernel:                                                                                                                                              
+Oct 17 15:07:04 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 15:07:04 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 15:07:04 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 15:07:04 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 15:07:04 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 15:07:04 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 15:07:04 10 kernel: Replacing root
+Oct 17 15:08:05 10 syslogd: exiting on signal 15
+Oct 17 15:14:18 10 syslogd: restart
+Oct 17 15:14:18 10 kernel: 
+Oct 17 15:14:18 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 17 15:14:18 10 kernel: Executing in 32-bit protected mode.
+Oct 17 15:14:18 10 kernel: 
+Oct 17 15:14:18 10 kernel:                                                                                                                                              
+Oct 17 15:14:18 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 17 15:14:18 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 17 15:14:18 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 17 15:14:18 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 17 15:14:18 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 17 15:14:18 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 17 15:14:18 10 kernel: Replacing root
+Oct 17 15:14:35 10 syslogd: exiting on signal 15
+Oct 18 19:49:55 10 syslogd: restart
+Oct 18 19:49:55 10 kernel: 
+Oct 18 19:49:55 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Oct 18 19:49:55 10 kernel: Executing in 32-bit protected mode.
+Oct 18 19:49:55 10 kernel: 
+Oct 18 19:49:55 10 kernel:                                                                                                                                              
+Oct 18 19:49:55 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Oct 18 19:49:55 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Oct 18 19:49:55 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Oct 18 19:49:55 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Oct 18 19:49:55 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Oct 18 19:49:55 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Oct 18 19:49:55 10 kernel: Replacing root
+Oct 18 19:50:25 10 syslogd: exiting on signal 15
