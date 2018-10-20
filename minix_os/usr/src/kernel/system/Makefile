@@ -15,7 +15,8 @@ SYSTEM	= ../system.a
 
 # What to make.
 all build install: $(SYSTEM)
-
+######################################################## */
+###########----------Codigo Modificado---------######### */
 OBJECTS	= \
 	$(SYSTEM)(do_unused.o) \
 	$(SYSTEM)(do_fork.o) \
@@ -24,6 +25,7 @@ OBJECTS	= \
 	$(SYSTEM)(do_exit.o) \
 	$(SYSTEM)(do_trace.o) \
 	$(SYSTEM)(do_nice.o) \
+	$(SYSTEM)(do_priority.o) \
 	$(SYSTEM)(do_times.o) \
 	$(SYSTEM)(do_setalarm.o) \
 	$(SYSTEM)(do_irqctl.o) \
@@ -48,6 +50,7 @@ OBJECTS	= \
 	$(SYSTEM)(do_vm.o) \
 	$(SYSTEM)(do_vm_setbuf.o) \
 
+######################################################## */
 $(SYSTEM):	$(OBJECTS)
 	aal cr $@ *.o
 
@@ -81,6 +84,12 @@ $(SYSTEM)(do_trace.o):	do_trace.c
 
 $(SYSTEM)(do_nice.o):	do_nice.c
 	$(CC) do_nice.c
+
+######################################################## */
+###########----------Codigo Adicionado---------######### */
+$(SYSTEM)(do_priority.o):	do_priority.c
+	$(CC) do_priority.c
+######################################################## */
 
 $(SYSTEM)(do_times.o):	do_times.c
 	$(CC) do_times.c

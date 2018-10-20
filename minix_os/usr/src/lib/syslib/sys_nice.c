@@ -9,10 +9,6 @@ PUBLIC int sys_nice(int proc, int prio)
 
   m.m1_i1 = proc;
   m.m1_i2 = prio;
-/* ######################################################## */
-/* ###########----------Codigo Adicionado---------######### */
-  m.m1_i3 = 0;
-/* ######################################################## */
   return(_taskcall(SYSTASK, SYS_NICE, &m));
 }
 
@@ -24,7 +20,6 @@ PUBLIC int sys_priority(int proc, int prio)
 
   m.m1_i1 = proc;
   m.m1_i2 = prio;
-  m.m1_i3 = 256;
-  return(_taskcall(SYSTASK, SYS_NICE, &m));
+  return(_taskcall(SYSTASK, SYS_PRIORITY, &m));
 }
 /* ######################################################## */

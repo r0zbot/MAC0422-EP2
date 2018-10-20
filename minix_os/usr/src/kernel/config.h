@@ -36,6 +36,10 @@
 #define USE_SEGCTL     	   1	/* set up a remote segment */
 #define USE_PRIVCTL    	   1	/* system privileges control */
 #define USE_NICE 	   1	/* change scheduling priority */
+/* ######################################################## */
+/* ###########----------Codigo Adicionado---------######### */
+#define USE_PRIORITY 	   1	/* change process priority */
+/* ######################################################## */
 #define USE_UMAP       	   1	/* map virtual to physical address */
 #define USE_VIRCOPY   	   1	/* copy using virtual addressing */ 
 #define USE_VIRVCOPY  	   1	/* vector with virtual copy requests */

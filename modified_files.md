@@ -12,4 +12,11 @@ minix_os/usr/src/servers/pm/table.c
 minix_os/usr/src/lib/syslib/sys_nice.c
 minix_os/usr/src/include/minix/syslib.h
 minix_os/usr/include/minix/syslib.h
+
+minix_os/usr/include/minix/com.h
+minix_os/usr/src/include/minix/com.h
+minix_os/usr/src/kernel/system.c
+minix_os/usr/src/kernel/kernel.h
+minix_os/usr/src/kernel/system/Makefile
+minix_os/usr/src/kernel/system/.depend
 minix_os/usr/src/b #build file

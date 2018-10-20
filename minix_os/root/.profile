@@ -15,4 +15,3 @@ esac
 unset EDITOR; . $HOME/.ashrc
 
 cd /usr/src
-alias build=make world && reboot

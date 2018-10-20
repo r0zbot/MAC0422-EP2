@@ -64,6 +64,14 @@ _PROTOTYPE( int do_trace, (message *m_ptr) );
 #define do_trace do_unused
 #endif
 
+/* ######################################################## */
+/* ###########----------Codigo Adicionado---------######### */
+_PROTOTYPE( int do_priority, (message *m_ptr) );
+#if ! USE_PRIORITY
+#define do_priority do_unused
+#endif
+/* ######################################################## */
+
 _PROTOTYPE( int do_nice, (message *m_ptr) );
 #if ! USE_NICE
 #define do_nice do_unused

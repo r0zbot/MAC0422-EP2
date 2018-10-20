@@ -279,7 +279,12 @@
 #  define SYS_VM_SETBUF  (KERNEL_CALL + 29)	/* sys_vm_setbuf() */
 #  define SYS_VM_MAP  	 (KERNEL_CALL + 30)	/* sys_vm_map() */
 
-#define NR_SYS_CALLS	31	/* number of system calls */ 
+/* ######################################################## */
+/* ###########----------Codigo Modificado---------######### */
+#  define SYS_PRIORITY   (KERNEL_CALL + 31)	/* sys_vm_map() */
+
+#define NR_SYS_CALLS	32	/* number of system calls */ 
+/* ######################################################## */
 
 /* Subfunctions for SYS_PRIVCTL */
 #define SYS_PRIV_INIT		1	/* Initialize a privilege structure */
