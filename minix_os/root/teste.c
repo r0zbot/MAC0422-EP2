@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
 		/*pai*/
 		printf("Chamando chpriority() no filho com prioridade 256 (invalida)...\n");
 		printf("chpriority retornou %d\n", chpriority(filho, 256));
-		printf("Chamando chpriority() no filho com prioridade 14 (invalida)...\n");
+		printf("Chamando chpriority() no filho com prioridade 14 (valida)...\n");
 		printf("chpriority retornou %d\n", chpriority(filho, 14));
 		sleep(100);
 	}
