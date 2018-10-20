@@ -1,4 +1,4 @@
-# <center>MAC0422 - EP2 </center>
+# MAC0422 - EP2
 
 ## Integrantes 
 | Nome                	| NUSP      |

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>report</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+#
+<center>
+MAC0422 - EP2
+</center>
+<h2 id="integrantes">Integrantes</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Nome</th>
+<th>NUSP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Daniel Martinez</td>
+<td>10297709</td>
+</tr>
+<tr class="even">
+<td>Pedro Paulo Bambace</td>
+<td>10297668</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="arquivos-criadosmodificados">Arquivos criados/modificados</h2>
+<h4 id="visualização-da-tabela-de-processos">Visualização da tabela de processos</h4>
+<ul>
+<li><code>minix_os/usr/src/servers/is/dmp_kernel.c</code></li>
+<li><code>minix_os/usr/src/servers/is/dmp.c</code></li>
+<li><code>minix_os/usr/src/servers/is/proto.h</code></li>
+<li><code>minix_os/usr/include/minix/callnr.h</code></li>
+<li><code>minix_os/usr/src/include/minix/callnr.h</code></li>
+</ul>
+<h4 id="chamada-de-sistema-para-alteração-de-prioridade">Chamada de sistema para alteração de prioridade</h4>
+<ul>
+<li><code>minix_os/usr/include/sys/resource.h</code></li>
+<li><code>minix_os/usr/src/lib/posix/priority.c</code></li>
+<li><code>minix_os/usr/src/servers/pm/misc.c</code></li>
+<li><code>minix_os/usr/src/servers/pm/proto.h</code></li>
+<li><code>minix_os/usr/src/servers/pm/table.c</code></li>
+<li><code>minix_os/usr/src/lib/syslib/sys_nice.c</code></li>
+<li><code>minix_os/usr/src/include/minix/syslib.h</code></li>
+<li><code>minix_os/usr/include/minix/syslib.h</code></li>
+<li><code>minix_os/usr/include/minix/com.h</code></li>
+<li><code>minix_os/usr/src/include/minix/com.h</code></li>
+<li><code>minix_os/usr/src/kernel/system.c</code></li>
+<li><code>minix_os/usr/src/kernel/system.h</code></li>
+<li><code>minix_os/usr/src/kernel/kernel.h</code></li>
+<li><code>minix_os/usr/src/kernel/system/Makefile</code></li>
+<li><code>minix_os/usr/src/kernel/system/.depend</code></li>
+<li><code>minix_os/usr/src/kernel/config.h</code></li>
+<li><code>minix_os/usr/src/kernel/system/do_priority.c</code></li>
+</ul>
+<h4 id="outros">Outros</h4>
+<ul>
+<li><code>minix_os/usr/src/b</code> - Arquivo para automatizar o build</li>
+<li><code>minix_os/root/teste.c</code> - Arquivo que testa a chamada implementada</li>
+</ul>
+<h2 id="detalhes-de-implementação">Detalhes de implementação</h2>
+<h3 id="visualização-da-tabela-de-processos-1">Visualização da tabela de processos</h3>
+<p>Nessa parte do EP, pegamos a tabela de processos através da chamada de sistema <code>sys_getproctab()</code> e a ordenamos em ordem decrescente de prioridade (na verdade, ordenamos em ordem crescente de p_priority, que quanto menor é, maior a prioridade do processo). Definimos que quando o usuário pressiona a tecla F4, imprimimos para cada processo dessa tabela as seguintes informações:</p>
+<ul>
+<li>nr do processo</li>
+<li>Nome do processo</li>
+<li>Prioridade de execução</li>
+<li>PID do processo</li>
+<li>Tempo de CPU</li>
+<li>Tempo de Sistema</li>
+<li>Endereço do ponteiro da pilha</li>
+</ul>
+<p>Para conseguir o PID do processo, foi implementada uma chamada de biblioteca <code>getpidfromnr()</code> que retorna o PID do processo dado seu nr. Ela executa a chamada de sistema <code>CHPRIORITY</code> do <em>Process Manager</em> como modo 1, que relaciona as tabelas de processos <code>mproc</code> e <code>proc</code> e retorna o PID do processo especificado.</p>
+<p>Se houver mais processos que os que cabem na tela, eles serão exibidos na próxima vez que o usuário pressionar F4.</p>
+<h3 id="chamada-de-sistema-para-alteração-de-prioridade-1">Chamada de sistema para alteração de prioridade</h3>
+<p>Implementamos a chamada de biblioteca <code>chpriority()</code> como especificado no enunciado, que executa a mesma chamada de sistema <code>CHPRIORITY</code>, mas como modo 0. Esta verifica se a prioridade passada está entre <code>MAX_USER_Q</code> e <code>MIN_USER_Q</code>, que são as prioridades permitidas para um processo de usuário e também se o processo cujo PID foi passado é filho do processo que a chamou através do atributo <code>mp_parent</code> do processo. Em seguida, ela executa a chamada de <em>kernel</em> <code>sys_priority</code> para a alteração da prioridade. Essa chamada de <em>kernel</em> retira o processo da fila de execução, altera sua prioridade e prioridade máxima, e o coloca na nova fila.</p>
+<p>Para retornar números negativos nem a utilização de <code>errno</code>, utilizamos a função <code>_taskcall()</code> no lugar da <code>_syscall()</code>.</p>
+<h3 id="arquivo-de-teste">Arquivo de teste</h3>
+<p>Há um arquivo de teste em <code>/root/teste.c</code> que testa a chamada de sistema implementada nesse EP para três casos:</p>
+<ul>
+<li>Processo não-filho, onde o resultado esperado é -2</li>
+<li>Prioridade inválida, onde o resultado esperado é -1</li>
+<li>Prioridade válida para um processo filho, onde o resultado esperado é a mudança de prioridade de tal processo, retornando seu valor.</li>
+</ul>
+<p>Nesse último caso, utilizamos a chamada de sistema <code>fork()</code> para a criação de um processo filho, que fica somente espera 100 segundos e termina, enquanto o processo pai faz a chamada de sistema implementada, também esperando 100 segundos depois disso para que seja possível verificar se o valor realmente foi alterado na tabela de processos (pressionando F4).</p>
+<h3 id="arquivo-de-build">Arquivo de build</h3>
+<p>É um simples script que automatiza o processo de build. Ele executa o <code>make world</code> para compilar todas as partes do Minix, move a imagem de <em>kernel</em> gerada para <code>/boot/image/image_big</code> e se tudo der certo, reinicia o sistema automaticamente.</p>
+</body>
+</html>

@@ -1,0 +1,237 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\title{\textbf{MAC0422 - EP2}}
+\author{Daniel Martinez - 10297709 
+  \and Pedro Paulo Bambace - 10297668}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{arquivos-criadosmodificados}{%
+\subsection{Arquivos
+criados/modificados}\label{arquivos-criadosmodificados}}
+
+\hypertarget{visualizauxe7uxe3o-da-tabela-de-processos}{%
+\paragraph{Visualização da tabela de
+processos}}
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{minix\_os/usr/src/servers/is/dmp\_kernel.c}
+\item
+  \texttt{minix\_os/usr/src/servers/is/dmp.c}
+\item
+  \texttt{minix\_os/usr/src/servers/is/proto.h}
+\item
+  \texttt{minix\_os/usr/include/minix/callnr.h}
+\item
+  \texttt{minix\_os/usr/src/include/minix/callnr.h}
+\end{itemize}
+
+\hypertarget{chamada-de-sistema-para-alterauxe7uxe3o-de-prioridade}{%
+\paragraph{Chamada de sistema para alteração de
+prioridade}}
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{minix\_os/usr/include/sys/resource.h}
+\item
+  \texttt{minix\_os/usr/src/lib/posix/priority.c}
+\item
+  \texttt{minix\_os/usr/src/servers/pm/misc.c}
+\item
+  \texttt{minix\_os/usr/src/servers/pm/proto.h}
+\item
+  \texttt{minix\_os/usr/src/servers/pm/table.c}
+\item
+  \texttt{minix\_os/usr/src/lib/syslib/sys\_nice.c}
+\item
+  \texttt{minix\_os/usr/src/include/minix/syslib.h}
+\item
+  \texttt{minix\_os/usr/include/minix/syslib.h}
+\item
+  \texttt{minix\_os/usr/include/minix/com.h}
+\item
+  \texttt{minix\_os/usr/src/include/minix/com.h}
+\item
+  \texttt{minix\_os/usr/src/kernel/system.c}
+\item
+  \texttt{minix\_os/usr/src/kernel/system.h}
+\item
+  \texttt{minix\_os/usr/src/kernel/kernel.h}
+\item
+  \texttt{minix\_os/usr/src/kernel/system/Makefile}
+\item
+  \texttt{minix\_os/usr/src/kernel/system/.depend}
+\item
+  \texttt{minix\_os/usr/src/kernel/config.h}
+\item
+  \texttt{minix\_os/usr/src/kernel/system/do\_priority.c}
+\end{itemize}
+
+\hypertarget{outros}{%
+\paragraph{Outros}}
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{minix\_os/usr/src/b} - Arquivo para automatizar o build
+\item
+  \texttt{minix\_os/root/teste.c} - Arquivo que testa a chamada
+  implementada
+\end{itemize}
+
+\hypertarget{detalhes-de-implementauxe7uxe3o}{%
+\subsection{Detalhes de
+implementação}\label{detalhes-de-implementauxe7uxe3o}}
+
+\hypertarget{visualizauxe7uxe3o-da-tabela-de-processos-1}{%
+\subsubsection{Visualização da tabela de
+processos}\label{visualizauxe7uxe3o-da-tabela-de-processos-1}}
+
+Nessa parte do EP, pegamos a tabela de processos através da chamada de
+sistema \texttt{sys\_getproctab()} e a ordenamos em ordem decrescente de
+prioridade (na verdade, ordenamos em ordem crescente de p\_priority, que
+quanto menor é, maior a prioridade do processo). Definimos que quando o
+usuário pressiona a tecla F4, imprimimos para cada processo dessa tabela
+as seguintes informações:
+
+\begin{itemize}
+\tightlist
+\item
+  nr do processo
+\item
+  Nome do processo
+\item
+  Prioridade de execução
+\item
+  PID do processo
+\item
+  Tempo de CPU
+\item
+  Tempo de Sistema
+\item
+  Endereço do ponteiro da pilha
+\end{itemize}
+
+Para conseguir o PID do processo, foi implementada uma chamada de
+biblioteca \texttt{getpidfromnr()} que retorna o PID do processo dado
+seu nr. Ela executa a chamada de sistema \texttt{CHPRIORITY} do
+\emph{Process Manager} como modo 1, que relaciona as tabelas de
+processos \texttt{mproc} e \texttt{proc} e retorna o PID do processo
+especificado.
+
+Se houver mais processos que os que cabem na tela, eles serão exibidos
+na próxima vez que o usuário pressionar F4.
+
+\hypertarget{chamada-de-sistema-para-alterauxe7uxe3o-de-prioridade-1}{%
+\subsubsection{Chamada de sistema para alteração de
+prioridade}\label{chamada-de-sistema-para-alterauxe7uxe3o-de-prioridade-1}}
+
+Implementamos a chamada de biblioteca \texttt{chpriority()} como
+especificado no enunciado, que executa a mesma chamada de sistema
+\texttt{CHPRIORITY}, mas como modo 0. Esta verifica se a prioridade
+passada está entre \texttt{MAX\_USER\_Q} e \texttt{MIN\_USER\_Q}, que
+são as prioridades permitidas para um processo de usuário e também se o
+processo cujo PID foi passado é filho do processo que a chamou através
+do atributo \texttt{mp\_parent} do processo. Em seguida, ela executa a
+chamada de \emph{kernel} \texttt{sys\_priority} para a alteração da
+prioridade. Essa chamada de \emph{kernel} retira o processo da fila de
+execução, altera sua prioridade e prioridade máxima, e o coloca na nova
+fila.
+
+Para retornar números negativos nem a utilização de \texttt{errno},
+utilizamos a função \texttt{\_taskcall()} no lugar da
+\texttt{\_syscall()}.
+
+\hypertarget{arquivo-de-teste}{%
+\subsubsection{Arquivo de teste}\label{arquivo-de-teste}}
+
+Há um arquivo de teste em \texttt{/root/teste.c} que testa a chamada de
+sistema implementada nesse EP para três casos:
+
+\begin{itemize}
+\tightlist
+\item
+  Processo não-filho, onde o resultado esperado é -2
+\item
+  Prioridade inválida, onde o resultado esperado é -1
+\item
+  Prioridade válida para um processo filho, onde o resultado esperado é
+  a mudança de prioridade de tal processo, retornando seu valor.
+\end{itemize}
+
+Nesse último caso, utilizamos a chamada de sistema \texttt{fork()} para
+a criação de um processo filho, que fica somente espera 100 segundos e
+termina, enquanto o processo pai faz a chamada de sistema implementada,
+também esperando 100 segundos depois disso para que seja possível
+verificar se o valor realmente foi alterado na tabela de processos
+(pressionando F4).
+
+\hypertarget{arquivo-de-build}{%
+\subsubsection{Arquivo de build}\label{arquivo-de-build}}
+
+É um simples script que automatiza o processo de build. Ele executa o
+\texttt{make\ world} para compilar todas as partes do Minix, move a
+imagem de \emph{kernel} gerada para \texttt{/boot/image/image\_big} e se
+tudo der certo, reinicia o sistema automaticamente.
+
+\end{document}
