@@ -257,7 +257,6 @@ PUBLIC int do_chpriority()
         break;
       }
     }
-    printf("Process: %s  nr: %d  pid: %d  Priority: %d   Priority passado: %d  Max Priority: %d  Parent id: %d  who_name: %s who_nr: %d\n", pr->p_name, pr->p_nr, pidi, pr->p_priority, priority, pr->p_max_priority, rmp->mp_parent, mproc[who_p].mp_name, who_p);
     if(priority < MAX_USER_Q || priority > MIN_USER_Q){
       return -1;
     }
