@@ -29,13 +29,16 @@ PUBLIC int do_nice(message *m_ptr)
   pri = m_ptr->PR_PRIORITY;
   rp = proc_addr(proc_nr);
 
+  // If the mode is not 0, do_priority
   if(m_ptr->m1_i3){
     lock_dequeue(rp);
     rp->p_priority = pri;
-    lock_enqueue(rp);
+    rp->p_max_priority = pri;
+    if (! rp->p_rts_flags) lock_enqueue(rp);
     return(OK);
   }
   else{
+    // If the mode is 0, do_nice
     if (pri == PRIO_STOP) {
 
         /* Take process off the scheduling queues. */

@@ -240,18 +240,12 @@ PUBLIC int do_chpriority()
   priority = m_in.m1_i2;
   pidi = m_in.m1_i1;
 
-
-/*  pr = &proc[proc_from_pid(pidi)];*/
   /*Mode 1 = return pid from nr*/
   if(mode == 1){
     return mproc[pidi].mp_pid;
   }
   /*Mode 0 = change priority*/
   else{
-    /*for (i = 0; i < NR_PROCS && i<40; ++i){
-      rmp = &mproc[i];
-      printf("i: %d   PID: %d  name: %s  \n", i , rmp->mp_pid, rmp->mp_name );
-    }*/
     if((r=sys_getproctab(proctab)) != OK){
       return r;
     }
@@ -264,16 +258,14 @@ PUBLIC int do_chpriority()
       }
     }
     printf("Process: %s  nr: %d  pid: %d  Priority: %d   Priority passado: %d  Max Priority: %d  Parent id: %d  who_name: %s who_nr: %d\n", pr->p_name, pr->p_nr, pidi, pr->p_priority, priority, pr->p_max_priority, rmp->mp_parent, mproc[who_p].mp_name, who_p);
-    if(pr == NULL || rmp->mp_parent != who_p){
-      return -2;
-    }
-    if(priority < pr->p_max_priority){
+    if(priority < MAX_USER_Q || priority > MIN_USER_Q){
       return -1;
     }
-    return sys_priority(pr->p_nr, priority);
-
+    if(pr == NULL || rmp->mp_parent != who_p || sys_priority(rmp->mp_endpoint, priority) != OK){
+      return -2;
+    }
+    return priority;
   }
-  return 1234; 
 }
 /* ######################################################################### */
 
