@@ -1,0 +1,119 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+\title{\textbf{MAC0422 - EP3}}
+\author{Daniel Martinez - 10297709 
+  \and Pedro Paulo Bambace - 10297668}
+
+\maketitle
+
+\hypertarget{arquivos-criadosmodificados}{%
+\subsection{Arquivos
+criados/modificados}\label{arquivos-criadosmodificados}}
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{/usr/src/servers/pm/alloc.c}
+\item
+  \texttt{/root/memstat.c}
+\item
+  \texttt{/root/memstat}
+\item
+  \texttt{/root/makefile}
+\end{itemize}
+
+Além disso, adicionamos a ferramenta de testes disponibilizada pelo
+professor em \texttt{/root/memuse/}
+
+\hypertarget{detalhes-de-implementauxe7uxe3o}{%
+\subsection{Detalhes de
+implementação}\label{detalhes-de-implementauxe7uxe3o}}
+
+\hypertarget{algoritmo-de-alocauxe7uxe3o-worst-fit}{%
+\subsubsection{\texorpdfstring{Algoritmo de alocação \emph{worst
+fit}}{Algoritmo de alocação worst fit}}\label{algoritmo-de-alocauxe7uxe3o-worst-fit}}
+
+Na função \texttt{alloc\_mem()} do Process Manager, substituimos o
+algoritmo que escolhe o \emph{buraco} na memória onde um novo espaço
+será alocado pelo \emph{worst fit}. Para isso, iteramos todos os
+\emph{buracos} disponíveis e escolhemos o maior para alocação da
+memoria.
+
+\hypertarget{estatuxedsticas-sobre-buracos-na-memuxf3ria}{%
+\subsubsection{\texorpdfstring{Estatísticas sobre \emph{buracos} na
+memória}{Estatísticas sobre buracos na memória}}\label{estatuxedsticas-sobre-buracos-na-memuxf3ria}}
+
+Criamos o programa especificado no enunciado que utiliza a chamada de
+sistema \texttt{getsysinfo()} para coletar informações sobre os
+\emph{buracos} presentes na memória, que nos retorna um vetor de
+\emph{buracos}. Com essa informação, criamos um vetor com o tamanho dos
+\emph{buracos} existentes e sua quantidade, para o cálculo da média,
+desvio padrão e mediana.
+
+\hypertarget{arquivo-de-build}{%
+\subsubsection{Arquivo de build}\label{arquivo-de-build}}
+
+Para compilar o executável do \texttt{memstat}, basta executar
+\texttt{make} no diretório \texttt{/root/}, como exemplificado no
+enunciado.
+
+\end{document}
