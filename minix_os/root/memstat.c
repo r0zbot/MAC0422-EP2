@@ -25,6 +25,9 @@ int main(int argc, char const *argv[]){
 		largest_bytes = 0;
 		total_bytes = 0;
 		nholes = 0;
+		avg = 0;
+		stddev = 0;
+		median = 0;
 		for (i = 0; i < _NR_HOLES; ++i){
 			sizes[i] = 0;
 		}
@@ -55,7 +58,7 @@ int main(int argc, char const *argv[]){
 			stddev += (sizes[i] - avg)*(sizes[i] - avg);
 		}
 		stddev = sqrt(stddev/nholes);
-		printf("%7d\t%7d kB\t%7d kB\t%7d kB\n", nholes, avg/1024, stddev/1024, median/1024);
+		printf("%7d\t\t%7d kB\t%7d kB\t%7d kB\n", nholes, avg/1024, stddev/1024, median/1024);
 		sleep(1);
 	}
 	return 0;
