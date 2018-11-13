@@ -67,39 +67,39 @@ phys_clicks clicks;		/* amount of memory requested */
  * always on a click boundary.  This procedure is called when memory is
  * needed for FORK or EXEC.  Swap other processes out if needed.
  */
-  register struct hole *hp, *prev_ptr, *bighole;
+  register struct hole *hp, *prev_ptr, *bighole, *prev_bighole;
   phys_clicks old_base;
 
   do {
     prev_ptr = NIL_HOLE;
-		hp = hole_head;
-		bighole = hole_head;
-		prev_bighole = NIL_HOLE;
-		while (hp != NIL_HOLE && hp->h_base < swap_base) {
-			if(hp->h_len < bighole->h_len){
-				bighole = hp;
-				prev_bighole = prev_ptr;
-			}
-
-			prev_ptr = hp;
-			hp = hp->h_next;
+	hp = hole_head;
+	bighole = hole_head;
+	prev_bighole = NIL_HOLE;
+	while (hp != NIL_HOLE && hp->h_base < swap_base) {
+		if(hp->h_len > bighole->h_len){
+			bighole = hp;
+			prev_bighole = prev_ptr;
 		}
-		if(bighole->h_len >= clicks){
-			/*Nosso programa cabe no maior buraco*/
-			old_base = bighole->h_base;	/* remember where it started */
-			bighole->h_base += clicks;	/* bite a piece off */
-			bighole->h_len -= clicks;	/* ditto */
 
-			/* Remember new high watermark of used memory. */
-			if(bighole->h_base > high_watermark)
-				high_watermark = bighole->h_base;
+		prev_ptr = hp;
+		hp = hp->h_next;
+	}
+	if(bighole->h_len >= clicks){
+		/*Nosso programa cabe no maior buraco*/
+		old_base = bighole->h_base;	/* remember where it started */
+		bighole->h_base += clicks;	/* bite a piece off */
+		bighole->h_len -= clicks;	/* ditto */
 
-			/* Delete the hole if used up completely. */
-			if (bighole->h_len == 0) del_slot(prev_bighole, bighole);
+		/* Remember new high watermark of used memory. */
+		if(bighole->h_base > high_watermark)
+			high_watermark = bighole->h_base;
 
-			/* Return the start address of the acquired block. */
-			return(old_base);
-		}
+		/* Delete the hole if used up completely. */
+		if (bighole->h_len == 0) del_slot(prev_bighole, bighole);
+
+		/* Return the start address of the acquired block. */
+		return(old_base);
+	}
   } while (swap_out());		/* try to swap some other process out */
   return(NO_MEM);
 }
