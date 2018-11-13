@@ -74,9 +74,11 @@ phys_clicks clicks;		/* amount of memory requested */
     prev_ptr = NIL_HOLE;
 		hp = hole_head;
 		bighole = hole_head;
+		prev_bighole = NIL_HOLE;
 		while (hp != NIL_HOLE && hp->h_base < swap_base) {
 			if(hp->h_len < bighole->h_len){
 				bighole = hp;
+				prev_bighole = prev_ptr;
 			}
 
 			prev_ptr = hp;
@@ -93,7 +95,7 @@ phys_clicks clicks;		/* amount of memory requested */
 				high_watermark = bighole->h_base;
 
 			/* Delete the hole if used up completely. */
-			if (bighole->h_len == 0) del_slot(prev_ptr, bighole);
+			if (bighole->h_len == 0) del_slot(prev_bighole, bighole);
 
 			/* Return the start address of the acquired block. */
 			return(old_base);
