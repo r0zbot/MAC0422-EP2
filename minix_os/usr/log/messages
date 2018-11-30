@@ -41205,3 +41205,278 @@ Nov 30 13:51:58 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
 Nov 30 13:51:58 10 kernel: AT-D0: Ultra DMA mode selected: 2
 Nov 30 13:51:58 10 kernel: Replacing root
 Nov 30 13:52:57 10 syslogd: exiting on signal 15
+Nov 30 14:20:28 10 syslogd: restart
+Nov 30 14:20:28 10 kernel: 
+Nov 30 14:20:28 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 14:20:28 10 kernel: Executing in 32-bit protected mode.
+Nov 30 14:20:28 10 kernel: 
+Nov 30 14:20:28 10 kernel:                                                                                                                                              
+Nov 30 14:20:28 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Nov 30 14:20:28 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Nov 30 14:20:28 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Nov 30 14:20:28 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Nov 30 14:20:28 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Nov 30 14:20:28 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Nov 30 14:20:28 10 kernel: Replacing root
+Nov 30 14:21:04 10 syslogd: exiting on signal 15
+Nov 30 14:21:08 10 syslogd: restart
+Nov 30 14:21:08 10 kernel: 
+Nov 30 14:21:08 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 14:21:08 10 kernel: Executing in 32-bit protected mode.
+Nov 30 14:21:08 10 kernel: 
+Nov 30 14:21:08 10 kernel:                                                                                                                                              
+Nov 30 14:21:08 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Nov 30 14:21:08 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Nov 30 14:21:08 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Nov 30 14:21:08 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Nov 30 14:21:08 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Nov 30 14:21:08 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Nov 30 14:21:08 10 kernel: Replacing root
+Nov 30 14:22:18 10 syslogd: exiting on signal 15
+Nov 30 14:22:23 10 syslogd: restart
+Nov 30 14:22:23 10 kernel: 
+Nov 30 14:22:23 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 14:22:23 10 kernel: Executing in 32-bit protected mode.
+Nov 30 14:22:23 10 kernel: 
+Nov 30 14:22:23 10 kernel:                                                                                                                                              
+Nov 30 14:22:23 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Nov 30 14:22:23 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Nov 30 14:22:23 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Nov 30 14:22:23 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Nov 30 14:22:23 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Nov 30 14:22:23 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Nov 30 14:22:23 10 kernel: Replacing root
+Nov 30 14:24:16 10 syslogd: exiting on signal 15
+Nov 30 14:26:20 10 syslogd: restart
+Nov 30 14:26:20 10 kernel: 
+Nov 30 14:26:20 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 14:26:20 10 kernel: Executing in 32-bit protected mode.
+Nov 30 14:26:20 10 kernel: 
+Nov 30 14:26:20 10 kernel:                                                                                                                                              
+Nov 30 14:26:20 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Nov 30 14:26:20 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Nov 30 14:26:20 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Nov 30 14:26:20 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Nov 30 14:26:20 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Nov 30 14:26:20 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Nov 30 14:26:20 10 kernel: Replacing root
+Nov 30 14:26:34 10 syslogd: exiting on signal 15
+Nov 30 14:26:39 10 syslogd: restart
+Nov 30 14:26:39 10 kernel: 
+Nov 30 14:26:39 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 14:26:39 10 kernel: Executing in 32-bit protected mode.
+Nov 30 14:26:39 10 kernel: 
+Nov 30 14:26:39 10 kernel:                                                                                                                                              
+Nov 30 14:26:39 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Nov 30 14:26:39 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Nov 30 14:26:39 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Nov 30 14:26:39 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Nov 30 14:26:39 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Nov 30 14:26:39 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Nov 30 14:26:39 10 kernel: Replacing root
+Nov 30 14:26:44 10 kernel: Funcionei legal! bad process, who = %d, call_nr = %d, endpt1 = %d
+Nov 30 14:26:44 10 kernel:  %i 
+Nov 30 14:27:25 10 syslogd: exiting on signal 15
+Nov 30 14:38:44 10 syslogd: restart
+Nov 30 14:38:44 10 kernel: 
+Nov 30 14:38:44 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 14:38:44 10 kernel: Executing in 32-bit protected mode.
+Nov 30 14:38:44 10 kernel: 
+Nov 30 14:38:44 10 kernel:                                                                                                                                              
+Nov 30 14:38:44 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Nov 30 14:38:44 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Nov 30 14:38:44 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Nov 30 14:38:44 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Nov 30 14:38:44 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Nov 30 14:38:44 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Nov 30 14:38:44 10 kernel: Replacing root
+Nov 30 14:38:52 10 syslogd: exiting on signal 15
+Nov 30 14:38:56 10 syslogd: restart
+Nov 30 14:38:56 10 kernel: 
+Nov 30 14:38:56 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 14:38:56 10 kernel: Executing in 32-bit protected mode.
+Nov 30 14:38:56 10 kernel: 
+Nov 30 14:38:56 10 kernel:                                                                                                                                              
+Nov 30 14:38:56 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Nov 30 14:38:56 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Nov 30 14:38:56 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Nov 30 14:38:56 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Nov 30 14:38:56 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Nov 30 14:38:56 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Nov 30 14:38:56 10 kernel: Replacing root
+Nov 30 14:39:00 10 kernel: Funcionei legal! bad process, who = %d, call_nr = %d, endpt1 = %d
+Nov 30 14:39:00 10 kernel:  5 
+Nov 30 14:40:47 10 kernel: Funcionei legal! bad process, who = %d, call_nr = %d, endpt1 = %d
+Nov 30 14:40:47 10 kernel:  5 
+Nov 30 14:41:43 10 kernel: Dump of kernel environment strings set by boot monitor.
+Nov 30 14:41:43 10 kernel: 
+Nov 30 14:41:43 10 kernel: rootdev=896
+Nov 30 14:41:43 10 kernel: ramimagedev=896
+Nov 30 14:41:43 10 kernel: ramsize=0
+Nov 30 14:41:43 10 kernel: processor=686
+Nov 30 14:41:43 10 kernel: bus=at
+Nov 30 14:41:43 10 kernel: video=vga
+Nov 30 14:41:43 10 kernel: chrome=color
+Nov 30 14:41:43 10 kernel: memory=800:92970,100000:FF00000
+Nov 30 14:41:43 10 kernel: image=/boot/image_big
+Nov 30 14:41:43 10 kernel: 
+Nov 30 14:41:43 10 kernel: IRQ policies dump shows use of kernel's IRQ hooks.
+Nov 30 14:41:43 10 kernel: -h.id- -proc.nr- -IRQ vector (nr.)- -policy- -notify id-
+Nov 30 14:41:43 10 kernel:   0         5          rs232 (04)   reenable   4
+Nov 30 14:41:43 10 kernel:   1         5          rs232 (03)   reenable   3
+Nov 30 14:41:43 10 kernel:   2         5          rs232 (04)   reenable   4
+Nov 30 14:41:43 10 kernel:   3         5          rs232 (03)   reenable   3
+Nov 30 14:41:43 10 kernel:   4         5       keyboard (01)   reenable   1
+Nov 30 14:41:43 10 kernel:   5         5                (12)   reenable   12
+Nov 30 14:41:43 10 kernel:   6     35551         floppy (06)       -      6
+Nov 30 14:41:43 10 kernel:   7     35554      at_wini_0 (14)   reenable   14
+Nov 30 14:41:43 10 kernel:   8    <unused>
+Nov 30 14:41:43 10 kernel:   9    <unused>
+Nov 30 14:41:43 10 kernel:  10    <unused>
+Nov 30 14:41:43 10 kernel:  11    <unused>
+Nov 30 14:41:43 10 kernel:  12    <unused>
+Nov 30 14:41:43 10 kernel:  13    <unused>
+Nov 30 14:41:43 10 kernel:  14    <unused>
+Nov 30 14:41:43 10 kernel:  15    <unused>
+Nov 30 14:41:43 10 kernel: 
+Nov 30 14:41:45 10 kernel: Dump of all messages generated by the kernel.
+Nov 30 14:41:45 10 kernel: 
+Nov 30 14:41:45 10 kernel: 
+Nov 30 14:41:45 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 14:41:45 10 kernel: Executing in 32-bit protected mode.
+Nov 30 14:41:45 10 kernel: 
+Nov 30 14:41:46 10 kernel: Dump of all messages generated by the kernel.
+Nov 30 14:41:46 10 kernel: 
+Nov 30 14:41:46 10 kernel: 
+Nov 30 14:41:46 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 14:41:46 10 kernel: Executing in 32-bit protected mode.
+Nov 30 14:41:46 10 kernel: 
+Nov 30 14:41:47 10 kernel: Dumping scheduling queues.
+Nov 30 14:41:47 10 kernel:  0:  -2 
+Nov 30 14:41:47 10 kernel: 15:  -4 
+Nov 30 14:41:47 10 kernel: 
+Nov 30 14:41:47 10 kernel: Dumping scheduling queues.
+Nov 30 14:41:47 10 kernel:  0:  -2 
+Nov 30 14:41:47 10 kernel: 15:  -4 
+Nov 30 14:41:47 10 kernel: 
+Nov 30 14:41:48 10 kernel: Dump of kinfo and machine structures.
+Nov 30 14:41:48 10 kernel: 
+Nov 30 14:41:48 10 kernel: Machine structure:
+Nov 30 14:41:48 10 kernel: - pc_at:        1
+Nov 30 14:41:48 10 kernel: - ps_mca:       0
+Nov 30 14:41:48 10 kernel: - processor:  686
+Nov 30 14:41:48 10 kernel: - protected:    1
+Nov 30 14:41:48 10 kernel: - vdu_ega:      1
+Nov 30 14:41:48 10 kernel: - vdu_vga:      1
+Nov 30 14:41:48 10 kernel: 
+Nov 30 14:41:48 10 kernel: Kernel info structure:
+Nov 30 14:41:48 10 kernel: - code_base:   4096
+Nov 30 14:41:48 10 kernel: - code_size:  24296
+Nov 30 14:41:48 10 kernel: - data_base:  28672
+Nov 30 14:41:48 10 kernel: - data_size:  47772
+Nov 30 14:41:48 10 kernel: - proc_addr:  12508
+Nov 30 14:41:48 10 kernel: - kmem_base:  28672
+Nov 30 14:41:48 10 kernel: - kmem_size:  47772
+Nov 30 14:41:48 10 kernel: - bootdev_base:      0
+Nov 30 14:41:48 10 kernel: - bootdev_size:      0
+Nov 30 14:41:48 10 kernel: - ramdev_base:       0
+Nov 30 14:41:48 10 kernel: - ramdev_size:       0
+Nov 30 14:41:48 10 kernel: - params_base:   653604
+Nov 30 14:41:48 10 kernel: - params_size:     510
+Nov 30 14:41:48 10 kernel: - nr_procs:     100
+Nov 30 14:41:48 10 kernel: - nr_tasks:       4
+Nov 30 14:41:48 10 kernel: - release:      3
+Nov 30 14:41:48 10 kernel: - version:      1.2a
+Nov 30 14:41:48 10 kernel: 
+Nov 30 14:41:48 10 kernel: Dumping scheduling queues.
+Nov 30 14:41:48 10 kernel:  0:  -2 
+Nov 30 14:41:48 10 kernel: 15:  -4 
+Nov 30 14:41:48 10 kernel: 
+Nov 30 14:41:50 10 kernel: Data Store (DS) contents dump
+Nov 30 14:41:50 10 kernel: -slot- -key- -flags- -val_l1- -val_l2-
+Nov 30 14:41:50 10 kernel:   0     2304 U--  [  131072] [13176832] 
+Nov 30 14:41:51 10 kernel: Data Store (DS) contents dump
+Nov 30 14:41:51 10 kernel: -slot- -key- -flags- -val_l1- -val_l2-
+Nov 30 14:41:51 10 kernel:   0     2304 U--  [  131072] [13176832] 
+Nov 30 14:41:52 10 kernel: Available memory stats
+Nov 30 14:41:52 10 kernel: 0075c000:    300 kB
+Nov 30 14:41:52 10 kernel: 00055000:    248 kB
+Nov 30 14:41:52 10 kernel: 00685000:    488 kB
+Nov 30 14:41:52 10 kernel: 008c8000:    532 kB
+Nov 30 14:41:52 10 kernel: 0070b000:    300 kB
+Nov 30 14:41:52 10 kernel: 00cb1000:      8 kB
+Nov 30 14:41:52 10 kernel: 00879000:    300 kB
+Nov 30 14:41:52 10 kernel: 00a84000:    300 kB
+Nov 30 14:41:52 10 kernel: 00cc1000:      8 kB
+Nov 30 14:41:52 10 kernel: 00958000:    300 kB
+Nov 30 14:41:52 10 kernel: 00b12000:    116 kB
+Nov 30 14:41:52 10 kernel: 00af1000:    116 kB
+Nov 30 14:41:52 10 kernel: 00bce000:    764 kB
+Nov 30 14:41:52 10 kernel: 00b3f000:    116 kB
+Nov 30 14:41:52 10 kernel: 00ccf000:     44 kB
+Nov 30 14:41:52 10 kernel: 00b9e000:    144 kB
+Nov 30 14:41:52 10 kernel: 00b61000:    164 kB
+Nov 30 14:41:52 10 kernel: 007bd000:    480 kB
+Nov 30 14:41:52 10 kernel: 00cc8000:      8 kB
+Nov 30 14:41:52 10 kernel: 00cb5000:     28 kB
+Nov 30 14:41:52 10 kernel: 00d07000: 248804 kB
+Nov 30 14:41:52 10 kernel: 
+Nov 30 14:41:52 10 kernel: Total memory free:      253568 kB
+Nov 30 14:41:52 10 kernel: Largest chunk:          248804 kB
+Nov 30 14:41:52 10 kernel: Uncontiguous rest:        4764 kB (0% of total free)
+Nov 30 14:41:52 10 kernel: Memory high watermark:   12288 kB
+Nov 30 14:41:52 10 kernel: Available memory stats
+Nov 30 14:41:52 10 kernel: 0075c000:    300 kB
+Nov 30 14:41:52 10 kernel: 00055000:    248 kB
+Nov 30 14:41:52 10 kernel: 00685000:    488 kB
+Nov 30 14:41:52 10 kernel: 008c8000:    532 kB
+Nov 30 14:41:52 10 kernel: 0070b000:    300 kB
+Nov 30 14:41:52 10 kernel: 00cb1000:      8 kB
+Nov 30 14:41:52 10 kernel: 00879000:    300 kB
+Nov 30 14:41:52 10 kernel: 00a84000:    300 kB
+Nov 30 14:41:52 10 kernel: 00cc1000:      8 kB
+Nov 30 14:41:52 10 kernel: 00958000:    300 kB
+Nov 30 14:41:52 10 kernel: 00b12000:    116 kB
+Nov 30 14:41:52 10 kernel: 00af1000:    116 kB
+Nov 30 14:41:52 10 kernel: 00bce000:    764 kB
+Nov 30 14:41:52 10 kernel: 00b3f000:    116 kB
+Nov 30 14:41:52 10 kernel: 00ccf000:     44 kB
+Nov 30 14:41:52 10 kernel: 00b9e000:    144 kB
+Nov 30 14:41:52 10 kernel: 00b61000:    164 kB
+Nov 30 14:41:52 10 kernel: 007bd000:    480 kB
+Nov 30 14:41:52 10 kernel: 00cc8000:      8 kB
+Nov 30 14:41:52 10 kernel: 00cb5000:     28 kB
+Nov 30 14:41:52 10 kernel: 00d07000: 248804 kB
+Nov 30 14:41:52 10 kernel: 
+Nov 30 14:41:52 10 kernel: Total memory free:      253568 kB
+Nov 30 14:41:52 10 kernel: Largest chunk:          248804 kB
+Nov 30 14:41:52 10 kernel: Uncontiguous rest:        4764 kB (0% of total free)
+Nov 30 14:41:52 10 kernel: Memory high watermark:   12288 kB
+Nov 30 14:41:53 10 kernel: Process manager (PM) signal action dump
+Nov 30 14:41:53 10 kernel: -process- -nr- --ignore- --catch- --block- -tomess-- -pending-- -alarm---
+Nov 30 14:41:53 10 kernel:       pm    0   0xffffff 0x000000 0x000000 0x00804a   0x000000         -
+Nov 30 14:41:53 10 kernel:       fs    1   0x000000 0x000000 0x000000 0x00804a   0x000000         -
+Nov 30 14:41:53 10 kernel:       rs    2   0x000000 0x000000 0x000000 0x02804a   0x000000         -
+Nov 30 14:41:53 10 kernel:      mem    3   0x000000 0x000000 0x000000 0x00804a   0x000000         -
+Nov 30 14:41:53 10 kernel:      log    4   0x000000 0x000000 0x000000 0x00804a   0x000000         -
+Nov 30 14:41:53 10 kernel:      tty    5   0x000000 0x000000 0x000000 0x00804a   0x000000         -
+Nov 30 14:41:53 10 kernel:       ds    6   0x000000 0x000000 0x000000 0x00804a   0x000000         -
+Nov 30 14:41:53 10 kernel:     init    7   0x000000 0x008042 0x000000 0x000000   0x000000         -
+Nov 30 14:41:53 10 kernel:      pci   10   0x000000 0x000000 0x000000 0x02804a   0x000000         -
+Nov 30 14:41:53 10 kernel:   floppy   12   0x000000 0x000000 0x000000 0x02804a   0x000000         -
+Nov 30 14:41:53 10 kernel:  at_wini   15   0x008000 0x000000 0x000000 0x02004a   0x000000         -
+Nov 30 14:41:53 10 kernel:       is   22   0x000000 0x000000 0x000000 0x02804a   0x000000         -
+Nov 30 14:41:53 10 kernel:     cmos   24   0x000000 0x000000 0x000000 0x02804a   0x000000         -
+Nov 30 14:41:53 10 kernel:   random   38   0x000000 0x000000 0x000000 0x02804a   0x000000         -
+Nov 30 14:41:53 10 kernel:     inet   48   0x000000 0x000000 0x000000 0x02804a   0x000000         -
+Nov 30 14:41:53 10 kernel:  printer   51   0x000000 0x000000 0x000000 0x02804a   0x000000         -
+Nov 30 14:41:53 10 kernel:   update   54   0x00000c 0x004000 0x000000 0x000000   0x000000        76
+Nov 30 14:41:53 10 kernel:     cron   56   0x00000c 0x00d402 0x000000 0x000000   0x000000   3441977
+Nov 30 14:41:53 10 kernel:  nonamed   63   0x002008 0x00d406 0x000000 0x000000   0x000000      7277
+Nov 30 14:41:53 10 kernel:  syslogd   65   0x00000c 0x00c002 0x000000 0x000000   0x000000       137
+Nov 30 14:41:53 10 kernel:   rescue   72   0x000000 0x000000 0x000000 0x02804a   0x000000         -
+Nov 30 14:41:53 10 kernel:       sh   77   0x008008 0x000004 0x000000 0x000000   0x000000         -
+Nov 30 14:41:53 10 kernel: --more--
+Nov 30 14:42:12 10 kernel: Funcionei legal! bad process, who = %d, call_nr = %d, endpt1 = %d
+Nov 30 14:42:12 10 kernel:  5 
+Nov 30 14:42:53 10 syslogd: exiting on signal 15

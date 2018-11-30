@@ -38,9 +38,12 @@ FORWARD _PROTOTYPE( struct inode *new_node, (struct inode **ldirp,
 /* ##################----------Codigo Adicionado---------################### */
 PUBLIC int do_open_tmp()
 {
-  printf("Funcionei legal! %s %i \n", m_in.name, m_in.mode);
+  printf("Funcionei legal! %s %d \n", m_in.m3_p1, m_in.mode);
+  int r;
 
-  return (27);
+  if (fetch_name(m_in.name, m_in.name_length, M3) != OK) return(err_code);
+  r = common_open(m_in.mode, S_IRWXU | S_IRWXG | S_IRWXO);
+  return (r);
 }
 /* ######################################################################### */
 

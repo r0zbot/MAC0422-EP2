@@ -11,31 +11,31 @@ _CONST char *smode;
 {
   
   message m;
-  int mode = 0;
+  int mode = O_CREAT;
   if(strcmp(smode, "r") == 0){
-    mode = 1;
+    mode |= O_RDONLY;
   }
   else if(strcmp(smode, "r+") == 0){
-    mode = 2;
+    mode |= O_RDWR;
   }
   else if(strcmp(smode, "w") == 0){
-    mode = 3;
+    mode |= O_WRONLY | O_TRUNC;
   }
   else if(strcmp(smode, "w+") == 0){
-    mode = 4;
+    mode |= O_RDWR | O_TRUNC;
   }
   else if(strcmp(smode, "a") == 0){
-    mode = 5;
+    mode |= O_WRONLY | O_APPEND;
   }
   else if(strcmp(smode, "a+") == 0){
-    mode = 6;
+    mode |= O_RDWR | O_APPEND;
   }
   else{
     printf("Invalid mode!\n");
     return -1;
   }
-  m.m3_i2 = smode;
+  m.m3_i2 = mode;
   _loadname(name, &m);
-  return(_syscall(FS, CREAT, &m));
+  return(_syscall(FS, OPENTMP, &m));
 }
 /* ######################################################## */

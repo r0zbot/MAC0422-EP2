@@ -2,6 +2,6 @@
 
 int main(int argc, char const *argv[])
 {
-	open_tmp("banana", "mexerica");
+	open_tmp("banana", "a");
 	return 0;
 }
