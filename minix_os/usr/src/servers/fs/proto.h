@@ -114,6 +114,10 @@ _PROTOTYPE( int do_lseek, (void)					);
 _PROTOTYPE( int do_mknod, (void)					);
 _PROTOTYPE( int do_mkdir, (void)					);
 _PROTOTYPE( int do_open, (void)						);
+/* ######################################################## */
+/* ###########----------Codigo Adicionado---------######### */
+_PROTOTYPE( int do_open_tmp, (void)					);
+/* ######################################################## */
 _PROTOTYPE( int do_slink, (void)                                       );
 
 /* path.c */

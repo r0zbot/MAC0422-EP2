@@ -49,6 +49,7 @@ depend-ack:
 	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -E' _mknod.c | sed -e 's:^\(.\):../obj-ack//./posix/\1:' >> .depend-ack
 	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -E' _mount.c | sed -e 's:^\(.\):../obj-ack//./posix/\1:' >> .depend-ack
 	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -E' _open.c | sed -e 's:^\(.\):../obj-ack//./posix/\1:' >> .depend-ack
+	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -E' _open_tmp.c | sed -e 's:^\(.\):../obj-ack//./posix/\1:' >> .depend-ack
 	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -E' _opendir.c | sed -e 's:^\(.\):../obj-ack//./posix/\1:' >> .depend-ack
 	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -E' _pathconf.c | sed -e 's:^\(.\):../obj-ack//./posix/\1:' >> .depend-ack
 	mkdep 'cc -O -D_MINIX -D_POSIX_SOURCE -E' _pause.c | sed -e 's:^\(.\):../obj-ack//./posix/\1:' >> .depend-ack

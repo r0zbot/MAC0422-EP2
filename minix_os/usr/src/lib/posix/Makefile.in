@@ -53,6 +53,7 @@ libc_FILES=" \
 	_mknod.c \
 	_mount.c \
 	_open.c \
+	_open_tmp.c \
 	_opendir.c \
 	_pathconf.c \
 	_pause.c \

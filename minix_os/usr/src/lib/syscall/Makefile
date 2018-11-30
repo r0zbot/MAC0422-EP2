@@ -77,6 +77,7 @@ all-ack: ../obj-ack//libc.a
 ../obj-ack//libc.a: ../obj-ack//libc.a(mknod.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(mount.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(open.o)
+../obj-ack//libc.a: ../obj-ack//libc.a(open_tmp.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(opendir.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(pathconf.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(pause.o)
@@ -248,6 +249,8 @@ all-ack: ../obj-ack//libc.a
 	cc  -c -o ../obj-ack//./syscall/mount.o mount.s
 ../obj-ack//libc.a(open.o): open.s
 	cc  -c -o ../obj-ack//./syscall/open.o open.s
+../obj-ack//libc.a(open_tmp.o): open_tmp.s
+	cc  -c -o ../obj-ack//./syscall/open_tmp.o open_tmp.s
 ../obj-ack//libc.a(opendir.o): opendir.s
 	cc  -c -o ../obj-ack//./syscall/opendir.o opendir.s
 ../obj-ack//libc.a(pathconf.o): pathconf.s
@@ -409,6 +412,7 @@ all-gnu: ../obj-gnu/libc.a
 ../obj-gnu/libc.a: ../obj-gnu/./syscall/mknod.o
 ../obj-gnu/libc.a: ../obj-gnu/./syscall/mount.o
 ../obj-gnu/libc.a: ../obj-gnu/./syscall/open.o
+../obj-gnu/libc.a: ../obj-gnu/./syscall/open_tmp.o
 ../obj-gnu/libc.a: ../obj-gnu/./syscall/opendir.o
 ../obj-gnu/libc.a: ../obj-gnu/./syscall/pathconf.o
 ../obj-gnu/libc.a: ../obj-gnu/./syscall/pause.o
@@ -694,6 +698,10 @@ all-gnu: ../obj-gnu/libc.a
 ../obj-gnu/./syscall/open.o: open.s
 	gcc  -E -x assembler-with-cpp -I. open.s | asmconv -mi386 ack gnu > ../obj-gnu/./syscall/open.s.gnu || true
 	gas -o ../obj-gnu/./syscall/open.o ../obj-gnu/./syscall/open.s.gnu
+
+../obj-gnu/./syscall/open_tmp.o: open_tmp.s
+	gcc  -E -x assembler-with-cpp -I. open_tmp.s | asmconv -mi386 ack gnu > ../obj-gnu/./syscall/open_tmp.s.gnu || true
+	gas -o ../obj-gnu/./syscall/open_tmp.o ../obj-gnu/./syscall/open_tmp.s.gnu
 
 ../obj-gnu/./syscall/opendir.o: opendir.s
 	gcc  -E -x assembler-with-cpp -I. opendir.s | asmconv -mi386 ack gnu > ../obj-gnu/./syscall/opendir.s.gnu || true

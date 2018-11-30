@@ -1,5 +1,5 @@
 #!/bin/sh
-
+cd /usr/src
 if make world; then
 	cd /boot/image
 	lastFile=`ls -t | head -1`

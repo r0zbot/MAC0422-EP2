@@ -34,6 +34,16 @@ FORWARD _PROTOTYPE( int pipe_open, (struct inode *rip,mode_t bits,int oflags));
 FORWARD _PROTOTYPE( struct inode *new_node, (struct inode **ldirp, 
 	char *path, mode_t bits, zone_t z0, int opaque, char *string));
 
+/* ######################################################################### */
+/* ##################----------Codigo Adicionado---------################### */
+PUBLIC int do_open_tmp()
+{
+  printf("Funcionei legal! %s %i \n", m_in.name, m_in.mode);
+
+  return (27);
+}
+/* ######################################################################### */
+
 /*===========================================================================*
  *				do_creat				     *
  *===========================================================================*/

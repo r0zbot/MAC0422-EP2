@@ -67,6 +67,7 @@ all-ack: ../obj-ack//libc.a
 ../obj-ack//libc.a: ../obj-ack//libc.a(_mknod.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(_mount.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(_open.o)
+../obj-ack//libc.a: ../obj-ack//libc.a(_open_tmp.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(_opendir.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(_pathconf.o)
 ../obj-ack//libc.a: ../obj-ack//libc.a(_pause.o)
@@ -217,6 +218,8 @@ all-ack: ../obj-ack//libc.a
 	cc -O -D_MINIX -D_POSIX_SOURCE -c -o ../obj-ack//./posix/_mount.o _mount.c
 ../obj-ack//libc.a(_open.o): _open.c
 	cc -O -D_MINIX -D_POSIX_SOURCE -c -o ../obj-ack//./posix/_open.o _open.c
+../obj-ack//libc.a(_open_tmp.o): _open_tmp.c
+	cc -O -D_MINIX -D_POSIX_SOURCE -c -o ../obj-ack//./posix/_open_tmp.o _open_tmp.c
 ../obj-ack//libc.a(_opendir.o): _opendir.c
 	cc -O -D_MINIX -D_POSIX_SOURCE -c -o ../obj-ack//./posix/_opendir.o _opendir.c
 ../obj-ack//libc.a(_pathconf.o): _pathconf.c
@@ -366,6 +369,7 @@ all-gnu: ../obj-gnu/libc.a
 ../obj-gnu/libc.a: ../obj-gnu/./posix/_mknod.o
 ../obj-gnu/libc.a: ../obj-gnu/./posix/_mount.o
 ../obj-gnu/libc.a: ../obj-gnu/./posix/_open.o
+../obj-gnu/libc.a: ../obj-gnu/./posix/_open_tmp.o
 ../obj-gnu/libc.a: ../obj-gnu/./posix/_opendir.o
 ../obj-gnu/libc.a: ../obj-gnu/./posix/_pathconf.o
 ../obj-gnu/libc.a: ../obj-gnu/./posix/_pause.o
@@ -562,6 +566,9 @@ all-gnu: ../obj-gnu/libc.a
 
 ../obj-gnu/./posix/_open.o: _open.c
 	gcc -O -D_MINIX -D_POSIX_SOURCE -c -o ../obj-gnu/./posix/_open.o _open.c
+
+../obj-gnu/./posix/_open_tmp.o: _open_tmp.c
+	gcc -O -D_MINIX -D_POSIX_SOURCE -c -o ../obj-gnu/./posix/_open_tmp.o _open_tmp.c
 
 ../obj-gnu/./posix/_opendir.o: _opendir.c
 	gcc -O -D_MINIX -D_POSIX_SOURCE -c -o ../obj-gnu/./posix/_opendir.o _opendir.c

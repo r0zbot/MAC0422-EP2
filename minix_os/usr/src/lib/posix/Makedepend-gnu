@@ -49,6 +49,7 @@ depend-gnu:
 	mkdep 'gcc -O -D_MINIX -D_POSIX_SOURCE -E' _mknod.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./posix/\1:' >> .depend-gnu
 	mkdep 'gcc -O -D_MINIX -D_POSIX_SOURCE -E' _mount.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./posix/\1:' >> .depend-gnu
 	mkdep 'gcc -O -D_MINIX -D_POSIX_SOURCE -E' _open.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./posix/\1:' >> .depend-gnu
+	mkdep 'gcc -O -D_MINIX -D_POSIX_SOURCE -E' _open_tmp.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./posix/\1:' >> .depend-gnu
 	mkdep 'gcc -O -D_MINIX -D_POSIX_SOURCE -E' _opendir.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./posix/\1:' >> .depend-gnu
 	mkdep 'gcc -O -D_MINIX -D_POSIX_SOURCE -E' _pathconf.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./posix/\1:' >> .depend-gnu
 	mkdep 'gcc -O -D_MINIX -D_POSIX_SOURCE -E' _pause.c | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./posix/\1:' >> .depend-gnu

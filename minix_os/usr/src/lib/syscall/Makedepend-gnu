@@ -59,6 +59,7 @@ depend-gnu:
 	mkdep 'gcc  -E -x assembler-with-cpp -I.' mknod.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./syscall/\1:' >> .depend-gnu
 	mkdep 'gcc  -E -x assembler-with-cpp -I.' mount.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./syscall/\1:' >> .depend-gnu
 	mkdep 'gcc  -E -x assembler-with-cpp -I.' open.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./syscall/\1:' >> .depend-gnu
+	mkdep 'gcc  -E -x assembler-with-cpp -I.' open_tmp.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./syscall/\1:' >> .depend-gnu
 	mkdep 'gcc  -E -x assembler-with-cpp -I.' opendir.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./syscall/\1:' >> .depend-gnu
 	mkdep 'gcc  -E -x assembler-with-cpp -I.' pathconf.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./syscall/\1:' >> .depend-gnu
 	mkdep 'gcc  -E -x assembler-with-cpp -I.' pause.s | sed -e '/<built-in>/d' -e '/<command line>/d' -e 's:^\(.\):../obj-gnu/./syscall/\1:' >> .depend-gnu

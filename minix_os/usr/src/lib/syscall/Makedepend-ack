@@ -59,6 +59,7 @@ depend-ack:
 	mkdep 'cc  -E' mknod.s | sed -e 's:^\(.\):../obj-ack//./syscall/\1:' >> .depend-ack
 	mkdep 'cc  -E' mount.s | sed -e 's:^\(.\):../obj-ack//./syscall/\1:' >> .depend-ack
 	mkdep 'cc  -E' open.s | sed -e 's:^\(.\):../obj-ack//./syscall/\1:' >> .depend-ack
+	mkdep 'cc  -E' open_tmp.s | sed -e 's:^\(.\):../obj-ack//./syscall/\1:' >> .depend-ack
 	mkdep 'cc  -E' opendir.s | sed -e 's:^\(.\):../obj-ack//./syscall/\1:' >> .depend-ack
 	mkdep 'cc  -E' pathconf.s | sed -e 's:^\(.\):../obj-ack//./syscall/\1:' >> .depend-ack
 	mkdep 'cc  -E' pause.s | sed -e 's:^\(.\):../obj-ack//./syscall/\1:' >> .depend-ack
