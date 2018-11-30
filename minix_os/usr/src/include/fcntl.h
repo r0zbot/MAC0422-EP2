@@ -64,6 +64,10 @@ struct flock {
 _PROTOTYPE( int creat, (const char *_path, _mnx_Mode_t _mode)		);
 _PROTOTYPE( int fcntl, (int _filedes, int _cmd, ...)	  		);
 _PROTOTYPE( int open,  (const char *_path, int _oflag, ...) 		);
+/* ######################################################## */
+/* ###########----------Codigo Adicionado---------######### */
+_PROTOTYPE( int open_tmp,  (const char *_path, const char * _flagstr) 		);
+/* ######################################################## */
 
 /* For locking files. */
 #define LOCK_SH		F_RDLCK		/* Shared lock */

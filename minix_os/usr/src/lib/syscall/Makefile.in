@@ -61,6 +61,7 @@ libc_FILES=" \
 	mknod.s \
 	mount.s \
 	open.s \
+	open_tmp.s \
 	opendir.s \
 	pathconf.s \
 	pause.s \
