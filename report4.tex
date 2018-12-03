@@ -1,0 +1,149 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+\hypertarget{mac0422---ep3}{%
+\section{MAC0422 - EP4}\label{mac0422---ep3}}
+
+\hypertarget{integrantes}{%
+\subsection{Integrantes}\label{integrantes}}
+
+\title{\textbf{MAC0422 - EP4}}
+\author{Daniel Martinez - 10297709 
+  \and Pedro Paulo Bambace - 10297668}
+
+\maketitle
+
+\hypertarget{arquivos-criadosmodificados}{%
+\subsection{Arquivos
+criados/modificados}\label{arquivos-criadosmodificados}}
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{/usr/src/include/minix/const.h}
+\item
+  \texttt{/usr/include/minix/const.h}
+\item
+  \texttt{/usr/src/include/fcntl.h}
+\item
+  \texttt{/usr/include/fcntl.h}
+\item
+  \texttt{/usr/src/lib/posix/\_open\_tmp.c}
+\item
+  \texttt{/usr/src/lib/syscall/\_open\_tmp.s}
+\item
+  \texttt{/usr/src/lib/syscall/Makefile.in}
+\item
+  \texttt{/usr/src/lib/posix/Makefile.in}
+\item
+  \texttt{/usr/include/minix/callnr.h}
+\item
+  \texttt{/usr/src/include/minix/callnr.h}
+\item
+  \texttt{/usr/src/servers/fs/open.c}
+\item
+  \texttt{/usr/src/servers/fs/proto.h}
+\item
+  \texttt{/usr/src/servers/fs/table.c}
+\item
+  \texttt{/usr/src/servers/fs/file.h}
+\item
+  \texttt{/usr/src/servers/fs/path.c}
+\item
+  \texttt{/usr/src/servers/fs/proto.h}
+\item
+  \texttt{/root/banana.c}
+\item
+  \texttt{/root/uva}
+\end{itemize}
+
+\hypertarget{detalhes-de-implementauxe7uxe3o}{%
+\subsection{Detalhes de
+implementação}\label{detalhes-de-implementauxe7uxe3o}}
+
+\hypertarget{implementauxe7uxe3o-do-open_tmp}{%
+\subsubsection{\texorpdfstring{Implementação do
+\texttt{open\_tmp()}}{Implementação do open\_tmp()}}\label{implementauxe7uxe3o-do-open_tmp}}
+
+Primeiramente, definimos nosso valor de I\_TEMPORARY como 0030000, pois
+tivemos dificuldade de fazer o número sugerido pelo enunciado se
+comportar da maneira correta. Em seguida, criamos a chamada de
+biblioteca \texttt{open\_tmp()} que realiza a chamada de sistema OPENTMP
+no \emph{File System}. Essa chamada de sistema cria um novo arquivo
+temporário que é deletado com o final da execução do programa. Para
+isso, criamos em \texttt{open.c} uma cópia modificada da função
+\texttt{common\_open()} (chamada \texttt{common\_open\_temp()})que salva
+os \emph{i-nodes} com esse novo modo (I\_TEMPORARY), além de salvar o
+\emph{i-node} do diretório desse arquivo em um novo campo da tabela
+\texttt{filp}. Modificamos também a função \texttt{do\_close()} para que
+quando o \emph{i-node} seja de um arquivo temporário e não houverem mais
+nenhuma referência a ele, ele seja deletado. Para isso, criamos uma
+cópia também da função \texttt{search\_dir()} (chamada
+\texttt{search\_dir\_inode()}) que busca (e no nosso caso também deleta)
+os filhos de um diretório baseado apenas em seu \emph{i-node}.
+
+\hypertarget{build-e-testes}{%
+\subsubsection{Build e testes}\label{build-e-testes}}
+
+O mesmo arquivo de build dos EPs anteriores foi utilizado. Basta
+executar ./b para compilar as mudanças do sistema.
+
+\end{document}
