@@ -40,7 +40,6 @@ _CONST char *smode;
   m.m1_i2 = mode;
   m.m1_p1 = (char *) name;
   
-  printf("ainda nao morri %s %d\n",m.m3_p1, m.m3_i2);
   return(_syscall(FS, OPENTMP, &m));
 }
 /* ######################################################## */

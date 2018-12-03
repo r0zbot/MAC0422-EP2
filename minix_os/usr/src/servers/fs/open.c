@@ -42,8 +42,8 @@ PUBLIC int do_open_tmp()
   int r;
   
   if (fetch_name(m_in.c_name, m_in.name1_length, M1) != OK) return(err_code);
-  printf("Funcionei assim:  %d =? %d \n", m_in.mode, O_CREAT | O_WRONLY | O_APPEND);
   r = common_open_temp(m_in.mode, S_IRWXU | S_IRWXG | S_IRWXO);
+
   return (r);
 }
 
@@ -115,7 +115,7 @@ PRIVATE int common_open_temp(register int oflags, mode_t omode)
         }
       }
       else{
-        r = -9876;
+        r = - 9876;
         printf("Tried to open invalid file as temporary!");
       }
     }
@@ -503,22 +503,28 @@ PUBLIC int do_close()
   rip = rfilp->filp_ino;	/* 'rip' points to the inode */
 
   if (rfilp->filp_count - 1 == 0 && rfilp->filp_mode != FILP_CLOSED) {
-	/* Check to see if the file is special. */
-	mode_word = rip->i_mode & I_TYPE;
-	if (mode_word == I_CHAR_SPECIAL || mode_word == I_BLOCK_SPECIAL) {
-		dev = (dev_t) rip->i_zone[0];
-		if (mode_word == I_BLOCK_SPECIAL)  {
-			/* Invalidate cache entries unless special is mounted
-			 * or ROOT
-			 */
-			if (!mounted(rip)) {
-			        (void) do_sync();	/* purge cache */
-				invalidate(dev);
-			}    
-		}
-		/* Do any special processing on device close. */
-		dev_close(dev);
-	}
+  	/* Check to see if the file is special. */
+  	mode_word = rip->i_mode & I_TYPE;
+  	if (mode_word == I_CHAR_SPECIAL || mode_word == I_BLOCK_SPECIAL) {
+  		dev = (dev_t) rip->i_zone[0];
+  		if (mode_word == I_BLOCK_SPECIAL)  {
+  			/* Invalidate cache entries unless special is mounted
+  			 * or ROOT
+  			 */
+  			if (!mounted(rip)) {
+  			        (void) do_sync();	/* purge cache */
+  				invalidate(dev);
+  			}    
+  		}
+  		/* Do any special processing on device close. */
+  		dev_close(dev);
+  	}
+    else if (mode_word == I_TEMPORARY){
+      rip->i_nlinks--;  /* entry deleted from parent's dir */
+      rip->i_update |= CTIME;
+      rip->i_dirt = DIRTY;
+      put_inode(rip);
+    }
   }
 
   /* If the inode being closed is a pipe, release everyone hanging on it. */
