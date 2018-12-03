@@ -7,6 +7,7 @@ EXTERN struct filp {
   int filp_flags;		/* flags from open and fcntl */
   int filp_count;		/* how many file descriptors share this slot?*/
   struct inode *filp_ino;	/* pointer to the inode */
+  struct inode *filp_ino_parent; /* pointer to the inode */
   off_t filp_pos;		/* file position */
 
   /* the following fields are for select() and are owned by the generic

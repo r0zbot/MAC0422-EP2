@@ -484,3 +484,132 @@ int flag;			 /* LOOK_UP, ENTER, DELETE or IS_EMPTY */
   }
   return(OK);
 }
+
+PUBLIC int search_dir_inode(ldir_ptr, inofind, numb, flag)
+register struct inode *ldir_ptr; /* ptr to inode for dir to search */
+register struct inode *inofind;     /* component to search for */
+ino_t *numb;       /* pointer to inode number */
+int flag;      /* LOOK_UP, ENTER, DELETE or IS_EMPTY */
+{
+/* This function searches the directory whose inode is pointed to by 'ldip':
+ * if (flag == ENTER)  enter 'string' in the directory with inode # '*numb';
+ * if (flag == DELETE) delete 'string' from the directory;
+ * if (flag == LOOK_UP) search for 'string' and return inode # in 'numb';
+ * if (flag == IS_EMPTY) return OK if only . and .. in dir else ENOTEMPTY;
+ *
+ *    if 'string' is dot1 or dot2, no access permissions are checked.
+ */
+
+  register struct direct *dp = NULL;
+  register struct buf *bp = NULL;
+  int i, r, e_hit, t, match;
+  mode_t bits;
+  off_t pos;
+  unsigned new_slots, old_slots;
+  block_t b;
+  struct super_block *sp;
+  int extended = 0;
+
+  /* If 'ldir_ptr' is not a pointer to a dir inode, error. */
+  if ( (ldir_ptr->i_mode & I_TYPE) != I_DIRECTORY)  {
+  return(ENOTDIR);
+   }
+
+  r = OK;
+
+  if (flag != IS_EMPTY) {
+  bits = (flag == LOOK_UP ? X_BIT : W_BIT | X_BIT);
+  
+  /* Step through the directory one block at a time. */
+  old_slots = (unsigned) (ldir_ptr->i_size/DIR_ENTRY_SIZE);
+  new_slots = 0;
+  e_hit = FALSE;
+  match = 0;      /* set when a string match occurs */
+
+  for (pos = 0; pos < ldir_ptr->i_size; pos += ldir_ptr->i_sp->s_block_size) {
+    b = read_map(ldir_ptr, pos);  /* get block number */
+
+    /* Since directories don't have holes, 'b' cannot be NO_BLOCK. */
+    bp = get_block(ldir_ptr->i_dev, b, NORMAL); /* get a dir block */
+
+    if (bp == NO_BLOCK)
+      panic(__FILE__,"get_block returned NO_BLOCK", NO_NUM);
+
+    /* Search a directory block. */
+    for (dp = &bp->b_dir[0];
+      dp < &bp->b_dir[NR_DIR_ENTRIES(ldir_ptr->i_sp->s_block_size)];
+      dp++) {
+      if (++new_slots > old_slots) { /* not found, but room left */
+        if (flag == ENTER) e_hit = TRUE;
+        break;
+      }
+      
+
+      if(dp->d_ino = inofind->i_num){
+        match = 1
+      }
+
+      if (match) {
+        /* LOOK_UP or DELETE found what it wanted. */
+        r = OK;
+        if (flag == IS_EMPTY) r = ENOTEMPTY;
+        else if (flag == DELETE) {
+          /* Save d_ino for recovery. */
+          t = NAME_MAX - sizeof(ino_t);
+          *((ino_t *) &dp->d_name[t]) = dp->d_ino;
+          dp->d_ino = 0;  /* erase entry */
+          bp->b_dirt = DIRTY;
+          ldir_ptr->i_update |= CTIME | MTIME;
+          ldir_ptr->i_dirt = DIRTY;
+        } else {
+          sp = ldir_ptr->i_sp;  /* 'flag' is LOOK_UP */
+          *numb = conv4(sp->s_native, (int) dp->d_ino);
+        }
+        put_block(bp, DIRECTORY_BLOCK);
+        return(r);
+      }
+
+      /* Check for free slot for the benefit of ENTER. */
+      if (flag == ENTER && dp->d_ino == 0) {
+        e_hit = TRUE; /* we found a free slot */
+        break;
+      }
+    }
+
+    /* The whole block has been searched or ENTER has a free slot. */
+    if (e_hit) break; /* e_hit set if ENTER can be performed now */
+    put_block(bp, DIRECTORY_BLOCK); /* otherwise, continue searching dir */
+  }
+
+  /* The whole directory has now been searched. */
+  if (flag != ENTER) {
+    return(flag == IS_EMPTY ? OK : ENOENT);
+  }
+
+  /* This call is for ENTER.  If no free slot has been found so far, try to
+   * extend directory.
+   */
+  if (e_hit == FALSE) { /* directory is full and no room left in last block */
+  new_slots++;    /* increase directory size by 1 entry */
+  if (new_slots == 0) return(EFBIG); /* dir size limited by slot count */
+  if ( (bp = new_block(ldir_ptr, ldir_ptr->i_size)) == NIL_BUF)
+    return(err_code);
+  dp = &bp->b_dir[0];
+  extended = 1;
+  }
+
+  /* 'bp' now points to a directory block with space. 'dp' points to slot. */
+  (void) memset(dp->d_name, 0, (size_t) NAME_MAX); /* clear entry */
+  sp = ldir_ptr->i_sp; 
+  dp->d_ino = conv4(sp->s_native, (int) *numb);
+  bp->b_dirt = DIRTY;
+  put_block(bp, DIRECTORY_BLOCK);
+  ldir_ptr->i_update |= CTIME | MTIME;  /* mark mtime for update later */
+  ldir_ptr->i_dirt = DIRTY;
+  if (new_slots > old_slots) {
+  ldir_ptr->i_size = (off_t) new_slots * DIR_ENTRY_SIZE;
+  /* Send the change to disk if the directory is extended. */
+  if (extended) rw_inode(ldir_ptr, WRITING);
+  }
+  return(OK);
+}

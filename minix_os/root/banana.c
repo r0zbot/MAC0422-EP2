@@ -9,15 +9,15 @@ int main(int argc, char const *argv[])
 	if (arq_ruim != -1){
 		printf("fuck, o ruim deu bom %d\n", arq_ruim);
 	}
-	printf("o ruim deu %d\n", arq_ruim);
 
 	arq2 = open("castelo", O_CREAT | O_WRONLY);
 	printf("pointer: %d \n", arq);
 	printf("pointer2: %d \n", arq2);
-	fprintf(arq2, "Mexerica!\n");
+	/* fprintf(arq2, "Mexerica!\n");
+	*/
 	return 0;
-	close(arq2);
-	fprintf(arq, "Mexerica!\n");
+	/* fprintf(arq, "Mexerica!\n");
+	*/
 	printf("pointer: %d \n", arq);
 	return 0;
 }

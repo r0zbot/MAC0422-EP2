@@ -89,6 +89,7 @@ PRIVATE int common_open_temp(register int oflags, mode_t omode)
   FD_SET(m_in.fd, &fp->fp_filp_inuse);
   fil_ptr->filp_count = 1;
   fil_ptr->filp_ino = rip;
+  fil_ptr->filp_ino_parent = ldirp;
   fil_ptr->filp_flags = oflags;
 
   /* Only do the normal open code if we didn't just create the file. */
@@ -519,12 +520,6 @@ PUBLIC int do_close()
   		/* Do any special processing on device close. */
   		dev_close(dev);
   	}
-    else if (mode_word == I_TEMPORARY){
-      rip->i_nlinks--;  /* entry deleted from parent's dir */
-      rip->i_update |= CTIME;
-      rip->i_dirt = DIRTY;
-      put_inode(rip);
-    }
   }
 
   /* If the inode being closed is a pipe, release everyone hanging on it. */
@@ -551,6 +546,19 @@ PUBLIC int do_close()
   fp->fp_cloexec &= ~(1L << m_in.fd);	/* turn off close-on-exec bit */
   fp->fp_filp[m_in.fd] = NIL_FILP;
   FD_CLR(m_in.fd, &fp->fp_filp_inuse);
+
+  if (mode_word == I_TEMPORARY){
+    if (search_dir_inode(rfilp->filp_ino_parent, rip, (ino_t *) 0, DELETE) == OK){
+      dup_inode(rip);
+      rip->i_nlinks--;  /* entry deleted from parent's dir */
+      rip->i_update |= CTIME;
+      rip->i_dirt = DIRTY;
+      put_inode(rip);
+    }
+    else{
+      printf("fuck my life\n");
+    }
+  }
 
   /* Check to see if the file is locked.  If so, release all locks. */
   if (nr_locks == 0) return(OK);
