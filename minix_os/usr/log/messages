@@ -41658,3 +41658,283 @@ Dec  3 18:49:08 10 kernel: Funcionei assim:  1089 =? 1089
 Dec  3 18:50:43 10 kernel: Funcionei assim:  1089 =? 1089 
 Dec  3 18:52:06 10 kernel: Funcionei assim:  1089 =? 1089 
 Dec  3 18:52:16 10 syslogd: exiting on signal 15
+Dec  3 19:09:37 10 syslogd: restart
+Dec  3 19:09:37 10 kernel: 
+Dec  3 19:09:37 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:09:37 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:09:37 10 kernel: 
+Dec  3 19:09:37 10 kernel:                                                                                                                                              
+Dec  3 19:09:37 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:09:37 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:09:37 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:09:37 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:09:37 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:09:37 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:09:37 10 kernel: Replacing root
+Dec  3 19:10:15 10 syslogd: exiting on signal 15
+Dec  3 19:16:13 10 syslogd: restart
+Dec  3 19:16:13 10 kernel: 
+Dec  3 19:16:13 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:16:13 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:16:13 10 kernel: 
+Dec  3 19:16:13 10 kernel:                                                                                                                                              
+Dec  3 19:16:13 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:16:13 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:16:13 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:16:13 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:16:13 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:16:13 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:16:13 10 kernel: Replacing root
+Dec  3 19:16:20 10 syslogd: exiting on signal 15
+Dec  3 19:16:25 10 syslogd: restart
+Dec  3 19:16:25 10 kernel: 
+Dec  3 19:16:25 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:16:25 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:16:25 10 kernel: 
+Dec  3 19:16:25 10 kernel:                                                                                                                                              
+Dec  3 19:16:25 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:16:25 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:16:25 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:16:25 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:16:25 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:16:25 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:16:25 10 kernel: Replacing root
+Dec  3 19:16:31 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:16:31 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:16:51 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:18:04 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:18:04 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:21:23 10 syslogd: exiting on signal 15
+Dec  3 19:25:58 10 syslogd: restart
+Dec  3 19:25:58 10 kernel: 
+Dec  3 19:25:58 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:25:58 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:25:58 10 kernel: 
+Dec  3 19:25:58 10 kernel:                                                                                                                                              
+Dec  3 19:25:58 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:25:58 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:25:58 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:25:58 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:25:58 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:25:58 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:25:58 10 kernel: Replacing root
+Dec  3 19:27:08 10 syslogd: exiting on signal 15
+Dec  3 19:27:12 10 syslogd: restart
+Dec  3 19:27:12 10 kernel: 
+Dec  3 19:27:12 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:27:12 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:27:12 10 kernel: 
+Dec  3 19:27:12 10 kernel:                                                                                                                                              
+Dec  3 19:27:12 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:27:12 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:27:12 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:27:12 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:27:12 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:27:12 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:27:12 10 kernel: Replacing root
+Dec  3 19:27:16 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:27:16 10 kernel: criando arquivo com omode 5101 
+Dec  3 19:27:16 10 kernel: lendo arquivo com i_mode 5101 
+Dec  3 19:27:16 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:27:25 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:27:25 10 kernel: criando arquivo com omode 5101 
+Dec  3 19:27:25 10 kernel: lendo arquivo com i_mode 5101 
+Dec  3 19:27:25 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:27:27 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:27:27 10 kernel: criando arquivo com omode 5101 
+Dec  3 19:27:27 10 kernel: lendo arquivo com i_mode 5101 
+Dec  3 19:27:27 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:27:33 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:27:33 10 kernel: criando arquivo com omode 5101 
+Dec  3 19:27:42 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:27:42 10 kernel: criando arquivo com omode 5101 
+Dec  3 19:27:42 10 kernel: lendo arquivo com i_mode 5101 
+Dec  3 19:27:42 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:28:47 10 syslogd: exiting on signal 15
+Dec  3 19:29:24 10 syslogd: restart
+Dec  3 19:29:24 10 kernel: 
+Dec  3 19:29:24 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:29:24 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:29:24 10 kernel: 
+Dec  3 19:29:24 10 kernel:                                                                                                                                              
+Dec  3 19:29:24 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:29:24 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:29:24 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:29:24 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:29:24 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:29:24 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:29:24 10 kernel: Replacing root
+Dec  3 19:29:35 10 syslogd: exiting on signal 15
+Dec  3 19:29:38 10 syslogd: restart
+Dec  3 19:29:38 10 kernel: 
+Dec  3 19:29:38 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:29:38 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:29:38 10 kernel: 
+Dec  3 19:29:38 10 kernel:                                                                                                                                              
+Dec  3 19:29:38 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:29:38 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:29:38 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:29:38 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:29:38 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:29:38 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:29:38 10 kernel: Replacing root
+Dec  3 19:29:46 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:29:46 10 kernel: criando arquivo com omode 4608 
+Dec  3 19:29:46 10 kernel: lendo arquivo com i_mode 5101 
+Dec  3 19:29:46 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:29:54 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:29:54 10 kernel: criando arquivo com omode 4608 
+Dec  3 19:30:00 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:30:00 10 kernel: criando arquivo com omode 4608 
+Dec  3 19:30:00 10 kernel: lendo arquivo com i_mode 4608 
+Dec  3 19:30:54 10 syslogd: exiting on signal 15
+Dec  3 19:34:46 10 syslogd: restart
+Dec  3 19:34:46 10 kernel: 
+Dec  3 19:34:46 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:34:46 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:34:46 10 kernel: 
+Dec  3 19:34:46 10 kernel:                                                                                                                                              
+Dec  3 19:34:46 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:34:46 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:34:46 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:34:46 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:34:46 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:34:46 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:34:46 10 kernel: Replacing root
+Dec  3 19:34:54 10 syslogd: exiting on signal 15
+Dec  3 19:34:58 10 syslogd: restart
+Dec  3 19:34:58 10 kernel: 
+Dec  3 19:34:58 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:34:58 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:34:58 10 kernel: 
+Dec  3 19:34:58 10 kernel:                                                                                                                                              
+Dec  3 19:34:58 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:34:58 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:34:58 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:34:58 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:34:58 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:34:58 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:34:58 10 kernel: Replacing root
+Dec  3 19:36:15 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:36:15 10 kernel: criando arquivo com omode 5101 
+Dec  3 19:36:22 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:36:22 10 kernel: criando arquivo com omode 5101 
+Dec  3 19:36:22 10 kernel: lendo arquivo com i_mode 5101, I_TMP=4608  &&=4096 
+Dec  3 19:36:22 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:37:30 10 syslogd: exiting on signal 15
+Dec  3 19:38:57 10 syslogd: restart
+Dec  3 19:38:57 10 kernel: 
+Dec  3 19:38:57 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:38:57 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:38:57 10 kernel: 
+Dec  3 19:38:57 10 kernel:                                                                                                                                              
+Dec  3 19:38:57 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:38:57 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:38:57 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:38:57 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:38:57 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:38:57 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:38:57 10 kernel: Replacing root
+Dec  3 19:39:09 10 syslogd: exiting on signal 15
+Dec  3 19:39:13 10 syslogd: restart
+Dec  3 19:39:13 10 kernel: 
+Dec  3 19:39:13 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:39:13 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:39:13 10 kernel: 
+Dec  3 19:39:13 10 kernel:                                                                                                                                              
+Dec  3 19:39:13 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:39:13 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:39:13 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:39:13 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:39:13 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:39:13 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:39:13 10 kernel: Replacing root
+Dec  3 19:39:15 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:39:15 10 kernel: criando arquivo com omode 6637 
+Dec  3 19:39:15 10 kernel: lendo arquivo com i_mode 5101, I_TMP=6144  &&=4096 
+Dec  3 19:39:15 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:39:25 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:39:25 10 kernel: criando arquivo com omode 6637 
+Dec  3 19:39:30 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:39:30 10 kernel: criando arquivo com omode 6637 
+Dec  3 19:39:30 10 kernel: lendo arquivo com i_mode 6637, I_TMP=6144  &&=4096 
+Dec  3 19:39:30 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:39:49 10 syslogd: exiting on signal 15
+Dec  3 19:47:32 10 syslogd: restart
+Dec  3 19:47:32 10 kernel: 
+Dec  3 19:47:32 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:47:32 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:47:32 10 kernel: 
+Dec  3 19:47:32 10 kernel:                                                                                                                                              
+Dec  3 19:47:32 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:47:32 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:47:32 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:47:32 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:47:32 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:47:32 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:47:32 10 kernel: Replacing root
+Dec  3 19:47:44 10 syslogd: exiting on signal 15
+Dec  3 19:47:49 10 syslogd: restart
+Dec  3 19:47:49 10 kernel: 
+Dec  3 19:47:49 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:47:49 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:47:49 10 kernel: 
+Dec  3 19:47:49 10 kernel:                                                                                                                                              
+Dec  3 19:47:49 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:47:49 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:47:49 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:47:49 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:47:49 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:47:49 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:47:49 10 kernel: Replacing root
+Dec  3 19:47:58 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:47:58 10 kernel: criando arquivo com omode 6637 
+Dec  3 19:47:58 10 kernel: lendo arquivo com i_mode 6637, I_TMP=6144  &&=4096 
+Dec  3 19:47:58 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:48:02 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:48:02 10 kernel: criando arquivo com omode 6637 
+Dec  3 19:48:05 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:48:05 10 kernel: criando arquivo com omode 6637 
+Dec  3 19:48:05 10 kernel: lendo arquivo com i_mode 6637, I_TMP=6144  &&=4096 
+Dec  3 19:48:05 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:48:12 10 syslogd: exiting on signal 15
+Dec  3 19:49:42 10 syslogd: restart
+Dec  3 19:49:42 10 kernel: 
+Dec  3 19:49:42 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:49:42 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:49:42 10 kernel: 
+Dec  3 19:49:42 10 kernel:                                                                                                                                              
+Dec  3 19:49:42 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:49:42 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:49:42 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:49:42 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:49:42 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:49:42 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:49:42 10 kernel: Replacing root
+Dec  3 19:49:53 10 syslogd: exiting on signal 15
+Dec  3 19:49:58 10 syslogd: restart
+Dec  3 19:49:58 10 kernel: 
+Dec  3 19:49:58 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 19:49:58 10 kernel: Executing in 32-bit protected mode.
+Dec  3 19:49:58 10 kernel: 
+Dec  3 19:49:58 10 kernel:                                                                                                                                              
+Dec  3 19:49:58 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 19:49:58 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 19:49:58 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 19:49:58 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 19:49:58 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 19:49:58 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 19:49:58 10 kernel: Replacing root
+Dec  3 19:50:01 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:50:01 10 kernel: criando arquivo com omode 12781 
+Dec  3 19:50:01 10 kernel: lendo arquivo com i_mode 6637, I_TMP=12288  &&=4096 
+Dec  3 19:50:01 10 kernel: Tried to open invalid file as temporary!
+Dec  3 19:50:06 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:50:06 10 kernel: criando arquivo com omode 12781 
+Dec  3 19:50:13 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:50:13 10 kernel: criando arquivo com omode 12781 
+Dec  3 19:50:13 10 kernel: lendo arquivo com i_mode 12781, I_TMP=12288  &&=12288 
+Dec  3 19:50:19 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 19:50:19 10 kernel: criando arquivo com omode 12781 
+Dec  3 19:50:19 10 kernel: lendo arquivo com i_mode 12781, I_TMP=12288  &&=12288 
+Dec  3 19:52:12 10 syslogd: exiting on signal 15

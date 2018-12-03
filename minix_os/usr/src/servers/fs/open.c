@@ -29,7 +29,8 @@
 
 PRIVATE char mode_map[] = {R_BIT, W_BIT, R_BIT|W_BIT, 0};
 
-FORWARD _PROTOTYPE( int common_open, (int oflags, mode_t omode)		);
+FORWARD _PROTOTYPE( int common_open_temp, (int oflags, mode_t omode)   );
+FORWARD _PROTOTYPE( int common_open, (int oflags, mode_t omode)   );
 FORWARD _PROTOTYPE( int pipe_open, (struct inode *rip,mode_t bits,int oflags));
 FORWARD _PROTOTYPE( struct inode *new_node, (struct inode **ldirp, 
 	char *path, mode_t bits, zone_t z0, int opaque, char *string));
@@ -70,6 +71,7 @@ PRIVATE int common_open_temp(register int oflags, mode_t omode)
   if (oflags & O_CREAT) {
     /* Create a new inode by calling new_node(). */
         omode = I_TEMPORARY | (omode & ALL_MODES & fp->fp_umask);
+        printf("criando arquivo com omode %d \n", omode);
       rip = new_node(&ldirp, user_path, omode, NO_ZONE, oflags&O_EXCL, NULL);
       r = err_code;
         put_inode(ldirp);
@@ -94,21 +96,26 @@ PRIVATE int common_open_temp(register int oflags, mode_t omode)
     /* Check protections. */
     if ((r = forbidden(rip, bits)) == OK) {
       /* Opening reg. files directories and special files differ. */
-      if (rip->i_mode & I_TYPE == I_TEMPORARY) {
+      printf("lendo arquivo com i_mode %d, I_TMP=%d  &&=%d \n", rip->i_mode, I_TEMPORARY, (rip->i_mode & I_TYPE));
+      if ((rip->i_mode & I_TYPE) == I_TEMPORARY) {
         /* Truncate regular file if O_TRUNC. */
         if (oflags & O_TRUNC) {
-          if ((r = forbidden(rip, W_BIT)) !=OK) break;
-          truncate_inode(rip, 0);
-          wipe_inode(rip);
-          /* Send the inode from the inode cache to the
-           * block cache, so it gets written on the next
-           * cache flush.
-           */
-          rw_inode(rip, WRITING);
+          if ((r = forbidden(rip, W_BIT)) !=OK) {
+            printf("No write permissions to file!");
+          }
+          else{
+            truncate_inode(rip, 0);
+            wipe_inode(rip);
+            /* Send the inode from the inode cache to the
+             * block cache, so it gets written on the next
+             * cache flush.
+             */
+            rw_inode(rip, WRITING);
+          }
         }
       }
       else{
-        r = 9876;
+        r = -9876;
         printf("Tried to open invalid file as temporary!");
       }
     }

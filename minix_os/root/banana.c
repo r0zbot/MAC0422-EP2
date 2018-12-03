@@ -3,8 +3,14 @@
 
 int main(int argc, char const *argv[])
 {
-	int arq, arq2;
-	arq = open_tmp("abacaxi", "a");
+	int arq, arq2, arq_ruim;
+	arq = open_tmp("pera", "a");
+	arq_ruim = open_tmp("uva", "a");
+	if (arq_ruim != -1){
+		print("fuck, o ruim deu bom %d\n", arq_ruim);
+	}
+	print("o ruim deu %d\n", arq_ruim);
+
 	arq2 = open("castelo", O_CREAT | O_WRONLY);
 	printf("pointer: %d \n", arq);
 	printf("pointer2: %d \n", arq2);
