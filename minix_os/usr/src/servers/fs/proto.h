@@ -125,7 +125,7 @@ _PROTOTYPE( struct inode *advance,(struct inode **dirp, char string[NAME_MAX]));
 _PROTOTYPE( int search_dir, (struct inode *ldir_ptr,
 			char string [NAME_MAX], ino_t *numb, int flag)	);
 _PROTOTYPE( int search_dir_inode, (struct inode *ldir_ptr,
-			char string [NAME_MAX], ino_t *numb, int flag)	);
+			struct inode *inofind, ino_t *numb, int flag)	);
 _PROTOTYPE( struct inode *eat_path, (char *path)			);
 _PROTOTYPE( struct inode *last_dir, (char *path, char string [NAME_MAX]));
 _PROTOTYPE( struct inode *parse_path, (char *path, char string[NAME_MAX], 

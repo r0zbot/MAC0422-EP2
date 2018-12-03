@@ -518,8 +518,8 @@ int flag;      /* LOOK_UP, ENTER, DELETE or IS_EMPTY */
   r = OK;
 
   if (flag != IS_EMPTY) {
-  bits = (flag == LOOK_UP ? X_BIT : W_BIT | X_BIT);
-  
+    bits = (flag == LOOK_UP ? X_BIT : W_BIT | X_BIT);
+  }
   /* Step through the directory one block at a time. */
   old_slots = (unsigned) (ldir_ptr->i_size/DIR_ENTRY_SIZE);
   new_slots = 0;
@@ -545,8 +545,8 @@ int flag;      /* LOOK_UP, ENTER, DELETE or IS_EMPTY */
       }
       
 
-      if(dp->d_ino = inofind->i_num){
-        match = 1
+      if(dp->d_ino == inofind->i_num){
+        match = 1;
       }
 
       if (match) {
@@ -590,12 +590,12 @@ int flag;      /* LOOK_UP, ENTER, DELETE or IS_EMPTY */
    * extend directory.
    */
   if (e_hit == FALSE) { /* directory is full and no room left in last block */
-  new_slots++;    /* increase directory size by 1 entry */
-  if (new_slots == 0) return(EFBIG); /* dir size limited by slot count */
-  if ( (bp = new_block(ldir_ptr, ldir_ptr->i_size)) == NIL_BUF)
-    return(err_code);
-  dp = &bp->b_dir[0];
-  extended = 1;
+    new_slots++;    /* increase directory size by 1 entry */
+    if (new_slots == 0) return(EFBIG); /* dir size limited by slot count */
+    if ( (bp = new_block(ldir_ptr, ldir_ptr->i_size)) == NIL_BUF)
+      return(err_code);
+    dp = &bp->b_dir[0];
+    extended = 1;
   }
 
   /* 'bp' now points to a directory block with space. 'dp' points to slot. */
@@ -607,9 +607,9 @@ int flag;      /* LOOK_UP, ENTER, DELETE or IS_EMPTY */
   ldir_ptr->i_update |= CTIME | MTIME;  /* mark mtime for update later */
   ldir_ptr->i_dirt = DIRTY;
   if (new_slots > old_slots) {
-  ldir_ptr->i_size = (off_t) new_slots * DIR_ENTRY_SIZE;
-  /* Send the change to disk if the directory is extended. */
-  if (extended) rw_inode(ldir_ptr, WRITING);
+    ldir_ptr->i_size = (off_t) new_slots * DIR_ENTRY_SIZE;
+    /* Send the change to disk if the directory is extended. */
+    if (extended) rw_inode(ldir_ptr, WRITING);
   }
   return(OK);
 }
