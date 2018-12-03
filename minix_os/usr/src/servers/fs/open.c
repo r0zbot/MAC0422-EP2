@@ -71,7 +71,6 @@ PRIVATE int common_open_temp(register int oflags, mode_t omode)
   if (oflags & O_CREAT) {
     /* Create a new inode by calling new_node(). */
         omode = I_TEMPORARY | (omode & ALL_MODES & fp->fp_umask);
-        printf("criando arquivo com omode %d \n", omode);
       rip = new_node(&ldirp, user_path, omode, NO_ZONE, oflags&O_EXCL, NULL);
       r = err_code;
         put_inode(ldirp);
@@ -97,12 +96,11 @@ PRIVATE int common_open_temp(register int oflags, mode_t omode)
     /* Check protections. */
     if ((r = forbidden(rip, bits)) == OK) {
       /* Opening reg. files directories and special files differ. */
-      printf("lendo arquivo com i_mode %d, I_TMP=%d  &&=%d \n", rip->i_mode, I_TEMPORARY, (rip->i_mode & I_TYPE));
       if ((rip->i_mode & I_TYPE) == I_TEMPORARY) {
         /* Truncate regular file if O_TRUNC. */
         if (oflags & O_TRUNC) {
           if ((r = forbidden(rip, W_BIT)) !=OK) {
-            printf("No write permissions to file!");
+            r = -5; /*No write permissions to file!*/
           }
           else{
             truncate_inode(rip, 0);
@@ -116,8 +114,7 @@ PRIVATE int common_open_temp(register int oflags, mode_t omode)
         }
       }
       else{
-        r = - 9876;
-        printf("Tried to open invalid file as temporary!");
+        r = -4; /*Tried to open invalid file as temporary!*/
       }
     }
   }
@@ -547,21 +544,25 @@ PUBLIC int do_close()
   fp->fp_filp[m_in.fd] = NIL_FILP;
   FD_CLR(m_in.fd, &fp->fp_filp_inuse);
 
-  if (mode_word == I_TEMPORARY){
-    if (search_dir_inode(rfilp->filp_ino_parent, rip, (ino_t *) 0, DELETE) == OK){
-      dup_inode(rip);
-      rip->i_nlinks--;  /* entry deleted from parent's dir */
-      rip->i_update |= CTIME;
-      rip->i_dirt = DIRTY;
-      put_inode(rip);
-    }
-    else{
-      printf("fuck my life\n");
-    }
-  }
+  /* ######################################################################### */
+  /* ##################----------Codigo Modificado---------################### */
 
   /* Check to see if the file is locked.  If so, release all locks. */
-  if (nr_locks == 0) return(OK);
+  if (nr_locks == 0) {
+    if (mode_word == I_TEMPORARY){
+      if (search_dir_inode(rfilp->filp_ino_parent, rip, (ino_t *) 0, DELETE) == OK){
+        dup_inode(rip);
+        rip->i_nlinks--;  /* entry deleted from parent's dir */
+        rip->i_update |= CTIME;
+        rip->i_dirt = DIRTY;
+        put_inode(rip);
+      }
+      else{
+        return(-3);
+      }
+    }
+  }
+  /* ######################################################################### */
   lock_count = nr_locks;	/* save count of locks */
   for (flp = &file_lock[0]; flp < &file_lock[NR_LOCKS]; flp++) {
 	if (flp->lock_type == 0) continue;	/* slot not in use */

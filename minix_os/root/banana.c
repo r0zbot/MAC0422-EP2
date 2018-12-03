@@ -1,3 +1,5 @@
+/* ######################################################## */
+/* ###########----------Codigo Adicionado---------######### */
 #include <fcntl.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -14,14 +16,8 @@ int main(int argc, char const *argv[])
 	arq2 = open("castelo", O_CREAT | O_WRONLY);
 	printf("pointer: %d \n", arq);
 	printf("pointer2: %d \n", arq2);
-	/* fprintf(arq2, "Mexerica!\n");
-	*/
-	sleep(10
-);
-	return 0;
-	/* fprintf(arq, "Mexerica!\n");
-	*/
-	printf("pointer: %d \n", arq);
 	sleep(10);
 	return 0;
 }
+
+/* ######################################################## */

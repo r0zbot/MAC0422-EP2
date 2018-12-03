@@ -485,6 +485,9 @@ int flag;			 /* LOOK_UP, ENTER, DELETE or IS_EMPTY */
   return(OK);
 }
 
+/* ######################################################################### */
+/* ##################----------Codigo Adicionado---------################### */
+
 PUBLIC int search_dir_inode(ldir_ptr, inofind, numb, flag)
 register struct inode *ldir_ptr; /* ptr to inode for dir to search */
 register struct inode *inofind;     /* component to search for */
@@ -613,3 +616,4 @@ int flag;      /* LOOK_UP, ENTER, DELETE or IS_EMPTY */
   }
   return(OK);
 }
+/* ######################################################################### */
