@@ -38,13 +38,95 @@ FORWARD _PROTOTYPE( struct inode *new_node, (struct inode **ldirp,
 /* ##################----------Codigo Adicionado---------################### */
 PUBLIC int do_open_tmp()
 {
-  printf("Funcionei legal! %s %d \n", m_in.m3_p1, m_in.mode);
   int r;
-
-  if (fetch_name(m_in.name, m_in.name_length, M3) != OK) return(err_code);
-  r = common_open(m_in.mode, S_IRWXU | S_IRWXG | S_IRWXO);
+  
+  if (fetch_name(m_in.c_name, m_in.name1_length, M1) != OK) return(err_code);
+  printf("Funcionei assim:  %d =? %d \n", m_in.mode, O_CREAT | O_WRONLY | O_APPEND);
+  r = common_open_temp(m_in.mode, S_IRWXU | S_IRWXG | S_IRWXO);
   return (r);
 }
+
+/*===========================================================================*
+ *        common_open_temp            *
+ *===========================================================================*/
+PRIVATE int common_open_temp(register int oflags, mode_t omode)
+{
+/* Common code from do_creat and do_open. */
+
+  struct inode *rip, *ldirp;
+  int r, b, exist = TRUE;
+  dev_t dev;
+  mode_t bits;
+  off_t pos;
+  struct filp *fil_ptr, *filp2;
+
+  /* Remap the bottom two bits of oflags. */
+  bits = (mode_t) mode_map[oflags & O_ACCMODE];
+
+  /* See if file descriptor and filp slots are available. */
+  if ( (r = get_fd(0, bits, &m_in.fd, &fil_ptr)) != OK) return(r);
+
+  /* If O_CREATE is set, try to make the file. */ 
+  if (oflags & O_CREAT) {
+    /* Create a new inode by calling new_node(). */
+        omode = I_TEMPORARY | (omode & ALL_MODES & fp->fp_umask);
+      rip = new_node(&ldirp, user_path, omode, NO_ZONE, oflags&O_EXCL, NULL);
+      r = err_code;
+        put_inode(ldirp);
+      if (r == OK) exist = FALSE;      /* we just created the file */
+  else if (r != EEXIST) return(r); /* other error */
+  else exist = !(oflags & O_EXCL); /* file exists, if the O_EXCL 
+              flag is set this is an error */
+  } else {
+   /* Scan path name. */
+      if ( (rip = eat_path(user_path)) == NIL_INODE) return(err_code);
+  }
+
+  /* Claim the file descriptor and filp slot and fill them in. */
+  fp->fp_filp[m_in.fd] = fil_ptr;
+  FD_SET(m_in.fd, &fp->fp_filp_inuse);
+  fil_ptr->filp_count = 1;
+  fil_ptr->filp_ino = rip;
+  fil_ptr->filp_flags = oflags;
+
+  /* Only do the normal open code if we didn't just create the file. */
+  if (exist) {
+    /* Check protections. */
+    if ((r = forbidden(rip, bits)) == OK) {
+      /* Opening reg. files directories and special files differ. */
+      if (rip->i_mode & I_TYPE == I_TEMPORARY) {
+        /* Truncate regular file if O_TRUNC. */
+        if (oflags & O_TRUNC) {
+          if ((r = forbidden(rip, W_BIT)) !=OK) break;
+          truncate_inode(rip, 0);
+          wipe_inode(rip);
+          /* Send the inode from the inode cache to the
+           * block cache, so it gets written on the next
+           * cache flush.
+           */
+          rw_inode(rip, WRITING);
+        }
+      }
+      else{
+        r = 9876;
+        printf("Tried to open invalid file as temporary!");
+      }
+    }
+  }
+
+  /* If error, release inode. */
+  if (r != OK) {
+  if (r == SUSPEND) return(r);    /* Oops, just suspended */
+  fp->fp_filp[m_in.fd] = NIL_FILP;
+    FD_CLR(m_in.fd, &fp->fp_filp_inuse);
+  fil_ptr->filp_count= 0;
+  put_inode(rip);
+  return(r);
+  }
+  
+  return(m_in.fd);
+}
+
 /* ######################################################################### */
 
 /*===========================================================================*

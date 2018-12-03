@@ -93,7 +93,7 @@
 #define I_REGULAR       0100000	/* regular file, not dir or special */
 /* ######################################################## */
 /* ###########----------Codigo Adicionado---------######### */
-#define I_TEMPORARY     0014000	/* regular file, not dir or special */
+#define I_TEMPORARY     0011000	/* regular file, not dir or special */
 /* ######################################################## */
 #define I_BLOCK_SPECIAL 0060000	/* block special file */
 #define I_DIRECTORY     0040000	/* file is a directory */

@@ -4,6 +4,8 @@
 #define open_tmp _open_tmp
 #include <fcntl.h>
 #include <string.h>
+#include <stdarg.h>
+#include <stdio.h>
 
 PUBLIC int open_tmp(name, smode)
 _CONST char *name;
@@ -34,8 +36,11 @@ _CONST char *smode;
     printf("Invalid mode!\n");
     return -1;
   }
-  m.m3_i2 = mode;
-  _loadname(name, &m);
+  m.m1_i1 = strlen(name) + 1;
+  m.m1_i2 = mode;
+  m.m1_p1 = (char *) name;
+  
+  printf("ainda nao morri %s %d\n",m.m3_p1, m.m3_i2);
   return(_syscall(FS, OPENTMP, &m));
 }
 /* ######################################################## */

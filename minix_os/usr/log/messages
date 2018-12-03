@@ -41480,3 +41480,181 @@ Nov 30 14:41:53 10 kernel: --more--
 Nov 30 14:42:12 10 kernel: Funcionei legal! bad process, who = %d, call_nr = %d, endpt1 = %d
 Nov 30 14:42:12 10 kernel:  5 
 Nov 30 14:42:53 10 syslogd: exiting on signal 15
+Nov 30 15:12:36 10 syslogd: restart
+Nov 30 15:12:36 10 kernel: 
+Nov 30 15:12:36 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 15:12:36 10 kernel: Executing in 32-bit protected mode.
+Nov 30 15:12:36 10 kernel: 
+Nov 30 15:12:36 10 kernel:                                                                                                                                              
+Nov 30 15:12:36 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Nov 30 15:12:36 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Nov 30 15:12:36 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Nov 30 15:12:36 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Nov 30 15:12:36 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Nov 30 15:12:36 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Nov 30 15:12:36 10 kernel: Replacing root
+Nov 30 15:14:45 10 syslogd: exiting on signal 15
+Nov 30 15:14:50 10 syslogd: restart
+Nov 30 15:14:50 10 kernel: 
+Nov 30 15:14:50 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 30 15:14:50 10 kernel: Executing in 32-bit protected mode.
+Nov 30 15:14:50 10 kernel: 
+Nov 30 15:14:50 10 kernel:                                                                                                                                              
+Nov 30 15:14:50 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Nov 30 15:14:50 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Nov 30 15:14:50 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Nov 30 15:14:50 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Nov 30 15:14:50 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Nov 30 15:14:50 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Nov 30 15:14:50 10 kernel: Replacing root
+Nov 30 15:16:28 10 syslogd: exiting on signal 15
+Dec  3 17:42:48 10 syslogd: restart
+Dec  3 17:42:48 10 kernel: 
+Dec  3 17:42:48 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 17:42:48 10 kernel: Executing in 32-bit protected mode.
+Dec  3 17:42:48 10 kernel: 
+Dec  3 17:42:48 10 kernel:                                                                                                                                              
+Dec  3 17:42:48 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 17:42:48 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 17:42:48 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 17:42:48 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 17:42:48 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 17:42:48 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 17:42:48 10 kernel: Replacing root
+Dec  3 17:45:27 10 syslogd: exiting on signal 15
+Dec  3 17:45:31 10 syslogd: restart
+Dec  3 17:45:31 10 kernel: 
+Dec  3 17:45:31 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 17:45:31 10 kernel: Executing in 32-bit protected mode.
+Dec  3 17:45:31 10 kernel: 
+Dec  3 17:45:31 10 kernel:                                                                                                                                              
+Dec  3 17:45:31 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 17:45:31 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 17:45:31 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 17:45:31 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 17:45:31 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 17:45:31 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 17:45:31 10 kernel: Replacing root
+Dec  3 17:46:05 10 kernel: Funcionei legal! = %d
+Dec  3 17:46:05 10 kernel:  1089 
+Dec  3 17:48:11 10 kernel: Funcionei legal! = %d
+Dec  3 17:48:11 10 kernel:  1089 
+Dec  3 17:48:47 10 syslogd: exiting on signal 15
+Dec  3 17:50:54 10 syslogd: restart
+Dec  3 17:50:54 10 kernel: 
+Dec  3 17:50:54 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 17:50:54 10 kernel: Executing in 32-bit protected mode.
+Dec  3 17:50:54 10 kernel: 
+Dec  3 17:50:54 10 kernel:                                                                                                                                              
+Dec  3 17:50:54 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 17:50:54 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 17:50:54 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 17:50:54 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 17:50:54 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 17:50:54 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 17:50:54 10 kernel: Replacing root
+Dec  3 17:51:02 10 syslogd: exiting on signal 15
+Dec  3 17:51:06 10 syslogd: restart
+Dec  3 17:51:06 10 kernel: 
+Dec  3 17:51:06 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 17:51:06 10 kernel: Executing in 32-bit protected mode.
+Dec  3 17:51:06 10 kernel: 
+Dec  3 17:51:06 10 kernel:                                                                                                                                              
+Dec  3 17:51:06 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 17:51:06 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 17:51:06 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 17:51:06 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 17:51:06 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 17:51:06 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 17:51:06 10 kernel: Replacing root
+Dec  3 17:51:32 10 kernel: Funcionei legal! 1089 
+Dec  3 17:52:22 10 kernel: Funcionei legal! 1089 
+Dec  3 17:53:51 10 syslogd: exiting on signal 15
+Dec  3 18:01:34 10 syslogd: restart
+Dec  3 18:01:34 10 kernel: 
+Dec  3 18:01:34 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 18:01:34 10 kernel: Executing in 32-bit protected mode.
+Dec  3 18:01:34 10 kernel: 
+Dec  3 18:01:34 10 kernel:                                                                                                                                              
+Dec  3 18:01:34 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 18:01:34 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 18:01:34 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 18:01:34 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 18:01:34 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 18:01:34 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 18:01:34 10 kernel: Replacing root
+Dec  3 18:01:41 10 syslogd: exiting on signal 15
+Dec  3 18:01:45 10 syslogd: restart
+Dec  3 18:01:45 10 kernel: 
+Dec  3 18:01:45 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 18:01:45 10 kernel: Executing in 32-bit protected mode.
+Dec  3 18:01:45 10 kernel: 
+Dec  3 18:01:45 10 kernel:                                                                                                                                              
+Dec  3 18:01:45 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 18:01:45 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 18:01:45 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 18:01:45 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 18:01:45 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 18:01:45 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 18:01:45 10 kernel: Replacing root
+Dec  3 18:01:57 10 kernel: Funcionei legal! 1089 
+Dec  3 18:03:23 10 syslogd: exiting on signal 15
+Dec  3 18:06:22 10 syslogd: restart
+Dec  3 18:06:22 10 kernel: 
+Dec  3 18:06:22 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 18:06:22 10 kernel: Executing in 32-bit protected mode.
+Dec  3 18:06:22 10 kernel: 
+Dec  3 18:06:22 10 kernel:                                                                                                                                              
+Dec  3 18:06:22 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 18:06:22 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 18:06:22 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 18:06:22 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 18:06:22 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 18:06:22 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 18:06:22 10 kernel: Replacing root
+Dec  3 18:06:30 10 syslogd: exiting on signal 15
+Dec  3 18:06:33 10 syslogd: restart
+Dec  3 18:06:33 10 kernel: 
+Dec  3 18:06:33 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 18:06:33 10 kernel: Executing in 32-bit protected mode.
+Dec  3 18:06:33 10 kernel: 
+Dec  3 18:06:33 10 kernel:                                                                                                                                              
+Dec  3 18:06:33 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 18:06:33 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 18:06:33 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 18:06:33 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 18:06:33 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 18:06:33 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 18:06:33 10 kernel: Replacing root
+Dec  3 18:23:10 10 syslogd: exiting on signal 15
+Dec  3 18:47:12 10 syslogd: restart
+Dec  3 18:47:12 10 kernel: 
+Dec  3 18:47:12 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 18:47:12 10 kernel: Executing in 32-bit protected mode.
+Dec  3 18:47:12 10 kernel: 
+Dec  3 18:47:12 10 kernel:                                                                                                                                              
+Dec  3 18:47:12 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 18:47:12 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 18:47:12 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 18:47:12 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 18:47:12 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 18:47:12 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 18:47:12 10 kernel: Replacing root
+Dec  3 18:48:06 10 syslogd: exiting on signal 15
+Dec  3 18:48:10 10 syslogd: restart
+Dec  3 18:48:10 10 kernel: 
+Dec  3 18:48:10 10 kernel: MINIX 3.1.2a. Copyright 2006, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  3 18:48:10 10 kernel: Executing in 32-bit protected mode.
+Dec  3 18:48:10 10 kernel: 
+Dec  3 18:48:10 10 kernel:                                                                                                                                              
+Dec  3 18:48:10 10 kernel: Building process table: pm fs rs ds tty mem log init.
+Dec  3 18:48:10 10 kernel: Physical memory: total 261440 KB, system 5724 KB, free 255716 KB.
+Dec  3 18:48:10 10 kernel: PCI: video memory for device at 0.2.0: 16777216 bytes
+Dec  3 18:48:10 10 kernel: AT-D0: multiword DMA modes supported: 0 1 2
+Dec  3 18:48:10 10 kernel: AT-D0: Ultra DMA modes supported: 0 1 2 3 4 5
+Dec  3 18:48:10 10 kernel: AT-D0: Ultra DMA mode selected: 2
+Dec  3 18:48:10 10 kernel: Replacing root
+Dec  3 18:49:08 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 18:50:43 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 18:52:06 10 kernel: Funcionei assim:  1089 =? 1089 
+Dec  3 18:52:16 10 syslogd: exiting on signal 15
